@@ -7,15 +7,22 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Program non-translated",
             "program": "${workspaceFolder}/dist/non-translated.js"
         },
 
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Program index",
             "program": "${workspaceFolder}/dist/index.js"
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program dups",
+            "program": "${workspaceFolder}/dist/duplicates.js"
         }
 
     ]
