@@ -1,7 +1,6 @@
 import { ajax } from 'rxjs/ajax';
 import { from, Observable } from 'rxjs';
-import { concat, map, mergeMap, switchMap,
-    tap, reduce, mapTo, filter, delay } from 'rxjs/operators';
+import { concat, filter, map, mapTo, mergeMap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
 const getPage = (index: number) => { return ajax({
@@ -20,7 +19,7 @@ const getPage = (index: number) => { return ajax({
 //        tap(console.log),
         map((r) => r.response),
     );
-}
+};
 
 const getConcepts = (index: number): Observable<any> => {
     return getPage(index).pipe(
@@ -62,8 +61,8 @@ getConcepts(0)
             );
         }),
         map((concept) => concept.relationships.filter((rel: any) => rel.active === true)),
-        //mapTo(1),
-        //reduce((tot: number, val: any) => tot + val, 0),
+        // mapTo(1),
+        // reduce((tot: number, val: any) => tot + val, 0),
     )
     .subscribe(
         (x: any) => console.log('JSON: ' + JSON.stringify(x)),

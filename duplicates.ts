@@ -1,7 +1,7 @@
 import { from, Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { concat, delay, filter, map,
-    mapTo, mergeMap, reduce, switchMap, tap, scan } from 'rxjs/operators';
+    mapTo, mergeMap, reduce, switchMap, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
 const MAX_PAGE_SIZE = 10000;
@@ -43,17 +43,6 @@ const getConcepts = (search: any): Observable<any> => {
 
 };
 
-const search = {
-    activeFilter: true,
-    // conceptIds: [
-      // 'string',
-    // ],
-    // definitionStatusFilter: 'string',
-    eclFilter:
-        '<<123037004 | Body structure (body structure) |',
-    // termFilter: 'string',
-};
-
 const getSemanticTag = (term: string) => {
     const start = term.lastIndexOf('(');
     const end = term.lastIndexOf(')');
@@ -63,7 +52,52 @@ const getSemanticTag = (term: string) => {
     return term.slice(start + 1, end);
 };
 
+const search = {
+    activeFilter: true,
+    // conceptIds: [
+      // 'string',
+    // ],
+    // definitionStatusFilter: 'string',
+    eclFilter:
+        '*',
+    // termFilter: 'string',
+};
+
 getConcepts(search)
+    .pipe(
+        // only concepts with Swedish translation
+        filter((concept) => concept.pt.lang === 'sv'),
+        // create map with term:semtag as key and concept object as value
+        map((concept) => ({ key: concept.pt.term + ':' + getSemanticTag(concept.fsn.term), value: concept})),
+        // reduce to map of duplicates and uniques
+        reduce(([ dup, uniq ], next) => {
+                if (uniq.has(next.key)) {
+                    if (dup.has(next.key)) {
+                        dup.get(next.key).push(next.value);
+                        return [ dup, uniq ];
+                    } else {
+                        return [ dup.set(next.key, [ next.value, uniq.get(next.key) ]), uniq ];
+                    }
+                } else {
+                    return [ dup, uniq.set(next.key, next.value )];
+                }
+            },
+            [ new Map<string, any[]>(), new Map<string, any>() ]),
+        map(([ dup, uniq ]) => dup),
+    )
+    .subscribe(
+        (dup: any) => {
+            dup.forEach((concepts: any[], term: string) => {
+                concepts.forEach((concept: any) => {
+                    console.log(term + '\t' + concept.conceptId + '\t' + concept.fsn.term);
+                });
+            });
+        },
+        (error: any) => console.log ('Error: ' + JSON.stringify(error)),
+        () => console.log('Completed'),
+    );
+
+/*     getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang === 'sv'),
         // TODO: Set.prototype.has equality comparison is not customizable! A Map instead?
@@ -83,3 +117,4 @@ getConcepts(search)
         (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         () => console.log('Completed'),
     );
+    */
