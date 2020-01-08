@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch Program download_member",
+            "program": "${workspaceFolder}/dist/download_member.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Program non-translated",
             "program": "${workspaceFolder}/dist/non-translated.js"
         },
