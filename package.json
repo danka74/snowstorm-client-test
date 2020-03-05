@@ -16,10 +16,12 @@
   "dependencies": {
     "@types/node-fetch": "^2.5.0",
     "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
     "rxjs": "^6.5.2",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
+    "@types/request": "^2.48.4",
     "nodemon": "^1.19.1",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"

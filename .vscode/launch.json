@@ -4,6 +4,25 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program dose_units",
+            "program": "${workspaceFolder}/dist/dose_units.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program substans",
+            "program": "${workspaceFolder}/dist/substans.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program icd10",
+            "program": "${workspaceFolder}/dist/icd10_v2.js"
+        },
         {
             "type": "node",
             "request": "launch",

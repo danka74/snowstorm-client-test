@@ -50,19 +50,24 @@ const search = {
     // ],
     // definitionStatusFilter: 'string',
     eclFilter:
-        '<<763158003 | Medicinal product (product) |',
+        '<< 105590001 | substans |',
     // termFilter: 'string',
 };
 
 getConcepts(search)
     .pipe(
-        filter((concept) => concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20200131'),
-        mapTo(1),
-        reduce((tot: number, val: any) => tot + val, 0),
+        filter((concept) => concept.pt.lang === 'sv'),
+        // mapTo(1),
+        // reduce((tot: number, val: any) => tot + val, 0),
     )
     .subscribe(
-        (x: any) => console.log('JSON: ' + JSON.stringify(x)),
-        (error: any) => console.log ('Error: ' + JSON.stringify(error)),
-        () => console.log('Completed'),
+        (x: any) => {
+            return console.log(x.conceptId + '\t' + x.fsn.term + '\t' + x.pt.term);
+        },
+        (error: any) => {
+            return console.log('Error: ' + JSON.stringify(error));
+        },
+        () => {
+            // return console.log('Completed');
+        },
     );
