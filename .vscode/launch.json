@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "type": "node",
             "request": "launch",
@@ -33,9 +34,16 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program non-translated",
+            "runtimeVersion": "13.9.0",
             "program": "${workspaceFolder}/dist/non-translated.js"
         },
-
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program non-translated_v2",
+            "runtimeVersion": "13.9.0",
+            "program": "${workspaceFolder}/dist/non-translated_v2.js"
+        },
         {
             "type": "node",
             "request": "launch",

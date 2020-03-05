@@ -1,8 +1,9 @@
 import { from, Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { concat, delay, filter, map,
-    mapTo, mergeMap, reduce, switchMap, tap } from 'rxjs/operators';
+    mapTo, mergeMap, reduce, switchMap, tap, take } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
+import { translate } from './translate_medicinal';
 
 const MAX_PAGE_SIZE = 10000;
 
@@ -48,7 +49,7 @@ const search = {
     // conceptIds: [
       // 'string',
     // ],
-    // definitionStatusFilter: 'string',
+    definitionStatusFilter: '900000000000073002',
     eclFilter:
         '<<763158003 | Medicinal product (product) |',
     // termFilter: 'string',
@@ -58,11 +59,43 @@ getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20200131'),
-        mapTo(1),
-        reduce((tot: number, val: any) => tot + val, 0),
+        // tap(console.log),
+        mergeMap((concept) => {
+            return ajax({
+                createXHR: () => {
+                    return new XMLHttpRequest();
+                },
+                crossDomain: true,
+                headers: {
+                    'Accept-Language': 'sv',
+                    'Content-Type': 'application/json',
+                },
+                method: 'GET',
+                url: 'http://localhost:8080/browser/MAIN%2FSNOMEDCT-SE/concepts/' + concept.conceptId,
+            }).pipe(
+                map((r) => r.response),
+            );
+        }),
+        map((concept) => {
+            return translate(concept);
+        }),
     )
     .subscribe(
-        (x: any) => console.log('JSON: ' + JSON.stringify(x)),
-        (error: any) => console.log ('Error: ' + JSON.stringify(error)),
-        () => console.log('Completed'),
+        (x: any) => console.log(`${x.conceptId}\t${x.fsn}\t${x.term}\t${x.caseSignificanceId}`),
+        // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
+        // () => console.log('Completed'),
     );
+
+/*
+    ajax({
+        createXHR: () => {
+            return new XMLHttpRequest();
+        },
+        crossDomain: true,
+        headers: {
+            'Accept-Language': 'sv',
+            'Content-Type': 'application/json',
+        },
+        method: 'GET',
+        url: 'http://localhost:8080/MAIN%2FSNOMEDCT-SE/descriptions/concept=' + rel.destinationId,
+    } */

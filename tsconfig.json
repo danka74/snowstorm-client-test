@@ -4,7 +4,7 @@
       "sourceMap": true,
       "module": "commonjs",
       "esModuleInterop": true,
-      "target": "es6",
+      "target": "esnext",
       "noImplicitAny": true,
       "moduleResolution": "node",
       "allowJs": true,
