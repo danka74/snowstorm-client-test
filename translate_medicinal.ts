@@ -18,7 +18,7 @@ const combineTerms = (total: any, current: any, index: number, length: number) =
 };
 
 const getSemanticTag = (fsn: string) => {
-    const semtag = fsn.match(/\([^)]*\)/);
+    const semtag = fsn.match(/\([^)]*\)$/);
     if (semtag !== null) {
         return semtag[0];
     } else {
@@ -40,35 +40,41 @@ const aggregateCS = (first: string, second: string) => {
 };
 
 const numerize = (word: string): string => {
-    if (word === "ett") {
-        return "1";
+    if (word === 'ett') {
+        return '1';
     }
-    if (word === "två") {
-        return "2";
+    if (word === 'två') {
+        return '2';
     } else
-    if (word === "tre") {
-        return "3";
+    if (word === 'tre') {
+        return '3';
     } else
-    if (word === "fyra") {
-        return "4";
+    if (word === 'fyra') {
+        return '4';
     } else
-    if (word === "fem") {
-        return "5";
+    if (word === 'fem') {
+        return '5';
     }
-    if (word === "sex") {
-        return "6";
+    if (word === 'sex') {
+        return '6';
     }
-    if (word === "sju") {
-        return "7";
+    if (word === 'sju') {
+        return '7';
     } else
-    if (word === "åtta") {
-        return "8";
+    if (word === 'åtta') {
+        return '8';
     } else
-    if (word === "nio") {
-        return "9";
+    if (word === 'nio') {
+        return '9';
     } else
-    if (word === "tio") {
-        return "10";
+    if (word === 'tio') {
+        return '10';
+    }
+    if (word === 'elva') {
+        return '11';
+    }
+    if (word === 'tolv') {
+        return '12';
     }
     return word;
 };
@@ -110,41 +116,61 @@ const translateIngredients = (concept: any): any => {
                 caseSignificance = aggregateCS(boss.caseSignificance, caseSignificance);
             }
 
-            const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId == 732944001);
-            const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId == 733724008);
+            const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '732944001');
+            const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '733724008');
             if (presentNumeratorVal) {
                 const numeratorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == 732945000 || rel.typeId == 733725009);
-                if (numeratorUnit.term === 'enhet' &&
-                    presentNumeratorVal.term.replace(/ /g, '') > 1) {
-                    term += ' ' + numerize(presentNumeratorVal.term) + ' enheter';
+                    curRelationships.find((rel: any) => rel.typeId == '732945000');
+                if (numeratorUnit.term.match('enhet([^e][^r]|$)') &&
+                    parseInt(numerize(presentNumeratorVal.term.replace(/ /g, '')), 10) !== 1) {
+                    term += ' ' + numerize(presentNumeratorVal.term) + ' ' +
+                        numeratorUnit.term.replace('enhet', 'enheter');
                     caseSignificance = aggregateCS(caseSignificance, presentNumeratorVal.caseSignificance);
                 } else {
                     term += ' ' + numerize(presentNumeratorVal.term) + ' ' + numeratorUnit.term;
                     caseSignificance = aggregateCS(caseSignificance, presentNumeratorVal.caseSignificance);
                     caseSignificance = aggregateCS(caseSignificance, numeratorUnit.caseSignificance);
+                }
+                const denominatorVal =
+                    curRelationships.find((rel: any) => rel.typeId == '732946004');
+                if (denominatorVal && denominatorVal.destinationId !== '38112003') { // ett
+                    throw new Error('Not implemented: denominator value not 1, ' + JSON.stringify(denominatorVal));
+                }
+                const denominatorUnit =
+                    curRelationships.find((rel: any) => rel.typeId == '732947008');
+                if (denominatorUnit.destinationId == '732981002') { // actuation
+                    const doseForm = concept.relationships.find((rel: any) => rel.typeId == 411116001);
+                    if (doseForm.term.match('inhalation')) {
+                        term += '/dos';
+                    } else if (doseForm.term.match('sprej')) {
+                        term += '/sprejning';
+                    } else {
+                        term += '/' + denominatorUnit.term;
+                    }
 
+                } else if (denominatorUnit && !denominatorUnit.term.match('tablett') &&
+                    !denominatorUnit.term.match('kapsel')) {
+                    term += '/' + denominatorUnit.term;
                 }
             } else if (concNumeratorVal) {
                 const numeratorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == 732945000 || rel.typeId == 733725009);
+                    curRelationships.find((rel: any) => rel.typeId == '733725009');
                 const denominatorVal =
-                    curRelationships.find((rel: any) => rel.typeId == 732946004 || rel.typeId == 733723002);
+                    curRelationships.find((rel: any) => rel.typeId == '733723002');
                 const denominatorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == 732947008 || rel.typeId == 733722007);
-                if (numeratorUnit.term === 'enhet' &&
-                    concNumeratorVal.term.replace(/ /g, '') > 1) {
-                    term += ' ' + numerize(concNumeratorVal.term) + ' enheter/'
+                    curRelationships.find((rel: any) => rel.typeId == '733722007');
+                if (numeratorUnit.term.match('enhet([^e][^r]|$)') &&
+                    parseInt(numerize(concNumeratorVal.term.replace(/ /g, '')), 10) !== 1) {
+                    term += ' ' + numerize(concNumeratorVal.term) + ' ' +
+                        numeratorUnit.term.replace('enhet', 'enheter') + '/'
                         + denominatorUnit.term;
-                    caseSignificance = aggregateCS(caseSignificance, concNumeratorVal.caseSignificance);
-                    caseSignificance = aggregateCS(caseSignificance, denominatorUnit.caseSignificance);
                 } else {
-                    term += ' ' + numerize(concNumeratorVal.term) + ' ' + numeratorUnit.term + '/' 
+                    term += ' ' + numerize(concNumeratorVal.term) + ' ' + numeratorUnit.term + '/'
                         + denominatorUnit.term;
-                    caseSignificance = aggregateCS(caseSignificance, concNumeratorVal.caseSignificance);
-                    caseSignificance = aggregateCS(caseSignificance, numeratorUnit.caseSignificance);
-                    caseSignificance = aggregateCS(caseSignificance, denominatorUnit.caseSignificance);
                 }
+                caseSignificance = aggregateCS(caseSignificance, concNumeratorVal.caseSignificance);
+                caseSignificance = aggregateCS(caseSignificance, numeratorUnit.caseSignificance);
+                caseSignificance = aggregateCS(caseSignificance, denominatorUnit.caseSignificance);
             }
 
             result.push({
@@ -174,24 +200,24 @@ export const translate = (concept: any) => {
     let caseSignificance = 'CASE_INSENSITIVE';
 
     if (semtag === '(product)' || semtag === '(medicinal product)') {
-        term = 'läkemedel ';
+        term = 'läkemedel';
         let ingredients = translateIngredients(concept);
         if (ingredients.length > 0) {
 
-            term += 'som ';
+            term += ' som';
 
             // 766952006 | Count of base of active ingredient (attribute) |
             const countIngredient = concept.relationships.find((rel: any) => rel.typeId == 766952006);
             if (countIngredient) {
-                term += 'endast innehåller ';
+                term += ' endast innehåller';
             } else {
-                term += 'innehåller ';
+                term += ' innehåller';
             }
 
             ingredients = ingredients.reduce((total: string, word: string, index: number, wordList: string[]) => {
                 return combineTerms(total, word, index, wordList.length);
             }, { term: '', caseSignificance });
-            term += ingredients.term + ' ';
+            term += ' ' + ingredients.term;
             if (ingredients.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE') {
                 caseSignificance = 'INITIAL_CHARACTER_CASE_INSENSITIVE';
             } else {
@@ -199,30 +225,39 @@ export const translate = (concept: any) => {
             }
         }
 
-        const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
-        if (playsRole) {
-            term += 'med ' + playsRole.term;
-            caseSignificance = aggregateCS(caseSignificance, playsRole.caseSignificance);
+        if (semtag === '(product)') {
+            const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
+            if (playsRole) {
+                term += ' med ' + playsRole.term;
+                caseSignificance = aggregateCS(caseSignificance, playsRole.caseSignificance);
+            }
+
+            // 411116001 | Has manufactured dose form (attribute) |
+            const doseForm = concept.relationships.find((rel: any) => rel.typeId == 411116001);
+            if (doseForm) {
+                term += ', ' + doseForm.term;
+                caseSignificance = aggregateCS(caseSignificance, doseForm.caseSignificance);
+            }
         }
 
     }
 
     if (semtag === '(medicinal product form)') {
         let ingredients = translateIngredients(concept);
-        term = 'läkemedel som ';
+        term = 'läkemedel som';
 
         // 766952006 | Count of base of active ingredient (attribute) |
         const countIngredient = concept.relationships.find((rel: any) => rel.typeId == 766952006);
         if (countIngredient) {
-            term += 'endast innehåller ';
+            term += ' endast innehåller';
         } else {
-            term += 'innehåller ';
+            term += ' innehåller';
         }
 
         ingredients = ingredients.reduce((total: string, word: string, index: number, wordList: string[]) => {
             return combineTerms(total, word, index, wordList.length);
         }, { term: '', caseSignificance });
-        term += ingredients.term;
+        term += ' ' + ingredients.term;
         if (ingredients.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE') {
             caseSignificance = 'INITIAL_CHARACTER_CASE_INSENSITIVE';
         } else {
@@ -263,6 +298,6 @@ export const translate = (concept: any) => {
         conceptId: concept.conceptId,
         fsn: concept.fsn,
         synonym,
-        term,
+        term: term.trim(),
     });
 };

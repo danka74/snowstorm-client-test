@@ -35,6 +35,7 @@ const getConcepts = (search: any): Observable<any> => {
             if (response.items.length < response.limit) {
                 return result;
             } else {
+                // return result;
                 return result.pipe(
                     concat(getConcepts({...search, searchAfter: response.searchAfter})),
                 );
@@ -51,14 +52,15 @@ const search = {
     // ],
     definitionStatusFilter: '900000000000073002',
     eclFilter:
-        '<<763158003 | Medicinal product (product) |',
-    // termFilter: 'string',
+        '<763158003 | Medicinal product (product) |',
+    // termFilter: 'actuation',
 };
 
 getConcepts(search)
     .pipe(
-        filter((concept) => concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20200131'),
+        // take(20),
+        // filter((concept) => // concept.pt.lang !== 'sv' &&
+        //    concept.effectiveTime === '20190731'),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
@@ -75,6 +77,7 @@ getConcepts(search)
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
+                // tap(console.log),
                 filter((relationship: any) => relationship.typeId !== '116680003'), // filter out Is A
                 mergeMap((relationship: any) => {
                     return ajax({
@@ -98,7 +101,11 @@ getConcepts(search)
                                     term: 'översättning saknas: ' + relationship.destinationId,
                                 });
                             }
-                            return descArr[0]; // should be only one preferred term
+                            if (descArr[0].active !== true) {
+                                console.log(descArr[0]);
+                            }
+
+                            return descArr[0]; // should be only one preferred term per lanugage
                         }),
                         map((description) => ({
                             caseSignificance: description.caseSignificance,
@@ -117,9 +124,12 @@ getConcepts(search)
         groupBy((relationship) => relationship.sourceId),
         mergeMap((concept$) => concept$.pipe(reduce((acc, cur) => [...acc, cur], [concept$.key]))),
         map((arr) => ({ conceptId: arr[0], fsn: arr[1].sourceFSN, relationships: arr.slice(1) })),
-        map((concept) => translate(concept)),
+        map((concept) => {
+            return translate(concept);
+        }),
     )
     .subscribe(
+        // (x) => console.log,
         (x: any) => console.log(`${x.conceptId}\t${x.fsn}\t${x.term}\t${x.caseSignificance}`),
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
