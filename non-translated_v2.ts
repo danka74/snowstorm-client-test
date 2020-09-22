@@ -58,9 +58,9 @@ const search = {
 
 getConcepts(search)
     .pipe(
-        // take(20),
-        // filter((concept) => // concept.pt.lang !== 'sv' &&
-        //    concept.effectiveTime === '20190731'),
+        take(20),
+        filter((concept) =>  concept.pt.lang !== 'sv' &&
+            concept.effectiveTime === '20200731'),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({

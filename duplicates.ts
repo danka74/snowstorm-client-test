@@ -88,13 +88,17 @@ getConcepts(search)
     .subscribe(
         (dup: any) => {
             dup.forEach((concepts: any[], term: string) => {
+                const parts = term.split(':');
+                const semtag = parts.pop();
+                const pt = parts.join(':');
                 concepts.forEach((concept: any) => {
-                    console.log(term + '\t' + concept.conceptId + '\t' + concept.fsn.term);
+                    console.log(pt + '\t' + semtag + '\t' + concept.conceptId + '\t' + concept.fsn.term +
+                    '\thttps://browser.ihtsdotools.org/?perspective=full&conceptId1=${concept.conceptId}&edition=MAIN/SNOMEDCT-SE/2020-05-31&release=&languages=sv,en');
                 });
             });
         },
         (error: any) => console.log ('Error: ' + JSON.stringify(error)),
-        () => console.log('Completed'),
+        // () => console.log('Completed'),
     );
 
 /*     getConcepts(search)
