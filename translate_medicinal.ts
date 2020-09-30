@@ -200,7 +200,12 @@ export const translate = (concept: any) => {
     let caseSignificance = 'CASE_INSENSITIVE';
 
     if (semtag === '(product)' || semtag === '(medicinal product)') {
-        term = 'läkemedel';
+        const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
+        if (playsRole && playsRole.destinationId == 318331000221102 ) { // Active immunity stimulant therapeutic role (role)
+            term = 'vaccin';
+        } else {
+            term = 'läkemedel';
+        }
         let ingredients = translateIngredients(concept);
         if (ingredients.length > 0) {
 
@@ -237,6 +242,21 @@ export const translate = (concept: any) => {
             if (doseForm) {
                 term += ', ' + doseForm.term;
                 caseSignificance = aggregateCS(caseSignificance, doseForm.caseSignificance);
+            }
+        }
+
+        const productCharateristic = concept.relationships.find((rel: any) => rel.typeId == 860781008);
+        if (productCharateristic) {
+            switch (productCharateristic.detinationId) {
+                case 255398004:
+                    term += ', för barn';
+                    break;
+                case 41847000:
+                    term += ', för vuxna';
+                    break;
+                case 262459003:
+                    term += ', lågdos';
+                    break;
             }
         }
 
