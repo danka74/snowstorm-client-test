@@ -247,6 +247,7 @@ export const translate = (concept: any) => {
 
         const productCharateristic = concept.relationships.find((rel: any) => rel.typeId == 860781008);
         if (productCharateristic) {
+            console.log(productCharateristic);
             switch (productCharateristic.destinationId) {
                 case 255398004:
                     term += ', för barn';
@@ -264,7 +265,12 @@ export const translate = (concept: any) => {
 
     if (semtag === '(medicinal product form)') {
         let ingredients = translateIngredients(concept);
-        term = 'läkemedel som';
+        const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
+        if (playsRole && playsRole.destinationId == 318331000221102 ) { // Active immunity stimulant therapeutic role (role)
+            term = 'vaccin som';
+        } else {
+            term = 'läkemedel som';
+        }
 
         // 766952006 | Count of base of active ingredient (attribute) |
         const countIngredient = concept.relationships.find((rel: any) => rel.typeId == 766952006);
