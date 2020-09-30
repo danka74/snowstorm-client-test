@@ -1,437 +1,554 @@
 Concept ID	GB/US FSN Term (For reference only)	Translated Term	Language Code	Case significance	Type	Language reference set	Acceptability	Language reference set	Acceptability	Language reference set	Acceptability
-991000221105	Vaccine product containing only Vibrio cholerae antigen (medicinal product)	läkemedel som endast innehåller antigen från Vibrio cholerae	sv	cI	SYNONYM	Swedish	PREFERRED
-981000221107	Vaccine product containing only Streptococcus pneumoniae antigen (medicinal product)	läkemedel som endast innehåller antigen från Streptococcus pneumoniae	sv	cI	SYNONYM	Swedish	PREFERRED
+871919004	Vaccine product containing only Human alphaherpesvirus 3 antigen (medicinal product)	vaccin som endast innehåller antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+981000221107	Vaccine product containing only Streptococcus pneumoniae antigen (medicinal product)	vaccin som endast innehåller antigen från Streptococcus pneumoniae	sv	cI	SYNONYM	Swedish	PREFERRED
 971000221109	Vaccine product containing only live attenuated Salmonella enterica subspecies enterica serovar Typhi antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från levande försvagad Salmonella enterica, underart enterica serovar typhi, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-91000221102	Vaccine product containing only inactivated whole Hepatitis A virus antigen (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-871923007	Vaccine product containing Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Haemophilus influenzae typ B, antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871928003	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från mässlingvirus och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-921000221108	Vaccine product containing only Neisseria meningitidis antigen (medicinal product)	läkemedel som endast innehåller antigen från Neisseria meningitidis	sv	cI	SYNONYM	Swedish	PREFERRED
-871916006	Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular oligosaccharide conjugated antigens (medicinal product)	läkemedel som endast innehåller antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp A, konjugerat, antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp C, konjugerat, antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp W135, konjugerat och antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp Y, konjugerat	sv	cI	SYNONYM	Swedish	PREFERRED
-961000221100	Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)	läkemedel som endast innehåller antigen från Salmonella enterica, underart enterica serovar typhi	sv	cI	SYNONYM	Swedish	PREFERRED
-871918007	Vaccine product containing Rickettsia antigen (medicinal product)	läkemedel som innehåller rickettsiaantigen	sv	ci	SYNONYM	Swedish	PREFERRED
-871908002	Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	läkemedel som endast innehåller antigen från mässlingvirus, antigen från påssjukevirus, antigen från rubellavirus och antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-871895005	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871889009	Vaccine product containing only acellular Bordetella pertussis and Corynebacterium diphtheriae and Hepatitis B virus and inactivated whole Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Corynebacterium diphtheriae, antigen från inaktiverat helt humant poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871532003	Product containing tetanus immunoglobulin of human origin in parenteral dose form (medicinal product form)	läkemedel som innehåller humant immunglobulin mot stelkramp, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871893003	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-871892008	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871891001	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus and inactivated whole Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från inaktiverat helt humant poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871831003	Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	läkemedel som endast innehåller antigen från mässlingvirus, antigen från påssjukevirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871894009	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-871925000	Vaccine product containing only Hepatitis B virus surface protein antigen (medicinal product)	läkemedel som endast innehåller hepatit B-ytantigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871911001	Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)	läkemedel som endast innehåller antigen från Borrelia burgdorferi	sv	cI	SYNONYM	Swedish	PREFERRED
-951000221102	Vaccine product containing only Neisseria meningitidis serogroup C capsular polysaccharide conjugated antigen (medicinal product)	läkemedel som endast innehåller antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp C, konjugerat	sv	cI	SYNONYM	Swedish	PREFERRED
-871917002	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871896006	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871929006	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871890000	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-911000221103	Vaccine product containing only Human papillomavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från humant papillomvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-836397001	Vaccine product containing Coxiella burnetii antigen (medicinal product)	läkemedel som innehåller antigen från Coxiella burnetii	sv	cI	SYNONYM	Swedish	PREFERRED
-871886002	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871919004	Vaccine product containing only Human alphaherpesvirus 3 antigen (medicinal product)	läkemedel som endast innehåller antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-871758000	Vaccine product containing only Bordetella pertussis antigen (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
-871547007	Product containing equine diphtheria antitoxin (medicinal product)	läkemedel som innehåller antitoxin mot difteri utvunnet från häst	sv	ci	SYNONYM	Swedish	PREFERRED
-871888001	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and inactivated whole Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-871725009	Vaccine product containing only inactivated whole Japanese encephalitis virus antigen (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat japanskt encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871887006	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-836493003	Vaccine product containing Hepatitis A and Hepatitis B virus antigens (medicinal product)	läkemedel som innehåller antigen från hepatit A-virus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871550005	Product containing only equine diphtheria antitoxin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller antitoxin mot difteri utvunnet från häst, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871765008	Vaccine product containing only Measles morbillivirus antigen (medicinal product)	läkemedel som endast innehåller antigen från mässlingvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871883005	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-870520008	Product containing remdesivir in parenteral dose form (medicinal product form)	läkemedel som innehåller remdesivir, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871751006	Vaccine product containing only Hepatitis A virus antigen (medicinal product)	läkemedel som endast innehåller antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-871800005	Product containing ozanimod (medicinal product)	läkemedel som innehåller ozanimod	sv	ci	SYNONYM	Swedish	PREFERRED
-871708007	Product containing only pemigatinib (medicinal product)	läkemedel som endast innehåller pemigatinib	sv	ci	SYNONYM	Swedish	PREFERRED
-871739009	Vaccine product containing only Human poliovirus antigen (medicinal product)	läkemedel som endast innehåller antigen från poliovirus	sv	ci	SYNONYM	Swedish	PREFERRED
-838478007	Product containing trastuzumab deruxtecan (medicinal product)	läkemedel som innehåller trastuzumab deruxtekan	sv	ci	SYNONYM	Swedish	PREFERRED
-870518005	Product containing remdesivir (medicinal product)	läkemedel som innehåller remdesivir	sv	ci	SYNONYM	Swedish	PREFERRED
-871788009	Product containing only eptinezumab (medicinal product)	läkemedel som endast innehåller eptinezumab	sv	ci	SYNONYM	Swedish	PREFERRED
-870502004	Product containing tetracaine in oromucosal dose form (medicinal product form)	läkemedel som innehåller tetrakain, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
-871761004	Vaccine product containing only Rotavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från rotavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871815006	Product containing only sacituzumab govitecan in parenteral dose form (medicinal product form)	läkemedel som endast innehåller sacituzumabgovitekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840617004	Product containing only autologous cultured chondrocyte in parenteral dose form (medicinal product form)	läkemedel som endast innehåller autolog odlad kondrocyt, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870612004	Product containing only bempedoic acid in oral dose form (medicinal product form)	läkemedel som endast innehåller bempedinsyra, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863997006	Product containing precisely ixazomib (as ixazomib citrate) 3 milligram/1 each conventional release oral capsule (clinical drug)	ixazomib (som ixazomibcitrat) 3 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871825001	Vaccine product containing only inactivated whole Japanese encephalitis virus antigen adsorbed (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat helt japanskt encefalitvirus, adsorberat	sv	ci	SYNONYM	Swedish	PREFERRED
-871838009	Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-871730008	Low dose vaccine product containing only Corynebacterium diphtheriae antigen (medicinal product)	läkemedel som endast innehåller antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-863991007	Product containing precisely panobinostat (as panobinostat lactate) 20 milligram/1 each conventional release oral capsule (clinical drug)	panobinostat (som panobistatlaktat) 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871719005	Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)	läkemedel som endast innehåller antigen från fästingburet encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871817003	Vaccine product containing only Measles morbillivirus and Rubella virus antigens (medicinal product)	läkemedel som endast innehåller antigen från mässlingvirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871721000	Vaccine product containing only Ebolavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från ebolavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-870521007	Product containing only remdesivir in parenteral dose form (medicinal product form)	läkemedel som endast innehåller remdesivir, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870519002	Product containing only remdesivir (medicinal product)	läkemedel som endast innehåller remdesivir	sv	ci	SYNONYM	Swedish	PREFERRED
-865906006	Vaccine product containing Measles morbillivirus and Rubella virus antigens (medicinal product)	läkemedel som innehåller antigen från mässlingvirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871703003	Product containing precisely pemigatinib 4.5 milligram/1 each conventional release oral tablet (clinical drug)	pemigatinib 4,5 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-871755002	Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide Vi antigen (medicinal product)	läkemedel som endast innehåller antigen från Salmonella Typhi Vi (kapsulärt)	sv	cI	SYNONYM	Swedish	PREFERRED
-865997008	Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)	läkemedel som endast innehåller antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-871826000	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-836385002	Vaccine product containing Yellow fever virus antigen (medicinal product)	läkemedel som innehåller antigen från gula febern-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-838279002	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-871796004	Product containing precisely ozanimod (as ozanimod hydrochloride) 460 microgram/1 each conventional release oral capsule (clinical drug)	ozanimod (som ozanimodhydroklorid) översättning saknas: 871793007 | 460 (qualifier value) | mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871726005	Vaccine product containing only Rabies lyssavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från rabiesvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-836383009	Vaccine product containing Vibrio cholerae antigen (medicinal product)	läkemedel som innehåller antigen från Vibrio cholerae	sv	cI	SYNONYM	Swedish	PREFERRED
-871750007	Pediatric vaccine product containing only Hepatitis A virus antigen (medicinal product)	läkemedel som endast innehåller antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-838492001	Product containing lemborexant (medicinal product)	läkemedel som innehåller lemborexant	sv	ci	SYNONYM	Swedish	PREFERRED
-871743008	Product containing Cytomegalovirus antibody in parenteral dose form (medicinal product form)	läkemedel som innehåller antikropp mot cytomegalovirus, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871713006	Product containing tucatinib in oral dose form (medicinal product form)	läkemedel som innehåller tukatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871704009	Product containing precisely pemigatinib 9 milligram/1 each conventional release oral tablet (clinical drug)	pemigatinib 9 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-871707002	Product containing pemigatinib in oral dose form (medicinal product form)	läkemedel som innehåller pemigatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871798003	Product containing ozanimod in oral dose form (medicinal product form)	läkemedel som innehåller ozanimod, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-860942000	Product containing fibric acid and fibric acid derivative (medicinal product)	läkemedel som innehåller fibrinsyra och dess derivat	sv	ci	SYNONYM	Swedish	PREFERRED
-870610007	Product containing only bempedoic acid (medicinal product)	läkemedel som endast innehåller bempedinsyra	sv	ci	SYNONYM	Swedish	PREFERRED
-871875004	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-860771009	Product containing isatuximab in parenteral dose form (medicinal product form)	läkemedel som innehåller isatuximab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871759008	Vaccine product containing only acellular Bordetella pertussis antigen (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen	sv	ci	SYNONYM	Swedish	PREFERRED
-836381006	Vaccine product containing Corynebacterium diphtheriae antigen (medicinal product)	läkemedel som innehåller antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-871822003	Vaccine product containing only Hepatitis B virus antigen (medicinal product)	läkemedel som endast innehåller hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-836388000	Vaccine product containing Rubella virus antigen (medicinal product)	läkemedel som innehåller antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-870491000	Product containing growth hormone receptor antagonist (product)	läkemedel som innehåller tillväxthormonreceptorantagonist	sv	ci	SYNONYM	Swedish	PREFERRED
-836490000	Product containing only afamelanotide in parenteral dose form (medicinal product form)	läkemedel som endast innehåller afamelanotid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-864006000	Product containing precisely lomitapide (as lomitapide mesilate) 20 milligram/1 each conventional release oral capsule (clinical drug)	lomitapid (som lomitapidmesylat) 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-846647005	Product containing bromhexine (medicinal product)	läkemedel som innehåller bromhexin	sv	ci	SYNONYM	Swedish	PREFERRED
-860928008	Product containing psyllium and psyllium derivative (product)	läkemedel som innehåller psyllium och dess derivat	sv	ci	SYNONYM	Swedish	PREFERRED
-860730003	Product containing amisulpride in parenteral dose form (medicinal product form)	läkemedel som innehåller amisulprid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840409004	Product containing tazemetostat in oral dose form (medicinal product form)	läkemedel som innehåller tazemetostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838488008	Product containing ubrogepant (medicinal product)	läkemedel som innehåller ubrogepant	sv	ci	SYNONYM	Swedish	PREFERRED
-870609002	Product containing bempedoic acid (medicinal product)	läkemedel som innehåller bempedinsyra	sv	ci	SYNONYM	Swedish	PREFERRED
-871740006	Vaccine product containing only inactivated whole Human poliovirus antigen (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat helt humant poliovirus	sv	ci	SYNONYM	Swedish	PREFERRED
-840668001	Product containing precisely lenvatinib (as lenvatinib mesilate) 4 milligram/1 each conventional release oral capsule (clinical drug)	lenvatinib (som lenvatinibmesylat) 4 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-838409003	Product containing avapritinib (medicinal product)	läkemedel som innehåller avapritinib	sv	ci	SYNONYM	Swedish	PREFERRED
-840611003	Product containing autologous cultured chondrocyte (medicinal product)	läkemedel som innehåller autolog odlad kondrocyt	sv	ci	SYNONYM	Swedish	PREFERRED
-840661007	Product containing precisely lenalidomide 2.5 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 2,5 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871533008	Product containing only tetanus immunoglobulin of human origin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller humant immunglobulin mot stelkramp, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871738001	Vaccine product containing only live attenuated Mumps orthorubulavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat påsjuke-ortorubulavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-838476006	Product containing only lumateperone in oral dose form (medicinal product form)	läkemedel som endast innehåller lumateperon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-860587009	Product containing precisely dabigatran etexilate (as dabigatran etexilate mesilate) 110 milligram/1 each conventional release oral capsule (clinical drug)	dabigatranetexilat (som dabigatranetexilatmesylat) 110 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871548002	Product containing only equine diphtheria antitoxin (medicinal product)	läkemedel som endast innehåller antitoxin mot difteri utvunnet från häst	sv	ci	SYNONYM	Swedish	PREFERRED
-868272002	Product containing precisely colecalciferol 625 microgram/1 milliliter conventional release oral solution (clinical drug)	kolekalciferol 625 mikrog/ml, oral lösning	sv	cI	SYNONYM	Swedish	PREFERRED
-871801009	Product containing only ozanimod (medicinal product)	läkemedel som endast innehåller ozanimod	sv	ci	SYNONYM	Swedish	PREFERRED
-863981001	Product containing precisely nitisinone 20 milligram/1 each conventional release oral capsule (clinical drug)	nitisinon 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-838494000	Product containing lemborexant in oral dose form (medicinal product form)	läkemedel som innehåller lemborexant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871716003	Vaccine product containing only Francisella tularensis antigen (medicinal product)	läkemedel som endast innehåller antigen från Francisella tularensis	sv	cI	SYNONYM	Swedish	PREFERRED
-866030000	Product containing only eliglustat in oral dose form (medicinal product form)	läkemedel som endast innehåller eliglustat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870489008	Product containing serotonin receptor agonist (product)	läkemedel som innehåller serotoninreceptoragonist	sv	ci	SYNONYM	Swedish	PREFERRED
-871737006	Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från påssjukevirus	sv	ci	SYNONYM	Swedish	PREFERRED
-840407002	Product containing tazemetostat (medicinal product)	läkemedel som innehåller tazemetostat	sv	ci	SYNONYM	Swedish	PREFERRED
-863941008	Product containing only osilodrostat in oral dose form (medicinal product form)	läkemedel som endast innehåller osilodrostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836421005	Vaccine product containing Ebolavirus antigen (medicinal product)	läkemedel som innehåller antigen från ebolavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871827009	Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-871873006	Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)	läkemedel som endast innehåller antigen från Neisseria meningitidis W-135, antigen från Neisseria meningitidis grupp A, antigen från Neisseria meningitidis grupp C och antigen från Neisseria meningitidis, grupp Y	sv	cI	SYNONYM	Swedish	PREFERRED
-871866001	Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)	läkemedel som endast innehåller antigen från Neisseria meningitidis grupp C	sv	cI	SYNONYM	Swedish	PREFERRED
-865886007	Product containing precisely cabozantinib (as cabozantinib s-malate) 80 milligram/1 each conventional release oral capsule (clinical drug)	kabozantinib (som kabozantinib S-malat) 80 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871744002	Product containing only Cytomegalovirus antibody in parenteral dose form (medicinal product form)	läkemedel som endast innehåller antikropp mot cytomegalovirus, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863939007	Product containing only osilodrostat (medicinal product)	läkemedel som endast innehåller osilodrostat	sv	ci	SYNONYM	Swedish	PREFERRED
-871806004	Vaccine product containing only Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	läkemedel som endast innehåller antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-863994004	Product containing precisely eliglustat (as eliglustat tartrate) 84 milligram/1 each conventional release oral capsule (clinical drug)	eliglustat (som eliglustattartrat) 84 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871764007	Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)	läkemedel som endast innehåller antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-840557007	Product containing only asenapine in transdermal dose form (medicinal product form)	läkemedel som endast innehåller asenapin, transdermal läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-866028002	Product containing only isavuconazonium in parenteral dose form (medicinal product form)	läkemedel som endast innehåller isavukonazonium, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870618000	Product containing only bempedoic acid and ezetimibe in oral dose form (medicinal product form)	läkemedel som endast innehåller bempedinsyra och ezetimib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871814005	Product containing sacituzumab govitecan in parenteral dose form (medicinal product form)	läkemedel som innehåller sacituzumabgovitekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871876003	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-871717007	Vaccine product containing only Yellow fever virus antigen (medicinal product)	läkemedel som endast innehåller antigen från gula febern-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-871767000	Vaccine product containing only Human papillomavirus 9 antigen (medicinal product)	läkemedel som endast innehåller antigen från humant papillomvirus 9	sv	ci	SYNONYM	Swedish	PREFERRED
-840697003	Product containing precisely dabigatran etexilate (as dabigatran etexilate mesilate) 150 milligram/1 each conventional release oral capsule (clinical drug)	dabigatranetexilat (som dabigatranetexilatmesylat) 150 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-860757001	Product containing rimegepant (medicinal product)	läkemedel som innehåller rimegepant	sv	ci	SYNONYM	Swedish	PREFERRED
-871799006	Product containing only ozanimod in oral dose form (medicinal product form)	läkemedel som endast innehåller ozanimod, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-866255003	Product containing precisely glucosamine (as glucosamine sulfate potassium chloride) 400 milligram/1 each conventional release oral capsule (clinical drug)	glukosamin (som glukosaminsulfatkaliumklorid) 400 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-870614003	Product containing precisely bempedoic acid 180 milligram and ezetimibe 10 milligram/1 each conventional release oral tablet (clinical drug)	bempedinsyra 180 mg och ezetimib 10 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-871812009	Product containing sacituzumab govitecan (medicinal product)	läkemedel som innehåller sacituzumabgovitekan	sv	ci	SYNONYM	Swedish	PREFERRED
-871727001	Vaccine product containing only Vaccinia virus antigen (medicinal product)	läkemedel som endast innehåller antigen från vacciniavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871723002	Vaccine product containing only Coxiella burnetii antigen (medicinal product)	läkemedel som endast innehåller antigen från Coxiella burnetii	sv	cI	SYNONYM	Swedish	PREFERRED
-870757000	Product containing only selumetinib in oral dose form (medicinal product form)	läkemedel som endast innehåller selumetinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863911006	Vaccine product containing Clostridium tetani antigen (medicinal product)	läkemedel som innehåller antigen från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
-865946000	Vaccine product containing Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	läkemedel som innehåller antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871816007	Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-871549005	Product containing equine diphtheria antitoxin in parenteral dose form (medicinal product form)	läkemedel som innehåller antitoxin mot difteri utvunnet från häst, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863950005	Vaccine product containing bacteria and virus antigens (medicinal product)	läkemedel som innehåller bakteriellt antigen och virusantigen	sv	ci	SYNONYM	Swedish	PREFERRED
-864002003	Product containing precisely lomitapide (as lomitapide mesilate) 10 milligram/1 each conventional release oral capsule (clinical drug)	lomitapid (som lomitapidmesylat) 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-840399007	Product containing teprotumumab in parenteral dose form (medicinal product form)	läkemedel som innehåller teprotumumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871705005	Product containing precisely pemigatinib 13.5 milligram/1 each conventional release oral tablet (clinical drug)	pemigatinib 13,5 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-863985005	Product containing precisely palbociclib 75 milligram/1 each conventional release oral capsule (clinical drug)	palbociklib 75 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871706006	Product containing only pemigatinib in oral dose form (medicinal product form)	läkemedel som endast innehåller pemigatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-864004002	Product containing only lomitapide (medicinal product)	läkemedel som endast innehåller lomitapid	sv	ci	SYNONYM	Swedish	PREFERRED
-870615002	Product containing bempedoic acid and ezetimibe (medicinal product)	läkemedel som innehåller bempedinsyra och ezetimib	sv	ci	SYNONYM	Swedish	PREFERRED
-871790005	Product containing only eptinezumab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller eptinezumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871711008	Product containing precisely tucatinib 150 milligram/1 each conventional release oral tablet (clinical drug)	tukatinib 150 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-870495009	Product containing minocycline in oromucosal dose form (medicinal product form)	läkemedel som innehåller minocyklin, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
-871732000	Vaccine product containing only Rubella virus antigen (medicinal product)	läkemedel som endast innehåller antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-836402002	Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)	läkemedel som innehåller antigen från Bacillus Calmette-Guerin	sv	cI	SYNONYM	Swedish	PREFERRED
-871742003	Vaccine product containing only Clostridium tetani antigen (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
-836499004	Vaccine product containing Measles morbillivirus and Mumps orthorubulavirus antigens (medicinal product)	läkemedel som innehåller antigen från mässlingvirus och antigen från påssjukevirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871839001	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-871531005	Medicinal product acting as passive immunity stimulant (product)	läkemedel med översättning saknas: 871530006 | Passive immunity stimulant therapeutic role (role) |	sv	ci	SYNONYM	Swedish	PREFERRED
-836507006	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-836390004	Vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)	läkemedel som innehåller antigen från Salmonella enterica, underart enterica serovar typhi	sv	cI	SYNONYM	Swedish	PREFERRED
-871803007	Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)	läkemedel som endast innehåller antigen från hepatit A-virus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-871813004	Product containing only sacituzumab govitecan (medicinal product)	läkemedel som endast innehåller sacituzumabgovitekan	sv	ci	SYNONYM	Swedish	PREFERRED
-871871008	Vaccine product containing only Neisseria meningitidis serogroup A and C antigens (medicinal product)	läkemedel som endast innehåller antigen från Neisseria meningitidis grupp A och antigen från Neisseria meningitidis grupp C	sv	cI	SYNONYM	Swedish	PREFERRED
-870616001	Product containing only bempedoic acid and ezetimibe (medicinal product)	läkemedel som endast innehåller bempedinsyra och ezetimib	sv	ci	SYNONYM	Swedish	PREFERRED
-871724008	Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)	läkemedel som endast innehåller antigen från japanskt encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-870754007	Product containing only selumetinib (medicinal product)	läkemedel som endast innehåller selumetinib	sv	ci	SYNONYM	Swedish	PREFERRED
-840564009	Vaccine product containing Leptospira antigen (medicinal product)	läkemedel som innehåller Leptospiraantigen	sv	cI	SYNONYM	Swedish	PREFERRED
-836393002	Vaccine product containing Rabies lyssavirus antigen (medicinal product)	läkemedel som innehåller antigen från rabiesvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-870497001	Product containing naloxone in oromucosal dose form (medicinal product form)	läkemedel som innehåller naloxon, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
-871772009	Vaccine product containing only Influenza A virus subtype H1N1 antigen (medicinal product)	läkemedel som endast innehåller antigen från influensavirus A, subtyp H1N1	sv	cI	SYNONYM	Swedish	PREFERRED
-836389008	Vaccine product containing Vaccinia virus antigen (medicinal product)	läkemedel som innehåller antigen från vacciniavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-840654008	Product containing precisely pirfenidone 801 milligram/1 each conventional release oral tablet (clinical drug)	pirfenidon översättning saknas: 840653002 | 801 (qualifier value) | mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-870759002	Product containing precisely selumetinib 10 milligram/1 each conventional release oral capsule (clinical drug)	selumetinib 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836382004	Vaccine product containing Measles morbillivirus antigen (medicinal product)	läkemedel som innehåller antigen från mässlingvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-840563003	Vaccine product containing Dengue virus antigen (medicinal product)	läkemedel som innehåller antigen från denguevirus	sv	ci	SYNONYM	Swedish	PREFERRED
-865907002	Vaccine product containing Clostridium tetani and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Clostridium tetani och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-838490009	Product containing ubrogepant in oral dose form (medicinal product form)	läkemedel som innehåller ubrogepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-860722004	Vaccine product containing Junin virus antigen (medicinal product)	läkemedel som innehåller antigen från juninvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-838486007	Product containing enfortumab vedotin in parenteral dose form (medicinal product form)	läkemedel som innehåller enfortumab vedotin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840519007	Product containing aldehyde dehydrogenase inhibitor (product)	läkemedel som innehåller aldehyddehydrogenashämmare	sv	ci	SYNONYM	Swedish	PREFERRED
-863944000	Product containing precisely osilodrostat (as osilodrostat phosphate) 5 milligram/1 each conventional release oral tablet (clinical drug)	osilodrostat (som osilodrostatfosfat) 5 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-860697007	Product containing only meloxicam in parenteral dose form (medicinal product form)	läkemedel som endast innehåller meloxicam, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838475005	Product containing only lumateperone (medicinal product)	läkemedel som endast innehåller lumateperon	sv	ci	SYNONYM	Swedish	PREFERRED
-846649008	Product containing bromhexine in oral dose form (medicinal product form)	läkemedel som innehåller bromhexin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871709004	Product containing pemigatinib (medicinal product)	läkemedel som innehåller pemigatinib	sv	ci	SYNONYM	Swedish	PREFERRED
-871710009	Product containing precisely tucatinib 50 milligram/1 each conventional release oral tablet (clinical drug)	tukatinib 50 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-840559005	Product containing cetirizine in parenteral dose form (medicinal product form)	läkemedel som innehåller cetirizin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-866031001	Product containing only rabies human immune globulin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller humant immunglobulin mot rabies, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840549009	Vaccine product containing Yersinia pestis antigen (medicinal product)	läkemedel som innehåller antigen från Yersinia pesti	sv	cI	SYNONYM	Swedish	PREFERRED
-870522000	Product containing precisely remdesivir 100 milligram/1 vial powder for conventional release solution for injection (clinical drug)	remdesivir 100 mg/injektionsflaska, pulver till injektionsvätska	sv	cI	SYNONYM	Swedish	PREFERRED
-830064001	Product containing only amoxicillin and omeprazole and rifabutin (medicinal product)	läkemedel som endast innehåller amoxicillin, omeprazol och rifabutin	sv	ci	SYNONYM	Swedish	PREFERRED
-870613009	Product containing precisely bempedoic acid 180 milligram/1 each conventional release oral tablet (clinical drug)	bempedinsyra 180 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-830066004	Product containing only amoxicillin and omeprazole and rifabutin in oral dose form (medicinal product form)	läkemedel som endast innehåller amoxicillin, omeprazol och rifabutin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830101009	Product containing cefiderocol (medicinal product)	läkemedel som innehåller cefiderokol	sv	ci	SYNONYM	Swedish	PREFERRED
-863983003	Product containing precisely midostaurin 25 milligram/1 each conventional release oral capsule (clinical drug)	midostaurin 25 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-864001005	Product containing precisely lomitapide (as lomitapide mesilate) 5 milligram/1 each conventional release oral capsule (clinical drug)	lomitapid (som lomitapidmesylat) 5 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-860770005	Product containing only isatuximab (medicinal product)	läkemedel som endast innehåller isatuximab	sv	ci	SYNONYM	Swedish	PREFERRED
-863940009	Product containing osilodrostat in oral dose form (medicinal product form)	läkemedel som innehåller osilodrostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-864007009	Product containing only lomitapide in oral dose form (medicinal product form)	läkemedel som endast innehåller lomitapid, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840658006	Product containing pirfenidone in oral dose form (medicinal product form)	läkemedel som innehåller pirfenidon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863989004	Product containing precisely panobinostat (as panobinostat lactate) 15 milligram/1 each conventional release oral capsule (clinical drug)	panobinostat (som panobistatlaktat) 15 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836384003	Vaccine product containing Bacillus anthracis antigen (medicinal product)	läkemedel som innehåller antigen från Bacillus anthracis	sv	cI	SYNONYM	Swedish	PREFERRED
-868269009	Product containing precisely colecalciferol 25 microgram/1 each conventional release oral capsule (clinical drug)	kolekalciferol 25 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836506002	Vaccine product containing Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens (medicinal product)	läkemedel som innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-836374004	Vaccine product containing Hepatitis B virus antigen (medicinal product)	läkemedel som innehåller hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-840662000	Product containing precisely lenalidomide 25 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 25 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836494009	Vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	läkemedel som innehåller antigen från mässlingvirus, antigen från påssjukevirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-830246001	Product containing cenobamate in oral dose form (medicinal product form)	läkemedel som innehåller cenobamat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838483004	Product containing only golodirsen (medicinal product)	läkemedel som endast innehåller golodirsen	sv	ci	SYNONYM	Swedish	PREFERRED
-833306009	Product containing voxelotor in oral dose form (medicinal product form)	läkemedel som innehåller voxelotor, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830215000	Product containing only luspatercept in parenteral dose form (medicinal product form)	läkemedel som endast innehåller luspatercept, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836500008	Vaccine product containing only Haemophilus influenzae type B and Neisseria meningitidis serogroup C antigens (medicinal product)	läkemedel som endast innehåller antigen från Haemophilus influenzae typ B och antigen från Neisseria meningitidis grupp C	sv	cI	SYNONYM	Swedish	PREFERRED
-836498007	Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)	läkemedel som innehåller antigen från påssjukevirus	sv	ci	SYNONYM	Swedish	PREFERRED
-860955004	Product containing precisely lasmiditan 50 milligram/1 each conventional release oral tablet (clinical drug)	lasmiditan 50 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-860758006	Product containing only rimegepant (medicinal product)	läkemedel som endast innehåller rimegepant	sv	ci	SYNONYM	Swedish	PREFERRED
-863943006	Product containing precisely osilodrostat (as osilodrostat phosphate) 1 milligram/1 each conventional release oral tablet (clinical drug)	osilodrostat (som osilodrostatfosfat) 1 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-866027007	Product containing isavuconazonium in parenteral dose form (medicinal product form)	läkemedel som innehåller isavukonazonium, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830202009	Product containing crizanlizumab in parenteral dose form (medicinal product form)	läkemedel som innehåller krizanlizumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870494008	Product containing midazolam in oromucosal dose form (medicinal product form)	läkemedel som innehåller midazolam, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
-830204005	Product containing only crizanlizumab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller krizanlizumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-866029005	Product containing eliglustat in oral dose form (medicinal product form)	läkemedel som innehåller eliglustat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836398006	Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)	läkemedel som innehåller antigen från Streptococcus pneumoniae	sv	cI	SYNONYM	Swedish	PREFERRED
-830109006	Product containing mannitol in pulmonary dose form (medicinal product form)	läkemedel som innehåller mannitol, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-846650008	Product containing only bromhexine in oral dose form (medicinal product form)	läkemedel som endast innehåller bromhexin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838479004	Product containing only trastuzumab deruxtecan (medicinal product)	läkemedel som endast innehåller trastuzumab deruxtekan	sv	ci	SYNONYM	Swedish	PREFERRED
-863996002	Product containing precisely ixazomib (as ixazomib citrate) 4 milligram/1 each conventional release oral capsule (clinical drug)	ixazomib (som ixazomibcitrat) 4 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836504004	Vaccine product containing Clostridium tetani and Haemophilus influenzae type B antigens (medicinal product)	läkemedel som innehåller antigen från Clostridium tetani och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-860696003	Product containing meloxicam in parenteral dose form (medicinal product form)	läkemedel som innehåller meloxicam, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830111002	Product containing mesna in pulmonary dose form (medicinal product form)	läkemedel som innehåller mesna, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840408007	Product containing only tazemetostat (medicinal product)	läkemedel som endast innehåller tazemetostat	sv	ci	SYNONYM	Swedish	PREFERRED
-838473003	Product containing only avapritinib in oral dose form (medicinal product form)	läkemedel som endast innehåller avapritinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836460007	Product containing fluorodopa (18-F) (medicinal product)	läkemedel som innehåller fluorodopa (^18^F)	sv	cI	SYNONYM	Swedish	PREFERRED
-840612005	Product containing only autologous cultured chondrocyte (medicinal product)	läkemedel som endast innehåller autolog odlad kondrocyt	sv	ci	SYNONYM	Swedish	PREFERRED
-830103007	Product containing zanubrutinib (medicinal product)	läkemedel som innehåller zanubrutinib	sv	ci	SYNONYM	Swedish	PREFERRED
+951000221102	Vaccine product containing only Neisseria meningitidis serogroup C capsular polysaccharide conjugated antigen (medicinal product)	vaccin som endast innehåller antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp C, konjugerat	sv	cI	SYNONYM	Swedish	PREFERRED
+991000221105	Vaccine product containing only Vibrio cholerae antigen (medicinal product)	vaccin som endast innehåller antigen från Vibrio cholerae	sv	cI	SYNONYM	Swedish	PREFERRED
+961000221100	Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)	vaccin som endast innehåller antigen från Salmonella enterica, underart enterica serovar typhi	sv	cI	SYNONYM	Swedish	PREFERRED
+911000221103	Vaccine product containing only Human papillomavirus antigen (medicinal product)	vaccin som endast innehåller antigen från humant papillomvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871929006	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871911001	Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)	vaccin som endast innehåller antigen från Borrelia burgdorferi	sv	cI	SYNONYM	Swedish	PREFERRED
+871871008	Vaccine product containing only Neisseria meningitidis serogroup A and C antigens (medicinal product)	vaccin som endast innehåller antigen från Neisseria meningitidis grupp A och antigen från Neisseria meningitidis grupp C	sv	cI	SYNONYM	Swedish	PREFERRED
+871917002	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871896006	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871892008	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871878002	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+871895005	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871925000	Vaccine product containing only Hepatitis B virus surface protein antigen (medicinal product)	vaccin som endast innehåller hepatit B-ytantigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871886002	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871839001	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+871890000	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+871928003	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från mässlingvirus och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+91000221102	Vaccine product containing only inactivated whole Hepatitis A virus antigen (medicinal product)	vaccin som endast innehåller antigen från inaktiverat hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
+871888001	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and inactivated whole Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+871908002	Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	vaccin som endast innehåller antigen från mässlingvirus, antigen från påssjukevirus, antigen från rubellavirus och antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+871893003	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+840660008	Product containing precisely lenalidomide 20 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871923007	Vaccine product containing Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Haemophilus influenzae typ B, antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871918007	Vaccine product containing Rickettsia antigen (medicinal product)	vaccin som innehåller rickettsiaantigen	sv	ci	SYNONYM	Swedish	PREFERRED
 868271009	Product containing precisely colecalciferol 625 microgram/1 each conventional release oral capsule (clinical drug)	kolekalciferol 625 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870497001	Product containing naloxone in oromucosal dose form (medicinal product form)	läkemedel som innehåller naloxon, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)',
+  sourceId: '871883005',
+  term: 'barndom',
+  typeId: '860781008'
+}
+871883005	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+871817003	Vaccine product containing only Measles morbillivirus and Rubella virus antigens (medicinal product)	vaccin som endast innehåller antigen från mässlingvirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871875004	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+871916006	Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular oligosaccharide conjugated antigens (medicinal product)	vaccin som endast innehåller antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp A, konjugerat, antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp C, konjugerat, antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp W135, konjugerat och antigen, kapseloligosackarid från Neisseria meningitidis, serogrupp Y, konjugerat	sv	cI	SYNONYM	Swedish	PREFERRED
+871765008	Vaccine product containing only Measles morbillivirus antigen (medicinal product)	vaccin som endast innehåller antigen från mässlingvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871713006	Product containing tucatinib in oral dose form (medicinal product form)	läkemedel som innehåller tukatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870522000	Product containing precisely remdesivir 100 milligram/1 vial powder for conventional release solution for injection (clinical drug)	remdesivir 100 mg/injektionsflaska, pulver till injektionsvätska	sv	cI	SYNONYM	Swedish	PREFERRED
+871796004	Product containing precisely ozanimod (as ozanimod hydrochloride) 460 microgram/1 each conventional release oral capsule (clinical drug)	ozanimod (som ozanimodhydroklorid) 460 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871764007	Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)	vaccin som endast innehåller antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+921000221108	Vaccine product containing only Neisseria meningitidis antigen (medicinal product)	vaccin som endast innehåller antigen från Neisseria meningitidis	sv	cI	SYNONYM	Swedish	PREFERRED
+870491000	Product containing growth hormone receptor antagonist (product)	läkemedel som innehåller tillväxthormonreceptorantagonist	sv	ci	SYNONYM	Swedish	PREFERRED
+871894009	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+860697007	Product containing only meloxicam in parenteral dose form (medicinal product form)	läkemedel som endast innehåller meloxicam, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840616008	Product containing autologous cultured chondrocyte in parenteral dose form (medicinal product form)	läkemedel som innehåller autolog odlad kondrocyt, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871723002	Vaccine product containing only Coxiella burnetii antigen (medicinal product)	vaccin som endast innehåller antigen från Coxiella burnetii	sv	cI	SYNONYM	Swedish	PREFERRED
+836381006	Vaccine product containing Corynebacterium diphtheriae antigen (medicinal product)	vaccin som innehåller antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+871800005	Product containing ozanimod (medicinal product)	läkemedel som innehåller ozanimod	sv	ci	SYNONYM	Swedish	PREFERRED
+840599008	Vaccine product containing Borrelia burgdorferi antigen (medicinal product)	vaccin som innehåller antigen från Borrelia burgdorferi	sv	cI	SYNONYM	Swedish	PREFERRED
+833307000	Product containing only voxelotor in oral dose form (medicinal product form)	läkemedel som endast innehåller voxelotor, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863941008	Product containing only osilodrostat in oral dose form (medicinal product form)	läkemedel som endast innehåller osilodrostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863945004	Product containing precisely osilodrostat (as osilodrostat phosphate) 10 milligram/1 each conventional release oral tablet (clinical drug)	osilodrostat (som osilodrostatfosfat) 10 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+871790005	Product containing only eptinezumab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller eptinezumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870487005	Product containing sulfadiazine in cutaneous dose form (medicinal product form)	läkemedel som innehåller sulfadiazin, kutan läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+838492001	Product containing lemborexant (medicinal product)	läkemedel som innehåller lemborexant	sv	ci	SYNONYM	Swedish	PREFERRED
+871703003	Product containing precisely pemigatinib 4.5 milligram/1 each conventional release oral tablet (clinical drug)	pemigatinib 4,5 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+870615002	Product containing bempedoic acid and ezetimibe (medicinal product)	läkemedel som innehåller bempedinsyra och ezetimib	sv	ci	SYNONYM	Swedish	PREFERRED
+863988007	Product containing precisely panobinostat (as panobinostat lactate) 10 milligram/1 each conventional release oral capsule (clinical drug)	panobinostat (som panobistatlaktat) 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+840551008	Vaccine product containing Francisella tularensis antigen (medicinal product)	vaccin som innehåller antigen från Francisella tularensis	sv	cI	SYNONYM	Swedish	PREFERRED
+863940009	Product containing osilodrostat in oral dose form (medicinal product form)	läkemedel som innehåller osilodrostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871549005	Product containing equine diphtheria antitoxin in parenteral dose form (medicinal product form)	läkemedel som innehåller antitoxin mot difteri utvunnet från häst, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871889009	Vaccine product containing only acellular Bordetella pertussis and Corynebacterium diphtheriae and Hepatitis B virus and inactivated whole Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Corynebacterium diphtheriae, antigen från inaktiverat helt humant poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871838009	Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från inaktiverat helt humant poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+840659003	Product containing only pirfenidone in oral dose form (medicinal product form)	läkemedel som endast innehåller pirfenidon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871761004	Vaccine product containing only Rotavirus antigen (medicinal product)	vaccin som endast innehåller antigen från rotavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+863999009	Product containing precisely ixazomib (as ixazomib citrate) 2.3 milligram/1 each conventional release oral capsule (clinical drug)	ixazomib (som ixazomibcitrat) 2,3 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '41847000',
+  groupId: 0,
+  sourceFSN: 'Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)',
+  sourceId: '865997008',
+  term: 'vuxen ålder',
+  typeId: '860781008'
+}
+865997008	Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)	vaccin som endast innehåller antigen från hepatit A-virus, för vuxna	sv	cI	SYNONYM	Swedish	PREFERRED
+860696003	Product containing meloxicam in parenteral dose form (medicinal product form)	läkemedel som innehåller meloxicam, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863994004	Product containing precisely eliglustat (as eliglustat tartrate) 84 milligram/1 each conventional release oral capsule (clinical drug)	eliglustat (som eliglustattartrat) 84 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870518005	Product containing remdesivir (medicinal product)	läkemedel som innehåller remdesivir	sv	ci	SYNONYM	Swedish	PREFERRED
+871711008	Product containing precisely tucatinib 150 milligram/1 each conventional release oral tablet (clinical drug)	tukatinib 150 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+871799006	Product containing only ozanimod in oral dose form (medicinal product form)	läkemedel som endast innehåller ozanimod, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871725009	Vaccine product containing only inactivated whole Japanese encephalitis virus antigen (medicinal product)	vaccin som endast innehåller antigen från inaktiverat japanskt encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+864002003	Product containing precisely lomitapide (as lomitapide mesilate) 10 milligram/1 each conventional release oral capsule (clinical drug)	lomitapid (som lomitapidmesylat) 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+860942000	Product containing fibric acid and fibric acid derivative (medicinal product)	läkemedel som innehåller fibrinsyra och dess derivat	sv	ci	SYNONYM	Swedish	PREFERRED
+840611003	Product containing autologous cultured chondrocyte (medicinal product)	läkemedel som innehåller autolog odlad kondrocyt	sv	ci	SYNONYM	Swedish	PREFERRED
+870617005	Product containing bempedoic acid and ezetimibe in oral dose form (medicinal product form)	läkemedel som innehåller bempedinsyra och ezetimib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840697003	Product containing precisely dabigatran etexilate (as dabigatran etexilate mesilate) 150 milligram/1 each conventional release oral capsule (clinical drug)	dabigatranetexilat (som dabigatranetexilatmesylat) 150 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+836505003	Vaccine product containing Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+840652007	Product containing precisely pirfenidone 267 milligram/1 each conventional release oral tablet (clinical drug)	pirfenidon 267 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+838480001	Product containing trastuzumab deruxtecan in parenteral dose form (medicinal product form)	läkemedel som innehåller trastuzumab deruxtekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836421005	Vaccine product containing Ebolavirus antigen (medicinal product)	vaccin som innehåller antigen från ebolavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871712001	Product containing only tucatinib in oral dose form (medicinal product form)	läkemedel som endast innehåller tukatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871759008	Vaccine product containing only acellular Bordetella pertussis antigen (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
+863939007	Product containing only osilodrostat (medicinal product)	läkemedel som endast innehåller osilodrostat	sv	ci	SYNONYM	Swedish	PREFERRED
+871724008	Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)	vaccin som endast innehåller antigen från japanskt encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+860587009	Product containing precisely dabigatran etexilate (as dabigatran etexilate mesilate) 110 milligram/1 each conventional release oral capsule (clinical drug)	dabigatranetexilat (som dabigatranetexilatmesylat) 110 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+836383009	Vaccine product containing Vibrio cholerae antigen (medicinal product)	vaccin som innehåller antigen från Vibrio cholerae	sv	cI	SYNONYM	Swedish	PREFERRED
+860818003	Vaccine product containing only Bacillus anthracis antigen (medicinal product)	vaccin som endast innehåller antigen från Bacillus anthracis	sv	cI	SYNONYM	Swedish	PREFERRED
+836463009	Product containing only fluorodopa (18-F) in parenteral dose form (medicinal product form)	läkemedel som endast innehåller fluorodopa (^18^F), parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+871822003	Vaccine product containing only Hepatitis B virus antigen (medicinal product)	vaccin som endast innehåller hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+863985005	Product containing precisely palbociclib 75 milligram/1 each conventional release oral capsule (clinical drug)	palbociklib 75 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871801009	Product containing only ozanimod (medicinal product)	läkemedel som endast innehåller ozanimod	sv	ci	SYNONYM	Swedish	PREFERRED
+863944000	Product containing precisely osilodrostat (as osilodrostat phosphate) 5 milligram/1 each conventional release oral tablet (clinical drug)	osilodrostat (som osilodrostatfosfat) 5 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+840559005	Product containing cetirizine in parenteral dose form (medicinal product form)	läkemedel som innehåller cetirizin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+868272002	Product containing precisely colecalciferol 625 microgram/1 milliliter conventional release oral solution (clinical drug)	kolekalciferol 625 mikrog/ml, oral lösning	sv	cI	SYNONYM	Swedish	PREFERRED
+840557007	Product containing only asenapine in transdermal dose form (medicinal product form)	läkemedel som endast innehåller asenapin, transdermal läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+846648000	Product containing only bromhexine (medicinal product)	läkemedel som endast innehåller bromhexin	sv	ci	SYNONYM	Swedish	PREFERRED
+838494000	Product containing lemborexant in oral dose form (medicinal product form)	läkemedel som innehåller lemborexant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+860759003	Product containing only rimegepant in oral dose form (medicinal product form)	läkemedel som endast innehåller rimegepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+864004002	Product containing only lomitapide (medicinal product)	läkemedel som endast innehåller lomitapid	sv	ci	SYNONYM	Swedish	PREFERRED
+871720004	Vaccine product containing only Dengue virus antigen (medicinal product)	vaccin som endast innehåller antigen från denguevirus	sv	ci	SYNONYM	Swedish	PREFERRED
+836377006	Vaccine product containing Influenza virus antigen (medicinal product)	vaccin som innehåller antigen från influensavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871708007	Product containing only pemigatinib (medicinal product)	läkemedel som endast innehåller pemigatinib	sv	ci	SYNONYM	Swedish	PREFERRED
+838488008	Product containing ubrogepant (medicinal product)	läkemedel som innehåller ubrogepant	sv	ci	SYNONYM	Swedish	PREFERRED
+836369007	Vaccine product containing virus antigen (medicinal product)	vaccin som innehåller virusantigen	sv	ci	SYNONYM	Swedish	PREFERRED
+871729003	Vaccine product containing only Corynebacterium diphtheriae antigen (medicinal product)	vaccin som endast innehåller antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+836503005	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+865906006	Vaccine product containing Measles morbillivirus and Rubella virus antigens (medicinal product)	vaccin som innehåller antigen från mässlingvirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+840399007	Product containing teprotumumab in parenteral dose form (medicinal product form)	läkemedel som innehåller teprotumumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871812009	Product containing sacituzumab govitecan (medicinal product)	läkemedel som innehåller sacituzumabgovitekan	sv	ci	SYNONYM	Swedish	PREFERRED
+863991007	Product containing precisely panobinostat (as panobinostat lactate) 20 milligram/1 each conventional release oral capsule (clinical drug)	panobinostat (som panobistatlaktat) 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871813004	Product containing only sacituzumab govitecan (medicinal product)	läkemedel som endast innehåller sacituzumabgovitekan	sv	ci	SYNONYM	Swedish	PREFERRED
+866030000	Product containing only eliglustat in oral dose form (medicinal product form)	läkemedel som endast innehåller eliglustat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840654008	Product containing precisely pirfenidone 801 milligram/1 each conventional release oral tablet (clinical drug)	pirfenidon 801 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+866028002	Product containing only isavuconazonium in parenteral dose form (medicinal product form)	läkemedel som endast innehåller isavukonazonium, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871825001	Vaccine product containing only inactivated whole Japanese encephalitis virus antigen adsorbed (medicinal product)	vaccin som endast innehåller antigen från inaktiverat helt japanskt encefalitvirus, adsorberat	sv	ci	SYNONYM	Swedish	PREFERRED
+871755002	Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide Vi antigen (medicinal product)	vaccin som endast innehåller antigen från Salmonella Typhi Vi (kapsulärt)	sv	cI	SYNONYM	Swedish	PREFERRED
 864003008	Product containing lomitapide (medicinal product)	läkemedel som innehåller lomitapid	sv	ci	SYNONYM	Swedish	PREFERRED
-836401009	Vaccine product containing Neisseria meningitidis antigen (medicinal product)	läkemedel som innehåller antigen från Neisseria meningitidis	sv	cI	SYNONYM	Swedish	PREFERRED
-830210005	Product containing only zanubrutinib in oral dose form (medicinal product form)	läkemedel som endast innehåller zanubrutinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-860772002	Product containing only isatuximab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller isatuximab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863938004	Product containing osilodrostat (medicinal product)	läkemedel som innehåller osilodrostat	sv	ci	SYNONYM	Swedish	PREFERRED
-830206007	Product containing cefiderocol in parenteral dose form (medicinal product form)	läkemedel som innehåller cefiderokol, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830242004	Product containing givosiran in parenteral dose form (medicinal product form)	läkemedel som innehåller givosiran, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870502004	Product containing tetracaine in oromucosal dose form (medicinal product form)	läkemedel som innehåller tetrakain, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
+860770005	Product containing only isatuximab (medicinal product)	läkemedel som endast innehåller isatuximab	sv	ci	SYNONYM	Swedish	PREFERRED
+871827009	Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+871837004	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+871803007	Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)	vaccin som endast innehåller antigen från hepatit A-virus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871804001	Vaccine product containing only Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens (medicinal product)	vaccin som endast innehåller antigen från Salmonella enterica, underart enterica serovar typhi och antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
+840656005	Product containing precisely stiripentol 500 milligram/1 each conventional release oral capsule (clinical drug)	stiripentol 500 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870614003	Product containing precisely bempedoic acid 180 milligram and ezetimibe 10 milligram/1 each conventional release oral tablet (clinical drug)	bempedinsyra 180 mg och ezetimib 10 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+838474009	Product containing lumateperone (medicinal product)	läkemedel som innehåller lumateperon	sv	ci	SYNONYM	Swedish	PREFERRED
+870520008	Product containing remdesivir in parenteral dose form (medicinal product form)	läkemedel som innehåller remdesivir, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836461006	Product containing only fluorodopa (18-F) (medicinal product)	läkemedel som endast innehåller fluorodopa (^18^F)	sv	cI	SYNONYM	Swedish	PREFERRED
+840613000	Product containing precisely autologous cultured chondrocyte 30 million unit/1 milliliter conventional release intraarticular implant (clinical drug)	autolog odlad kondrocyt 30 miljonenheter/ml, intraartikulärt implantat med normal frisättning	sv	cI	SYNONYM	Swedish	PREFERRED
+840519007	Product containing aldehyde dehydrogenase inhibitor (product)	läkemedel som innehåller aldehyddehydrogenashämmare	sv	ci	SYNONYM	Swedish	PREFERRED
+871531005	Medicinal product acting as passive immunity stimulant (product)	läkemedel med behandlingsfunktion som stimulerande medel för passiv immunisering	sv	ci	SYNONYM	Swedish	PREFERRED
+871721000	Vaccine product containing only Ebolavirus antigen (medicinal product)	vaccin som endast innehåller antigen från ebolavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+863989004	Product containing precisely panobinostat (as panobinostat lactate) 15 milligram/1 each conventional release oral capsule (clinical drug)	panobinostat (som panobistatlaktat) 15 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+836499004	Vaccine product containing Measles morbillivirus and Mumps orthorubulavirus antigens (medicinal product)	vaccin som innehåller antigen från mässlingvirus och antigen från påssjukevirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871814005	Product containing sacituzumab govitecan in parenteral dose form (medicinal product form)	läkemedel som innehåller sacituzumabgovitekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840661007	Product containing precisely lenalidomide 2.5 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 2,5 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+864000006	Product containing precisely silver sulfadiazine 10 milligram/1 gram conventional release cutaneous cream (clinical drug)	silversulfadiazin 10 mg/g, hudkräm	sv	cI	SYNONYM	Swedish	PREFERRED
+870756009	Product containing selumetinib in oral dose form (medicinal product form)	läkemedel som innehåller selumetinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863983003	Product containing precisely midostaurin 25 milligram/1 each conventional release oral capsule (clinical drug)	midostaurin 25 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871772009	Vaccine product containing only Influenza A virus subtype H1N1 antigen (medicinal product)	vaccin som endast innehåller antigen från influensavirus A, subtyp H1N1	sv	cI	SYNONYM	Swedish	PREFERRED
+860955004	Product containing precisely lasmiditan 50 milligram/1 each conventional release oral tablet (clinical drug)	lasmiditan 50 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+840617004	Product containing only autologous cultured chondrocyte in parenteral dose form (medicinal product form)	läkemedel som endast innehåller autolog odlad kondrocyt, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840655009	Product containing precisely pirfenidone 267 milligram/1 each conventional release oral capsule (clinical drug)	pirfenidon 267 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871787004	Product containing eptinezumab (medicinal product)	läkemedel som innehåller eptinezumab	sv	ci	SYNONYM	Swedish	PREFERRED
+871704009	Product containing precisely pemigatinib 9 milligram/1 each conventional release oral tablet (clinical drug)	pemigatinib 9 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+863950005	Vaccine product containing bacteria and virus antigens (medicinal product)	vaccin som innehåller bakteriellt antigen och virusantigen	sv	ci	SYNONYM	Swedish	PREFERRED
+836507006	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+864008004	Product containing only silver sulfadiazine (medicinal product)	läkemedel som endast innehåller silversulfadiazin	sv	ci	SYNONYM	Swedish	PREFERRED
+860730003	Product containing amisulpride in parenteral dose form (medicinal product form)	läkemedel som innehåller amisulprid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836385002	Vaccine product containing Yellow fever virus antigen (medicinal product)	vaccin som innehåller antigen från gula febern-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+870616001	Product containing only bempedoic acid and ezetimibe (medicinal product)	läkemedel som endast innehåller bempedinsyra och ezetimib	sv	ci	SYNONYM	Swedish	PREFERRED
+871797008	Product containing precisely ozanimod (as ozanimod hydrochloride) 920 microgram/1 each conventional release oral capsule (clinical drug)	ozanimod (som ozanimodhydroklorid) 920 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871722007	Vaccine product containing only Adenovirus antigen (medicinal product)	vaccin som endast innehåller antigen från adenovirus	sv	ci	SYNONYM	Swedish	PREFERRED
+836466001	Product containing only enfortumab vedotin (medicinal product)	läkemedel som endast innehåller enfortumab vedotin	sv	ci	SYNONYM	Swedish	PREFERRED
+871714000	Product containing only tucatinib (medicinal product)	läkemedel som endast innehåller tukatinib	sv	ci	SYNONYM	Swedish	PREFERRED
+838486007	Product containing enfortumab vedotin in parenteral dose form (medicinal product form)	läkemedel som innehåller enfortumab vedotin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+860928008	Product containing psyllium and psyllium derivative (product)	läkemedel som innehåller psyllium och dess derivat	sv	ci	SYNONYM	Swedish	PREFERRED
+836390004	Vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)	vaccin som innehåller antigen från Salmonella enterica, underart enterica serovar typhi	sv	cI	SYNONYM	Swedish	PREFERRED
+860769009	Product containing isatuximab (medicinal product)	läkemedel som innehåller isatuximab	sv	ci	SYNONYM	Swedish	PREFERRED
+871547007	Product containing equine diphtheria antitoxin (medicinal product)	läkemedel som innehåller antitoxin mot difteri utvunnet från häst	sv	ci	SYNONYM	Swedish	PREFERRED
+871740006	Vaccine product containing only inactivated whole Human poliovirus antigen (medicinal product)	vaccin som endast innehåller antigen från inaktiverat helt humant poliovirus	sv	ci	SYNONYM	Swedish	PREFERRED
+836402002	Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)	vaccin som innehåller antigen från Bacillus Calmette-Guerin	sv	cI	SYNONYM	Swedish	PREFERRED
+840668001	Product containing precisely lenvatinib (as lenvatinib mesilate) 4 milligram/1 each conventional release oral capsule (clinical drug)	lenvatinib (som lenvatinibmesylat) 4 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871726005	Vaccine product containing only Rabies lyssavirus antigen (medicinal product)	vaccin som endast innehåller antigen från rabiesvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871718002	Vaccine product containing only Yersinia pestis antigen (medicinal product)	vaccin som endast innehåller antigen från Yersinia pesti	sv	cI	SYNONYM	Swedish	PREFERRED
+840650004	Product containing precisely ibuprofen 100 milligram/1 each conventional release chewable capsule (clinical drug)	ibuprofen 100 mg, tuggbar kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871831003	Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	vaccin som endast innehåller antigen från mässlingvirus, antigen från påssjukevirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+864012005	Product containing precisely cabozantinib (as cabozantinib s-malate) 20 milligram/1 each conventional release oral capsule (clinical drug)	kabozantinib (som kabozantinib S-malat) 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870503009	Product containing afamelanotide in parenteral dose form (medicinal product form)	läkemedel som innehåller afamelanotid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871788009	Product containing only eptinezumab (medicinal product)	läkemedel som endast innehåller eptinezumab	sv	ci	SYNONYM	Swedish	PREFERRED
+871719005	Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)	vaccin som endast innehåller antigen från fästingburet encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+840657001	Product containing precisely stiripentol 250 milligram/1 each conventional release oral capsule (clinical drug)	stiripentol 250 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+840563003	Vaccine product containing Dengue virus antigen (medicinal product)	vaccin som innehåller antigen från denguevirus	sv	ci	SYNONYM	Swedish	PREFERRED
+870618000	Product containing only bempedoic acid and ezetimibe in oral dose form (medicinal product form)	läkemedel som endast innehåller bempedinsyra och ezetimib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
 863984009	Product containing precisely palbociclib 125 milligram/1 each conventional release oral capsule (clinical drug)	palbociklib 125 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-840400000	Product containing only teprotumumab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller teprotumumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836378001	Vaccine product containing Japanese encephalitis virus antigen (medicinal product)	läkemedel som innehåller antigen från japanskt encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-838485006	Product containing only golodirsen in parenteral dose form (medicinal product form)	läkemedel som endast innehåller golodirsen, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836491001	Product containing only mycophenolic acid in parenteral dose form (medicinal product form)	läkemedel som endast innehåller mykofenolsyra, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871717007	Vaccine product containing only Yellow fever virus antigen (medicinal product)	vaccin som endast innehåller antigen från gula febern-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+866027007	Product containing isavuconazonium in parenteral dose form (medicinal product form)	läkemedel som innehåller isavukonazonium, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836400005	Vaccine product containing Adenovirus antigen (medicinal product)	vaccin som innehåller antigen från adenovirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871715004	Product containing tucatinib (medicinal product)	läkemedel som innehåller tukatinib	sv	ci	SYNONYM	Swedish	PREFERRED
+836388000	Vaccine product containing Rubella virus antigen (medicinal product)	vaccin som innehåller antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+865888008	Product containing precisely nintedanib (as nintedanib esilate) 100 milligram/1 each conventional release oral capsule (clinical drug)	nintedanib (som nintedanibesilat) 100 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870488000	Product containing orexin receptor antagonist (product)	läkemedel som innehåller orexinreceptorantagonist	sv	ci	SYNONYM	Swedish	PREFERRED
+863986006	Product containing precisely palbociclib 100 milligram/1 each conventional release oral capsule (clinical drug)	palbociklib 100 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871806004	Vaccine product containing only Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	vaccin som endast innehåller antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+838279002	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+840698008	Product containing precisely dabigatran etexilate (as dabigatran etexilate mesilate) 75 milligram/1 each conventional release oral capsule (clinical drug)	dabigatranetexilat (som dabigatranetexilatmesylat) 75 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+838409003	Product containing avapritinib (medicinal product)	läkemedel som innehåller avapritinib	sv	ci	SYNONYM	Swedish	PREFERRED
+871533008	Product containing only tetanus immunoglobulin of human origin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller humant immunglobulin mot stelkramp, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only Hepatitis A virus antigen (medicinal product)',
+  sourceId: '871750007',
+  term: 'barndom',
+  typeId: '860781008'
+}
+871750007	Pediatric vaccine product containing only Hepatitis A virus antigen (medicinal product)	vaccin som endast innehåller antigen från hepatit A-virus, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+871758000	Vaccine product containing only Bordetella pertussis antigen (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
+870493002	Product containing amikacin liposome in pulmonary dose form (medicinal product form)	läkemedel som innehåller amikacinliposom, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+868270005	Product containing precisely colecalciferol 175 microgram/1 each conventional release oral capsule (clinical drug)	kolekalciferol 175 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870498006	Product containing sufentanil in oromucosal dose form (medicinal product form)	läkemedel som innehåller sufentanil, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
+865886007	Product containing precisely cabozantinib (as cabozantinib s-malate) 80 milligram/1 each conventional release oral capsule (clinical drug)	kabozantinib (som kabozantinib S-malat) 80 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870489008	Product containing serotonin receptor agonist (product)	läkemedel som innehåller serotoninreceptoragonist	sv	ci	SYNONYM	Swedish	PREFERRED
+840397009	Product containing teprotumumab (medicinal product)	läkemedel som innehåller teprotumumab	sv	ci	SYNONYM	Swedish	PREFERRED
+833305008	Product containing only voxelotor (medicinal product)	läkemedel som endast innehåller voxelotor	sv	ci	SYNONYM	Swedish	PREFERRED
+836493003	Vaccine product containing Hepatitis A and Hepatitis B virus antigens (medicinal product)	vaccin som innehåller antigen från hepatit A-virus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+870611006	Product containing bempedoic acid in oral dose form (medicinal product form)	läkemedel som innehåller bempedinsyra, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836495005	Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)	vaccin som innehåller antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+870519002	Product containing only remdesivir (medicinal product)	läkemedel som endast innehåller remdesivir	sv	ci	SYNONYM	Swedish	PREFERRED
+860757001	Product containing rimegepant (medicinal product)	läkemedel som innehåller rimegepant	sv	ci	SYNONYM	Swedish	PREFERRED
+870753001	Product containing selumetinib (medicinal product)	läkemedel som innehåller selumetinib	sv	ci	SYNONYM	Swedish	PREFERRED
+836397001	Vaccine product containing Coxiella burnetii antigen (medicinal product)	vaccin som innehåller antigen från Coxiella burnetii	sv	cI	SYNONYM	Swedish	PREFERRED
+871830002	Vaccine product containing Corynebacterium diphtheriae toxoid antigen (medicinal product)	vaccin som innehåller antigen från inaktiverat toxin från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+838472008	Product containing avapritinib in oral dose form (medicinal product form)	läkemedel som innehåller avapritinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+860771009	Product containing isatuximab in parenteral dose form (medicinal product form)	läkemedel som innehåller isatuximab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871716003	Vaccine product containing only Francisella tularensis antigen (medicinal product)	vaccin som endast innehåller antigen från Francisella tularensis	sv	cI	SYNONYM	Swedish	PREFERRED
+871738001	Vaccine product containing only live attenuated Mumps orthorubulavirus antigen (medicinal product)	vaccin som endast innehåller antigen från levande försvagat påsjuke-ortorubulavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+870495009	Product containing minocycline in oromucosal dose form (medicinal product form)	läkemedel som innehåller minocyklin, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
+863997006	Product containing precisely ixazomib (as ixazomib citrate) 3 milligram/1 each conventional release oral capsule (clinical drug)	ixazomib (som ixazomibcitrat) 3 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+836490000	Product containing only afamelanotide in parenteral dose form (medicinal product form)	läkemedel som endast innehåller afamelanotid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871706006	Product containing only pemigatinib in oral dose form (medicinal product form)	läkemedel som endast innehåller pemigatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871766009	Vaccine product containing only live attenuated Measles morbillivirus antigen (medicinal product)	vaccin som endast innehåller antigen från levande försvagat mässlingvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+840407002	Product containing tazemetostat (medicinal product)	läkemedel som innehåller tazemetostat	sv	ci	SYNONYM	Swedish	PREFERRED
+870609002	Product containing bempedoic acid (medicinal product)	läkemedel som innehåller bempedinsyra	sv	ci	SYNONYM	Swedish	PREFERRED
+871550005	Product containing only equine diphtheria antitoxin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller antitoxin mot difteri utvunnet från häst, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863981001	Product containing precisely nitisinone 20 milligram/1 each conventional release oral capsule (clinical drug)	nitisinon 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870521007	Product containing only remdesivir in parenteral dose form (medicinal product form)	läkemedel som endast innehåller remdesivir, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870613009	Product containing precisely bempedoic acid 180 milligram/1 each conventional release oral tablet (clinical drug)	bempedinsyra 180 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+840663005	Product containing precisely lenalidomide 15 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 15 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+838482009	Product containing golodirsen (medicinal product)	läkemedel som innehåller golodirsen	sv	ci	SYNONYM	Swedish	PREFERRED
+871768005	Vaccine product containing only Influenza virus antigen in nasal dose form (medicinal product)	vaccin som endast innehåller antigen från influensavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871816007	Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+864010002	Product containing precisely isavuconazole (as isavuconazonium sulfate) 200 milligram/1 vial powder for conventional release solution for injection (clinical drug)	isavukonazol (som isavukonazoniumsulfat) 200 mg/injektionsflaska, pulver till injektionsvätska	sv	cI	SYNONYM	Swedish	PREFERRED
+863911006	Vaccine product containing Clostridium tetani antigen (medicinal product)	vaccin som innehåller antigen från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
+871795000	Product containing precisely ozanimod (as ozanimod hydrochloride) 230 microgram/1 each conventional release oral capsule (clinical drug)	ozanimod (som ozanimodhydroklorid) 230 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+838484005	Product containing golodirsen in parenteral dose form (medicinal product form)	läkemedel som innehåller golodirsen, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+865946000	Vaccine product containing Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	vaccin som innehåller antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+840564009	Vaccine product containing Leptospira antigen (medicinal product)	vaccin som innehåller Leptospiraantigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871710009	Product containing precisely tucatinib 50 milligram/1 each conventional release oral tablet (clinical drug)	tukatinib 50 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+836379009	Vaccine product containing Human papillomavirus antigen (medicinal product)	vaccin som innehåller antigen från humant papillomvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871789001	Product containing eptinezumab in parenteral dose form (medicinal product form)	läkemedel som innehåller eptinezumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871826000	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+871732000	Vaccine product containing only Rubella virus antigen (medicinal product)	vaccin som endast innehåller antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+840666002	Product containing only erdosteine in oral dose form (medicinal product form)	läkemedel som endast innehåller erdostein, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+838490009	Product containing ubrogepant in oral dose form (medicinal product form)	läkemedel som innehåller ubrogepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870758005	Product containing precisely selumetinib 25 milligram/1 each conventional release oral capsule (clinical drug)	selumetinib 25 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+840409004	Product containing tazemetostat in oral dose form (medicinal product form)	läkemedel som innehåller tazemetostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+838476006	Product containing only lumateperone in oral dose form (medicinal product form)	läkemedel som endast innehåller lumateperon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+846649008	Product containing bromhexine in oral dose form (medicinal product form)	läkemedel som innehåller bromhexin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+838478007	Product containing trastuzumab deruxtecan (medicinal product)	läkemedel som innehåller trastuzumab deruxtekan	sv	ci	SYNONYM	Swedish	PREFERRED
+836375003	Vaccine product containing Hepatitis A virus antigen (medicinal product)	vaccin som innehåller antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
+846647005	Product containing bromhexine (medicinal product)	läkemedel som innehåller bromhexin	sv	ci	SYNONYM	Swedish	PREFERRED
+836501007	Vaccine product containing Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens (medicinal product)	vaccin som innehåller antigen från Salmonella enterica, underart enterica serovar typhi och antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
+830241006	Product containing only givosiran (medicinal product)	läkemedel som endast innehåller givosiran	sv	ci	SYNONYM	Swedish	PREFERRED
+830102002	Product containing crizanlizumab (medicinal product)	läkemedel som innehåller krizanlizumab	sv	ci	SYNONYM	Swedish	PREFERRED
+830245002	Product containing only cenobamate (medicinal product)	läkemedel som endast innehåller cenobamat	sv	ci	SYNONYM	Swedish	PREFERRED
+836361005	Product containing only cysteine in parenteral dose form (medicinal product form)	läkemedel som endast innehåller cystein, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830207003	Product containing only cefiderocol in parenteral dose form (medicinal product form)	läkemedel som endast innehåller cefiderokol, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830205006	Product containing only cefiderocol (medicinal product)	läkemedel som endast innehåller cefiderokol	sv	ci	SYNONYM	Swedish	PREFERRED
+830203004	Product containing only crizanlizumab (medicinal product)	läkemedel som endast innehåller krizanlizumab	sv	ci	SYNONYM	Swedish	PREFERRED
+830110001	Product containing only mesna in pulmonary dose form (medicinal product form)	läkemedel som endast innehåller mesna, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+866255003	Product containing precisely glucosamine (as glucosamine sulfate potassium chloride) 400 milligram/1 each conventional release oral capsule (clinical drug)	glukosamin (som glukosaminsulfatkaliumklorid) 400 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+830243009	Product containing only givosiran in parenteral dose form (medicinal product form)	läkemedel som endast innehåller givosiran, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830209000	Product containing zanubrutinib in oral dose form (medicinal product form)	läkemedel som innehåller zanubrutinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830063007	Product containing amoxicillin and omeprazole and rifabutin (medicinal product)	läkemedel som innehåller amoxicillin, omeprazol och rifabutin	sv	ci	SYNONYM	Swedish	PREFERRED
+830100005	Product containing givosiran (medicinal product)	läkemedel som innehåller givosiran	sv	ci	SYNONYM	Swedish	PREFERRED
+830214001	Product containing luspatercept in parenteral dose form (medicinal product form)	läkemedel som innehåller luspatercept, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871743008	Product containing Cytomegalovirus antibody in parenteral dose form (medicinal product form)	läkemedel som innehåller antikropp mot cytomegalovirus, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+866031001	Product containing only rabies human immune globulin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller humant immunglobulin mot rabies, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830211009	Product containing luspatercept (medicinal product)	läkemedel som innehåller luspatercept	sv	ci	SYNONYM	Swedish	PREFERRED
+871548002	Product containing only equine diphtheria antitoxin (medicinal product)	läkemedel som endast innehåller antitoxin mot difteri utvunnet från häst	sv	ci	SYNONYM	Swedish	PREFERRED
+864006000	Product containing precisely lomitapide (as lomitapide mesilate) 20 milligram/1 each conventional release oral capsule (clinical drug)	lomitapid (som lomitapidmesylat) 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+840558002	Product containing only cetirizine in parenteral dose form (medicinal product form)	läkemedel som endast innehåller cetirizin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+866029005	Product containing eliglustat in oral dose form (medicinal product form)	läkemedel som innehåller eliglustat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871737006	Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)	vaccin som endast innehåller antigen från påssjukevirus	sv	ci	SYNONYM	Swedish	PREFERRED
+830045007	Product containing only dapagliflozin and metformin and saxagliptin in oral dose form (medicinal product form)	läkemedel som endast innehåller dapagliflozin, metformin och saxagliptin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+787859002	Vaccine product (medicinal product)	vaccin	sv	ci	SYNONYM	Swedish	PREFERRED
+830247005	Product containing only cenobamate in oral dose form (medicinal product form)	läkemedel som endast innehåller cenobamat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830065000	Product containing amoxicillin and omeprazole and rifabutin in oral dose form (medicinal product form)	läkemedel som innehåller amoxicillin, omeprazol och rifabutin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830108003	Product containing only mannitol in pulmonary dose form (medicinal product form)	läkemedel som endast innehåller mannitol, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+860722004	Vaccine product containing Junin virus antigen (medicinal product)	vaccin som innehåller antigen från juninvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+860760008	Product containing rimegepant in oral dose form (medicinal product form)	läkemedel som innehåller rimegepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840664004	Product containing precisely erdosteine 300 milligram/1 each conventional release oral capsule (clinical drug)	erdostein 300 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+846650008	Product containing only bromhexine in oral dose form (medicinal product form)	läkemedel som endast innehåller bromhexin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+865907002	Vaccine product containing Clostridium tetani and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Clostridium tetani och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '262459003',
+  groupId: 0,
+  sourceFSN: 'Low dose vaccine product containing only Corynebacterium diphtheriae antigen (medicinal product)',
+  sourceId: '871730008',
+  term: 'låg dos',
+  typeId: '860781008'
+}
+871730008	Low dose vaccine product containing only Corynebacterium diphtheriae antigen (medicinal product)	vaccin som endast innehåller antigen från Corynebacterium diphtheriae, lågdos	sv	cI	SYNONYM	Swedish	PREFERRED
+864007009	Product containing only lomitapide in oral dose form (medicinal product form)	läkemedel som endast innehåller lomitapid, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871876003	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+830118008	Medicinal product acting as loop diuretic (product)	läkemedel med loopdiuretisk behandlingsfunktion	sv	ci	SYNONYM	Swedish	PREFERRED
+871742003	Vaccine product containing only Clostridium tetani antigen (medicinal product)	vaccin som endast innehåller antigen från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
+863938004	Product containing osilodrostat (medicinal product)	läkemedel som innehåller osilodrostat	sv	ci	SYNONYM	Swedish	PREFERRED
+860758006	Product containing only rimegepant (medicinal product)	läkemedel som endast innehåller rimegepant	sv	ci	SYNONYM	Swedish	PREFERRED
+871751006	Vaccine product containing only Hepatitis A virus antigen (medicinal product)	vaccin som endast innehåller antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
+860772002	Product containing only isatuximab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller isatuximab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840612005	Product containing only autologous cultured chondrocyte (medicinal product)	läkemedel som endast innehåller autolog odlad kondrocyt	sv	ci	SYNONYM	Swedish	PREFERRED
+870490004	Product containing serpin protease inhibitor (product)	läkemedel som innehåller serinproteashämmare	sv	ci	SYNONYM	Swedish	PREFERRED
+860925006	Product containing amphenicol (product)	läkemedel som innehåller amfenikol	sv	ci	SYNONYM	Swedish	PREFERRED
+870612004	Product containing only bempedoic acid in oral dose form (medicinal product form)	läkemedel som endast innehåller bempedinsyra, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870759002	Product containing precisely selumetinib 10 milligram/1 each conventional release oral capsule (clinical drug)	selumetinib 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+864009007	Product containing only silver sulfadiazine in cutaneous dose form (medicinal product form)	läkemedel som endast innehåller silversulfadiazin, kutan läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+860929000	Product containing benzamide structure (product)	läkemedel som innehåller substans med bensamidstruktur	sv	ci	SYNONYM	Swedish	PREFERRED
+870610007	Product containing only bempedoic acid (medicinal product)	läkemedel som endast innehåller bempedinsyra	sv	ci	SYNONYM	Swedish	PREFERRED
+864001005	Product containing precisely lomitapide (as lomitapide mesilate) 5 milligram/1 each conventional release oral capsule (clinical drug)	lomitapid (som lomitapidmesylat) 5 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871798003	Product containing ozanimod in oral dose form (medicinal product form)	läkemedel som innehåller ozanimod, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871705005	Product containing precisely pemigatinib 13.5 milligram/1 each conventional release oral tablet (clinical drug)	pemigatinib 13,5 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+870492007	Product containing hemoglobin S polymerization inhibitor (product)	läkemedel som innehåller hämmare av hemoglobin S-polymerisering	sv	cI	SYNONYM	Swedish	PREFERRED
+870494008	Product containing midazolam in oromucosal dose form (medicinal product form)	läkemedel som innehåller midazolam, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
+870407007	Medicinal product acting as vasopressor (product)	läkemedel med behandlingsfunktion som vasopressor	sv	ci	SYNONYM	Swedish	PREFERRED
+871727001	Vaccine product containing only Vaccinia virus antigen (medicinal product)	vaccin som endast innehåller antigen från vacciniavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+864005001	Product containing lomitapide in oral dose form (medicinal product form)	läkemedel som innehåller lomitapid, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863943006	Product containing precisely osilodrostat (as osilodrostat phosphate) 1 milligram/1 each conventional release oral tablet (clinical drug)	osilodrostat (som osilodrostatfosfat) 1 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
+871873006	Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)	vaccin som endast innehåller antigen från Neisseria meningitidis W-135, antigen från Neisseria meningitidis grupp A, antigen från Neisseria meningitidis grupp C och antigen från Neisseria meningitidis, grupp Y	sv	cI	SYNONYM	Swedish	PREFERRED
+863996002	Product containing precisely ixazomib (as ixazomib citrate) 4 milligram/1 each conventional release oral capsule (clinical drug)	ixazomib (som ixazomibcitrat) 4 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871767000	Vaccine product containing only Human papillomavirus 9 antigen (medicinal product)	vaccin som endast innehåller antigen från humant papillomvirus 9	sv	ci	SYNONYM	Swedish	PREFERRED
+840662000	Product containing precisely lenalidomide 25 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 25 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871866001	Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)	vaccin som endast innehåller antigen från Neisseria meningitidis grupp C	sv	cI	SYNONYM	Swedish	PREFERRED
+871744002	Product containing only Cytomegalovirus antibody in parenteral dose form (medicinal product form)	läkemedel som endast innehåller antikropp mot cytomegalovirus, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+863992000	Product containing precisely nintedanib (as nintedanib esilate) 150 milligram/1 each conventional release oral capsule (clinical drug)	nintedanib (som nintedanibesilat) 150 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+870754007	Product containing only selumetinib (medicinal product)	läkemedel som endast innehåller selumetinib	sv	ci	SYNONYM	Swedish	PREFERRED
+840658006	Product containing pirfenidone in oral dose form (medicinal product form)	läkemedel som innehåller pirfenidon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
 860731004	Product containing only amisulpride in parenteral dose form (medicinal product form)	läkemedel som endast innehåller amisulprid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
 863982008	Product containing precisely minoxidil 50 milligram/1 milliliter conventional release cutaneous solution (clinical drug)	minoxidil 50 mg/ml, kutan lösning	sv	cI	SYNONYM	Swedish	PREFERRED
-840558002	Product containing only cetirizine in parenteral dose form (medicinal product form)	läkemedel som endast innehåller cetirizin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-789263005	Product containing precisely albumin human 250 milligram/1 milliliter conventional release solution for infusion (clinical drug)	humant albumin 250 mg/ml, infusionsvätska, lösning	sv	cI	SYNONYM	Swedish	PREFERRED
-864009007	Product containing only silver sulfadiazine in cutaneous dose form (medicinal product form)	läkemedel som endast innehåller silversulfadiazin, kutan läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830244003	Product containing cenobamate (medicinal product)	läkemedel som innehåller cenobamat	sv	ci	SYNONYM	Swedish	PREFERRED
-840398004	Product containing only teprotumumab (medicinal product)	läkemedel som endast innehåller teprotumumab	sv	ci	SYNONYM	Swedish	PREFERRED
-836489009	Product containing mycophenolic acid in parenteral dose form (medicinal product form)	läkemedel som innehåller mykofenolsyra, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840669009	Product containing precisely lenvatinib (as lenvatinib mesilate) 10 milligram/1 each conventional release oral capsule (clinical drug)	lenvatinib (som lenvatinibmesylat) 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836387005	Vaccine product containing Rotavirus antigen (medicinal product)	läkemedel som innehåller antigen från rotavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-863999009	Product containing precisely ixazomib (as ixazomib citrate) 2.3 milligram/1 each conventional release oral capsule (clinical drug)	ixazomib (som ixazomibcitrat) översättning saknas: 863998001 | 2.3 (qualifier value) | mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-870407007	Medicinal product acting as vasopressor (product)	läkemedel med översättning saknas: 870408002 | Vasopressor therapeutic role (role) |	sv	ci	SYNONYM	Swedish	PREFERRED
-838491008	Product containing only ubrogepant in oral dose form (medicinal product form)	läkemedel som endast innehåller ubrogepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840616008	Product containing autologous cultured chondrocyte in parenteral dose form (medicinal product form)	läkemedel som innehåller autolog odlad kondrocyt, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840411008	Product containing only tazemetostat in oral dose form (medicinal product form)	läkemedel som endast innehåller tazemetostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838471001	Product containing only avapritinib (medicinal product)	läkemedel som endast innehåller avapritinib	sv	ci	SYNONYM	Swedish	PREFERRED
-860925006	Product containing amphenicol (product)	läkemedel som innehåller amfenikol	sv	ci	SYNONYM	Swedish	PREFERRED
-871715004	Product containing tucatinib (medicinal product)	läkemedel som innehåller tukatinib	sv	ci	SYNONYM	Swedish	PREFERRED
-840667006	Product containing erdosteine in oral dose form (medicinal product form)	läkemedel som innehåller erdostein, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836368004	Vaccine product containing bacteria antigen (medicinal product)	läkemedel som innehåller bakteriellt antigen	sv	ci	SYNONYM	Swedish	PREFERRED
-830208008	Product containing only zanubrutinib (medicinal product)	läkemedel som endast innehåller zanubrutinib	sv	ci	SYNONYM	Swedish	PREFERRED
-836375003	Vaccine product containing Hepatitis A virus antigen (medicinal product)	läkemedel som innehåller antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-836508001	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-836495005	Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)	läkemedel som innehåller antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-871720004	Vaccine product containing only Dengue virus antigen (medicinal product)	läkemedel som endast innehåller antigen från denguevirus	sv	ci	SYNONYM	Swedish	PREFERRED
-860818003	Vaccine product containing only Bacillus anthracis antigen (medicinal product)	läkemedel som endast innehåller antigen från Bacillus anthracis	sv	cI	SYNONYM	Swedish	PREFERRED
-838280004	Vaccine product containing Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	läkemedel som innehåller antigen från mässlingvirus, antigen från påssjukevirus, antigen från rubellavirus och antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-838487003	Product containing only enfortumab vedotin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller enfortumab vedotin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836380007	Vaccine product containing Haemophilus influenzae type B antigen (medicinal product)	läkemedel som innehåller antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-870492007	Product containing hemoglobin S polymerization inhibitor (product)	läkemedel som innehåller hämmare av hemoglobin S-polymerisering	sv	cI	SYNONYM	Swedish	PREFERRED
-840660008	Product containing precisely lenalidomide 20 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-838477002	Product containing lumateperone in oral dose form (medicinal product form)	läkemedel som innehåller lumateperon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-864012005	Product containing precisely cabozantinib (as cabozantinib s-malate) 20 milligram/1 each conventional release oral capsule (clinical drug)	kabozantinib (som kabozantinib S-malat) 20 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-836403007	Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)	läkemedel som innehåller antigen från fästingburet encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
 830213007	Product containing only luspatercept (medicinal product)	läkemedel som endast innehåller luspatercept	sv	ci	SYNONYM	Swedish	PREFERRED
-838495004	Product containing only lemborexant in oral dose form (medicinal product form)	läkemedel som endast innehåller lemborexant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840656005	Product containing precisely stiripentol 500 milligram/1 each conventional release oral capsule (clinical drug)	stiripentol 500 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-838489000	Product containing only ubrogepant (medicinal product)	läkemedel som endast innehåller ubrogepant	sv	ci	SYNONYM	Swedish	PREFERRED
-840698008	Product containing precisely dabigatran etexilate (as dabigatran etexilate mesilate) 75 milligram/1 each conventional release oral capsule (clinical drug)	dabigatranetexilat (som dabigatranetexilatmesylat) 75 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871837004	Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-838481002	Product containing only trastuzumab deruxtecan in parenteral dose form (medicinal product form)	läkemedel som endast innehåller trastuzumab deruxtekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840599008	Vaccine product containing Borrelia burgdorferi antigen (medicinal product)	läkemedel som innehåller antigen från Borrelia burgdorferi	sv	cI	SYNONYM	Swedish	PREFERRED
+871707002	Product containing pemigatinib in oral dose form (medicinal product form)	läkemedel som innehåller pemigatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871887006	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
+868269009	Product containing precisely colecalciferol 25 microgram/1 each conventional release oral capsule (clinical drug)	kolekalciferol 25 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+871891001	Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus and inactivated whole Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från inaktiverat helt humant poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+865970001	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+871532003	Product containing tetanus immunoglobulin of human origin in parenteral dose form (medicinal product form)	läkemedel som innehåller humant immunglobulin mot stelkramp, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+870757000	Product containing only selumetinib in oral dose form (medicinal product form)	läkemedel som endast innehåller selumetinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
 863979003	Product containing precisely ibrutinib 140 milligram/1 each conventional release oral capsule (clinical drug)	ibrutinib 140 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-830046008	Product containing dapagliflozin and metformin and saxagliptin in oral dose form (medicinal product form)	läkemedel som innehåller dapagliflozin, metformin och saxagliptin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836505003	Vaccine product containing Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	läkemedel som innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-836462004	Product containing fluorodopa (18-F) in parenteral dose form (medicinal product form)	läkemedel som innehåller fluorodopa (^18^F), parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-836465002	Product containing enfortumab vedotin (medicinal product)	läkemedel som innehåller enfortumab vedotin	sv	ci	SYNONYM	Swedish	PREFERRED
-871878002	Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-863945004	Product containing precisely osilodrostat (as osilodrostat phosphate) 10 milligram/1 each conventional release oral tablet (clinical drug)	osilodrostat (som osilodrostatfosfat) 10 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-871766009	Vaccine product containing only live attenuated Measles morbillivirus antigen (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat mässlingvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-864010002	Product containing precisely isavuconazole (as isavuconazonium sulfate) 200 milligram/1 vial powder for conventional release solution for injection (clinical drug)	isavukonazol (som isavukonazoniumsulfat) 200 mg/injektionsflaska, pulver till injektionsvätska	sv	cI	SYNONYM	Swedish	PREFERRED
-836376002	Vaccine product containing Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	läkemedel som innehåller antigen från påssjukevirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-865888008	Product containing precisely nintedanib (as nintedanib esilate) 100 milligram/1 each conventional release oral capsule (clinical drug)	nintedanib (som nintedanibesilat) 100 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871714000	Product containing only tucatinib (medicinal product)	läkemedel som endast innehåller tukatinib	sv	ci	SYNONYM	Swedish	PREFERRED
-870617005	Product containing bempedoic acid and ezetimibe in oral dose form (medicinal product form)	läkemedel som innehåller bempedinsyra och ezetimib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840650004	Product containing precisely ibuprofen 100 milligram/1 each conventional release chewable capsule (clinical drug)	ibuprofen 100 mg, översättning saknas: 840651000 | Conventional release chewable capsule (dose form) |	sv	cI	SYNONYM	Swedish	PREFERRED
-871797008	Product containing precisely ozanimod (as ozanimod hydrochloride) 920 microgram/1 each conventional release oral capsule (clinical drug)	ozanimod (som ozanimodhydroklorid) översättning saknas: 871791009 | 920 (qualifier value) | mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-860760008	Product containing rimegepant in oral dose form (medicinal product form)	läkemedel som innehåller rimegepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838474009	Product containing lumateperone (medicinal product)	läkemedel som innehåller lumateperon	sv	ci	SYNONYM	Swedish	PREFERRED
-836400005	Vaccine product containing Adenovirus antigen (medicinal product)	läkemedel som innehåller antigen från adenovirus	sv	ci	SYNONYM	Swedish	PREFERRED
-870758005	Product containing precisely selumetinib 25 milligram/1 each conventional release oral capsule (clinical drug)	selumetinib 25 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871722007	Vaccine product containing only Adenovirus antigen (medicinal product)	läkemedel som endast innehåller antigen från adenovirus	sv	ci	SYNONYM	Swedish	PREFERRED
-871712001	Product containing only tucatinib in oral dose form (medicinal product form)	läkemedel som endast innehåller tukatinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840652007	Product containing precisely pirfenidone 267 milligram/1 each conventional release oral tablet (clinical drug)	pirfenidon 267 mg, oral tablett	sv	cI	SYNONYM	Swedish	PREFERRED
-870611006	Product containing bempedoic acid in oral dose form (medicinal product form)	läkemedel som innehåller bempedinsyra, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-860929000	Product containing benzamide structure (product)	läkemedel som innehåller substans med bensamidstruktur	sv	ci	SYNONYM	Swedish	PREFERRED
-864000006	Product containing precisely silver sulfadiazine 10 milligram/1 gram conventional release cutaneous cream (clinical drug)	silversulfadiazin 10 mg/g, hudkräm	sv	cI	SYNONYM	Swedish	PREFERRED
-865970001	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-836360006	Product containing cysteine in parenteral dose form (medicinal product form)	läkemedel som innehåller cystein, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838484005	Product containing golodirsen in parenteral dose form (medicinal product form)	läkemedel som innehåller golodirsen, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-863992000	Product containing precisely nintedanib (as nintedanib esilate) 150 milligram/1 each conventional release oral capsule (clinical drug)	nintedanib (som nintedanibesilat) 150 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-863986006	Product containing precisely palbociclib 100 milligram/1 each conventional release oral capsule (clinical drug)	palbociklib 100 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-870493002	Product containing amikacin liposome in pulmonary dose form (medicinal product form)	läkemedel som innehåller amikacinliposom, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-864008004	Product containing only silver sulfadiazine (medicinal product)	läkemedel som endast innehåller silversulfadiazin	sv	ci	SYNONYM	Swedish	PREFERRED
-871795000	Product containing precisely ozanimod (as ozanimod hydrochloride) 230 microgram/1 each conventional release oral capsule (clinical drug)	ozanimod (som ozanimodhydroklorid) översättning saknas: 871792002 | 230 (qualifier value) | mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-840663005	Product containing precisely lenalidomide 15 milligram/1 each conventional release oral capsule (clinical drug)	lenalidomid 15 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-840666002	Product containing only erdosteine in oral dose form (medicinal product form)	läkemedel som endast innehåller erdostein, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840556003	Product containing asenapine in transdermal dose form (medicinal product form)	läkemedel som innehåller asenapin, transdermal läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-868270005	Product containing precisely colecalciferol 175 microgram/1 each conventional release oral capsule (clinical drug)	kolekalciferol 175 mikrog, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-840664004	Product containing precisely erdosteine 300 milligram/1 each conventional release oral capsule (clinical drug)	erdostein 300 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-871768005	Vaccine product containing only Influenza virus antigen in nasal dose form (medicinal product)	läkemedel som endast innehåller antigen från influensavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-836502000	Vaccine product containing Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	läkemedel som innehåller antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-846648000	Product containing only bromhexine (medicinal product)	läkemedel som endast innehåller bromhexin	sv	ci	SYNONYM	Swedish	PREFERRED
-840659003	Product containing only pirfenidone in oral dose form (medicinal product form)	läkemedel som endast innehåller pirfenidon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-871718002	Vaccine product containing only Yersinia pestis antigen (medicinal product)	läkemedel som endast innehåller antigen från Yersinia pesti	sv	cI	SYNONYM	Swedish	PREFERRED
-871804001	Vaccine product containing only Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens (medicinal product)	läkemedel som endast innehåller antigen från Salmonella enterica, underart enterica serovar typhi och antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-871830002	Vaccine product containing Corynebacterium diphtheriae toxoid antigen (medicinal product)	läkemedel som innehåller antigen från inaktiverat toxin från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-836379009	Vaccine product containing Human papillomavirus antigen (medicinal product)	läkemedel som innehåller antigen från humant papillomvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-836461006	Product containing only fluorodopa (18-F) (medicinal product)	läkemedel som endast innehåller fluorodopa (^18^F)	sv	cI	SYNONYM	Swedish	PREFERRED
-871787004	Product containing eptinezumab (medicinal product)	läkemedel som innehåller eptinezumab	sv	ci	SYNONYM	Swedish	PREFERRED
-870498006	Product containing sufentanil in oromucosal dose form (medicinal product form)	läkemedel som innehåller sufentanil, läkemedelsform för munhåla	sv	ci	SYNONYM	Swedish	PREFERRED
-870753001	Product containing selumetinib (medicinal product)	läkemedel som innehåller selumetinib	sv	ci	SYNONYM	Swedish	PREFERRED
-871729003	Vaccine product containing only Corynebacterium diphtheriae antigen (medicinal product)	läkemedel som endast innehåller antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-840397009	Product containing teprotumumab (medicinal product)	läkemedel som innehåller teprotumumab	sv	ci	SYNONYM	Swedish	PREFERRED
-860769009	Product containing isatuximab (medicinal product)	läkemedel som innehåller isatuximab	sv	ci	SYNONYM	Swedish	PREFERRED
-838493006	Product containing only lemborexant (medicinal product)	läkemedel som endast innehåller lemborexant	sv	ci	SYNONYM	Swedish	PREFERRED
-860759003	Product containing only rimegepant in oral dose form (medicinal product form)	läkemedel som endast innehåller rimegepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836377006	Vaccine product containing Influenza virus antigen (medicinal product)	läkemedel som innehåller antigen från influensavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-838472008	Product containing avapritinib in oral dose form (medicinal product form)	läkemedel som innehåller avapritinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-838480001	Product containing trastuzumab deruxtecan in parenteral dose form (medicinal product form)	läkemedel som innehåller trastuzumab deruxtekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870503009	Product containing afamelanotide in parenteral dose form (medicinal product form)	läkemedel som innehåller afamelanotid, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836463009	Product containing only fluorodopa (18-F) in parenteral dose form (medicinal product form)	läkemedel som endast innehåller fluorodopa (^18^F), parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-836466001	Product containing only enfortumab vedotin (medicinal product)	läkemedel som endast innehåller enfortumab vedotin	sv	ci	SYNONYM	Swedish	PREFERRED
-836501007	Vaccine product containing Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens (medicinal product)	läkemedel som innehåller antigen från Salmonella enterica, underart enterica serovar typhi och antigen från hepatit A-virus	sv	cI	SYNONYM	Swedish	PREFERRED
-840551008	Vaccine product containing Francisella tularensis antigen (medicinal product)	läkemedel som innehåller antigen från Francisella tularensis	sv	cI	SYNONYM	Swedish	PREFERRED
-870487005	Product containing sulfadiazine in cutaneous dose form (medicinal product form)	läkemedel som innehåller sulfadiazin, kutan läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-840655009	Product containing precisely pirfenidone 267 milligram/1 each conventional release oral capsule (clinical drug)	pirfenidon 267 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-840657001	Product containing precisely stiripentol 250 milligram/1 each conventional release oral capsule (clinical drug)	stiripentol 250 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-830209000	Product containing zanubrutinib in oral dose form (medicinal product form)	läkemedel som innehåller zanubrutinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836369007	Vaccine product containing virus antigen (medicinal product)	läkemedel som innehåller virusantigen	sv	ci	SYNONYM	Swedish	PREFERRED
-840613000	Product containing precisely autologous cultured chondrocyte 30 million unit/1 milliliter conventional release intraarticular implant (clinical drug)	autolog odlad kondrocyt 30 miljonenheter/ml, översättning saknas: 840614006 | Conventional release intraarticular implant (dose form) |	sv	cI	SYNONYM	Swedish	PREFERRED
-871789001	Product containing eptinezumab in parenteral dose form (medicinal product form)	läkemedel som innehåller eptinezumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-870488000	Product containing orexin receptor antagonist (product)	läkemedel som innehåller orexinreceptorantagonist	sv	ci	SYNONYM	Swedish	PREFERRED
-870490004	Product containing serpin protease inhibitor (product)	läkemedel som innehåller serinproteashämmare	sv	ci	SYNONYM	Swedish	PREFERRED
-838482009	Product containing golodirsen (medicinal product)	läkemedel som innehåller golodirsen	sv	ci	SYNONYM	Swedish	PREFERRED
+830210005	Product containing only zanubrutinib in oral dose form (medicinal product form)	läkemedel som endast innehåller zanubrutinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836504004	Vaccine product containing Clostridium tetani and Haemophilus influenzae type B antigens (medicinal product)	vaccin som innehåller antigen från Clostridium tetani och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+836491001	Product containing only mycophenolic acid in parenteral dose form (medicinal product form)	läkemedel som endast innehåller mykofenolsyra, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871739009	Vaccine product containing only Human poliovirus antigen (medicinal product)	vaccin som endast innehåller antigen från poliovirus	sv	ci	SYNONYM	Swedish	PREFERRED
+836380007	Vaccine product containing Haemophilus influenzae type B antigen (medicinal product)	vaccin som innehåller antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+830208008	Product containing only zanubrutinib (medicinal product)	läkemedel som endast innehåller zanubrutinib	sv	ci	SYNONYM	Swedish	PREFERRED
+838479004	Product containing only trastuzumab deruxtecan (medicinal product)	läkemedel som endast innehåller trastuzumab deruxtekan	sv	ci	SYNONYM	Swedish	PREFERRED
+840400000	Product containing only teprotumumab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller teprotumumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836387005	Vaccine product containing Rotavirus antigen (medicinal product)	vaccin som innehåller antigen från rotavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+830064001	Product containing only amoxicillin and omeprazole and rifabutin (medicinal product)	läkemedel som endast innehåller amoxicillin, omeprazol och rifabutin	sv	ci	SYNONYM	Swedish	PREFERRED
+838489000	Product containing only ubrogepant (medicinal product)	läkemedel som endast innehåller ubrogepant	sv	ci	SYNONYM	Swedish	PREFERRED
+836382004	Vaccine product containing Measles morbillivirus antigen (medicinal product)	vaccin som innehåller antigen från mässlingvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+840408007	Product containing only tazemetostat (medicinal product)	läkemedel som endast innehåller tazemetostat	sv	ci	SYNONYM	Swedish	PREFERRED
+838280004	Vaccine product containing Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	vaccin som innehåller antigen från mässlingvirus, antigen från påssjukevirus, antigen från rubellavirus och antigen från varicella zoster-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+830066004	Product containing only amoxicillin and omeprazole and rifabutin in oral dose form (medicinal product form)	läkemedel som endast innehåller amoxicillin, omeprazol och rifabutin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+789263005	Product containing precisely albumin human 250 milligram/1 milliliter conventional release solution for infusion (clinical drug)	humant albumin 250 mg/ml, infusionsvätska, lösning	sv	cI	SYNONYM	Swedish	PREFERRED
+836494009	Vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	vaccin som innehåller antigen från mässlingvirus, antigen från påssjukevirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+838491008	Product containing only ubrogepant in oral dose form (medicinal product form)	läkemedel som endast innehåller ubrogepant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830246001	Product containing cenobamate in oral dose form (medicinal product form)	läkemedel som innehåller cenobamat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836384003	Vaccine product containing Bacillus anthracis antigen (medicinal product)	vaccin som innehåller antigen från Bacillus anthracis	sv	cI	SYNONYM	Swedish	PREFERRED
+838485006	Product containing only golodirsen in parenteral dose form (medicinal product form)	läkemedel som endast innehåller golodirsen, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830244003	Product containing cenobamate (medicinal product)	läkemedel som innehåller cenobamat	sv	ci	SYNONYM	Swedish	PREFERRED
+838471001	Product containing only avapritinib (medicinal product)	läkemedel som endast innehåller avapritinib	sv	ci	SYNONYM	Swedish	PREFERRED
+836389008	Vaccine product containing Vaccinia virus antigen (medicinal product)	vaccin som innehåller antigen från vacciniavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+830206007	Product containing cefiderocol in parenteral dose form (medicinal product form)	läkemedel som innehåller cefiderokol, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840411008	Product containing only tazemetostat in oral dose form (medicinal product form)	läkemedel som endast innehåller tazemetostat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+838473003	Product containing only avapritinib in oral dose form (medicinal product form)	läkemedel som endast innehåller avapritinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840549009	Vaccine product containing Yersinia pestis antigen (medicinal product)	vaccin som innehåller antigen från Yersinia pesti	sv	cI	SYNONYM	Swedish	PREFERRED
+836500008	Vaccine product containing only Haemophilus influenzae type B and Neisseria meningitidis serogroup C antigens (medicinal product)	vaccin som endast innehåller antigen från Haemophilus influenzae typ B och antigen från Neisseria meningitidis grupp C	sv	cI	SYNONYM	Swedish	PREFERRED
+836502000	Vaccine product containing Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	vaccin som innehåller antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
+836506002	Vaccine product containing Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens (medicinal product)	vaccin som innehåller antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+833306009	Product containing voxelotor in oral dose form (medicinal product form)	läkemedel som innehåller voxelotor, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830215000	Product containing only luspatercept in parenteral dose form (medicinal product form)	läkemedel som endast innehåller luspatercept, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830204005	Product containing only crizanlizumab in parenteral dose form (medicinal product form)	läkemedel som endast innehåller krizanlizumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830111002	Product containing mesna in pulmonary dose form (medicinal product form)	läkemedel som innehåller mesna, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836401009	Vaccine product containing Neisseria meningitidis antigen (medicinal product)	vaccin som innehåller antigen från Neisseria meningitidis	sv	cI	SYNONYM	Swedish	PREFERRED
+836376002	Vaccine product containing Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	vaccin som innehåller antigen från påssjukevirus och antigen från rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+836460007	Product containing fluorodopa (18-F) (medicinal product)	läkemedel som innehåller fluorodopa (^18^F)	sv	cI	SYNONYM	Swedish	PREFERRED
+836508001	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
 833304007	Product containing voxelotor (medicinal product)	läkemedel som innehåller voxelotor	sv	ci	SYNONYM	Swedish	PREFERRED
-864005001	Product containing lomitapide in oral dose form (medicinal product form)	läkemedel som innehåller lomitapid, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-836503005	Vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis, antigen från Clostridium tetani och antigen från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-787859002	Vaccine product (medicinal product)	läkemedel	sv	ci	SYNONYM	Swedish	PREFERRED
-830118008	Medicinal product acting as loop diuretic (product)	läkemedel med översättning saknas: 830116007 | Loop diuretic therapeutic role (role) |	sv	ci	SYNONYM	Swedish	PREFERRED
-863988007	Product containing precisely panobinostat (as panobinostat lactate) 10 milligram/1 each conventional release oral capsule (clinical drug)	panobinostat (som panobistatlaktat) 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
-870756009	Product containing selumetinib in oral dose form (medicinal product form)	läkemedel som innehåller selumetinib, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830045007	Product containing only dapagliflozin and metformin and saxagliptin in oral dose form (medicinal product form)	läkemedel som endast innehåller dapagliflozin, metformin och saxagliptin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830214001	Product containing luspatercept in parenteral dose form (medicinal product form)	läkemedel som innehåller luspatercept, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830063007	Product containing amoxicillin and omeprazole and rifabutin (medicinal product)	läkemedel som innehåller amoxicillin, omeprazol och rifabutin	sv	ci	SYNONYM	Swedish	PREFERRED
-830243009	Product containing only givosiran in parenteral dose form (medicinal product form)	läkemedel som endast innehåller givosiran, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830205006	Product containing only cefiderocol (medicinal product)	läkemedel som endast innehåller cefiderokol	sv	ci	SYNONYM	Swedish	PREFERRED
-830207003	Product containing only cefiderocol in parenteral dose form (medicinal product form)	läkemedel som endast innehåller cefiderokol, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830108003	Product containing only mannitol in pulmonary dose form (medicinal product form)	läkemedel som endast innehåller mannitol, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830100005	Product containing givosiran (medicinal product)	läkemedel som innehåller givosiran	sv	ci	SYNONYM	Swedish	PREFERRED
-830245002	Product containing only cenobamate (medicinal product)	läkemedel som endast innehåller cenobamat	sv	ci	SYNONYM	Swedish	PREFERRED
-833307000	Product containing only voxelotor in oral dose form (medicinal product form)	läkemedel som endast innehåller voxelotor, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830247005	Product containing only cenobamate in oral dose form (medicinal product form)	läkemedel som endast innehåller cenobamat, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-833305008	Product containing only voxelotor (medicinal product)	läkemedel som endast innehåller voxelotor	sv	ci	SYNONYM	Swedish	PREFERRED
-830203004	Product containing only crizanlizumab (medicinal product)	läkemedel som endast innehåller krizanlizumab	sv	ci	SYNONYM	Swedish	PREFERRED
-836361005	Product containing only cysteine in parenteral dose form (medicinal product form)	läkemedel som endast innehåller cystein, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830065000	Product containing amoxicillin and omeprazole and rifabutin in oral dose form (medicinal product form)	läkemedel som innehåller amoxicillin, omeprazol och rifabutin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830110001	Product containing only mesna in pulmonary dose form (medicinal product form)	läkemedel som endast innehåller mesna, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
-830211009	Product containing luspatercept (medicinal product)	läkemedel som innehåller luspatercept	sv	ci	SYNONYM	Swedish	PREFERRED
-830102002	Product containing crizanlizumab (medicinal product)	läkemedel som innehåller krizanlizumab	sv	ci	SYNONYM	Swedish	PREFERRED
-830241006	Product containing only givosiran (medicinal product)	läkemedel som endast innehåller givosiran	sv	ci	SYNONYM	Swedish	PREFERRED
-601000221108	Vaccine product containing Bordetella pertussis antigen (medicinal product)	läkemedel som innehåller antigen från Bordetella pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
-318351000221106	Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från inaktiverat humant poliovirus, serotyp 1, antigen från inaktiverat humant poliovirus, serotyp 2, antigen från inaktiverat humant poliovirus, serotyp 3, antigen från inaktiverat toxin från Clostridium tetani och antigen från inaktiverat toxin från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-2261000221104	Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria and Yamagata lineage antigens (medicinal product)	läkemedel som endast innehåller antigen från influensavirus A, subtyp H1N1, antigen från influensavirus A, subtyp H3N2, antigen från influensavirus B, victorialinjen och antigen från influensavirus B, yamagatalinjen	sv	cI	SYNONYM	Swedish	PREFERRED
-312068008	Medicinal product acting as macromolecular blood substitute (product)	läkemedel med översättning saknas: 840575008 | Macromolecular blood substitute therapeutic role (role) |	sv	ci	SYNONYM	Swedish	PREFERRED
-319941000221104	Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product form)	läkemedel som endast innehåller antigen från Bacillus Calmette-Guerin, parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-318341000221109	Pediatric vaccine product containing only acellular Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae och antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-2221000221107	Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat humant alfaherpesvirus 3	sv	ci	SYNONYM	Swedish	PREFERRED
-2251000221101	Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus and Human alphaherpesvirus 3 antigens (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat humant alfaherpesvirus 3, antigen från levande försvagat mässlingvirus, antigen från levande försvagat påsjuke-ortorubulavirus och antigen från levande försvagat rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-2241000221103	Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat mässlingvirus, antigen från levande försvagat påsjuke-ortorubulavirus och antigen från levande försvagat rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-2191000221103	Vaccine product containing only inactivated whole Rabies lyssavirus antigen grown in cellular line (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat helt rabies lyssavirus, odlat i cellinje	sv	ci	SYNONYM	Swedish	PREFERRED
-2201000221100	Vaccine product containing only inactivated whole Rabies lyssavirus antigen grown in brain tissue (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat helt rabies lyssavirus, odlat i hjärnvävnad	sv	ci	SYNONYM	Swedish	PREFERRED
-2231000221105	Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat mässlingvirus och antigen från levande försvagat rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-2091000221104	Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus	sv	cI	SYNONYM	Swedish	PREFERRED
-2171000221104	Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide unconjugated antigen in parenteral dose form (medicinal product form)	läkemedel som endast innehåller kapsulärt polysackaridantigen från Salmonella enterica, underart enterica serovar typhi, parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-1971000221105	Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)	läkemedel som endast innehåller antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp A, konjugerat, antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp C, konjugerat, antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp W135, konjugerat och antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp Y, konjugerat	sv	cI	SYNONYM	Swedish	PREFERRED
-2101000221107	Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human Poliovirus antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B, antigen från poliovirus och hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
-2081000221102	Pediatric vaccine product containing only acellular Bordetella pertussis, Clostridium tetani and Corynebacterium diphtheriae toxoids, Haemophilus influenzae type B capsular polysaccharide conjugated, Hepatitis B virus surface antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae, antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B och hepatit B-ytantigen	sv	cI	SYNONYM	Swedish	PREFERRED
-1111000221101	Vaccine product containing only live attenuated Junin virus antigen (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat juninvirus	sv	ci	SYNONYM	Swedish	PREFERRED
-1991000221106	Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)	läkemedel som endast innehåller antigen från humant papillomvirus typ 16 och antigen från humant papillomvirus typ 18	sv	ci	SYNONYM	Swedish	PREFERRED
-1801000221105	Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)	läkemedel som endast innehåller konjugerat antigen från Streptococcus pneumoniae	sv	cI	SYNONYM	Swedish	PREFERRED
-121000221105	Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat hepatit A-virus och hepatit B-ytantigen	sv	cI	SYNONYM	Swedish	PREFERRED
-2211000221102	Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria lineage antigens (medicinal product)	läkemedel som endast innehåller antigen från influensavirus A, subtyp H1N1, antigen från influensavirus A, subtyp H3N2 och antigen från influensavirus B, victorialinjen	sv	cI	SYNONYM	Swedish	PREFERRED
-2071000221100	Pediatric vaccine product containing only whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae, antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B och helcellsantigen från pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
-2061000221109	Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae och helcellsantigen från pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
-1101000221104	Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)	läkemedel som innehåller antigen från inaktiverat toxin från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
-1121000221106	Vaccine product containing only live attenuated Yellow fever virus antigen (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat gula febern-virus	sv	ci	SYNONYM	Swedish	PREFERRED
-1861000221106	Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)	läkemedel som endast innehåller antigen från Bacillus Calmette-Guerin	sv	cI	SYNONYM	Swedish	PREFERRED
-2041000221105	Vaccine product containing only Haemophilus influenzae type B capsular polysaccharide antigen conjugated (medicinal product)	läkemedel som endast innehåller antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
-2031000221103	Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat toxin från Clostridium tetani och antigen från inaktiverat toxin från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-1031000221108	Vaccine product containing Human poliovirus antigen (medicinal product)	läkemedel som innehåller antigen från poliovirus	sv	ci	SYNONYM	Swedish	PREFERRED
-2181000221101	Vaccine product containing only Vibrio cholerae antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från Vibrio cholerae, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-1001000221103	Vaccine product containing only inactivated whole Vibrio cholerae antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från inaktiverad Vibrio cholerae, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-1181000221105	Vaccine product containing only Influenza virus antigen (medicinal product)	läkemedel som endast innehåller antigen från influensavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-1061000221102	Vaccine product containing only Neisseria meningitidis capsular polysaccharide antigen (medicinal product)	läkemedel som endast innehåller polysackaridantigen från Neisseria meningitidis	sv	cI	SYNONYM	Swedish	PREFERRED
-2051000221107	Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)	läkemedel som endast innehåller acellulärt kikhosteantigen, antigen från inaktiverat toxin från Clostridium tetani och antigen från inaktiverat toxin från Corynebacterium diphtheriae	sv	cI	SYNONYM	Swedish	PREFERRED
-1981000221108	Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)	läkemedel som endast innehåller antigen från Neisseria meningitidis grupp B	sv	cI	SYNONYM	Swedish	PREFERRED
-1011000221100	Vaccine product containing only live attenuated Vibrio cholerae antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från levande försvagad Vibrio cholerae, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
-2021000221101	Vaccine product containing only Clostridium tetani toxoid antigen (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat toxin från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
-2001000221108	Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)	läkemedel som endast innehåller antigen från humant papillomvirus 11, antigen från humant papillomvirus 6, antigen från humant papillomvirus typ 16 och antigen från humant papillomvirus typ 18	sv	ci	SYNONYM	Swedish	PREFERRED
-1131000221109	Vaccine product containing only inactivated whole Rabies lyssavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från inaktiverat rabies lyssavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-1081000221109	Vaccine product containing only live attenuated Rotavirus antigen (medicinal product)	läkemedel som endast innehåller antigen från levande försvagat rotavirus	sv	ci	SYNONYM	Swedish	PREFERRED
-1051000221104	Vaccine product containing only live attenuated Human poliovirus serotypes 1 and 3 antigens in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från levande försvagat humant poliovirus, serotyp 1 och antigen från levande försvagat humant poliovirus, serotyp 3, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836368004	Vaccine product containing bacteria antigen (medicinal product)	vaccin som innehåller bakteriellt antigen	sv	ci	SYNONYM	Swedish	PREFERRED
+836374004	Vaccine product containing Hepatitis B virus antigen (medicinal product)	vaccin som innehåller hepatit B-antigen	sv	cI	SYNONYM	Swedish	PREFERRED
+838487003	Product containing only enfortumab vedotin in parenteral dose form (medicinal product form)	läkemedel som endast innehåller enfortumab vedotin, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830046008	Product containing dapagliflozin and metformin and saxagliptin in oral dose form (medicinal product form)	läkemedel som innehåller dapagliflozin, metformin och saxagliptin, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830103007	Product containing zanubrutinib (medicinal product)	läkemedel som innehåller zanubrutinib	sv	ci	SYNONYM	Swedish	PREFERRED
+836360006	Product containing cysteine in parenteral dose form (medicinal product form)	läkemedel som innehåller cystein, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830202009	Product containing crizanlizumab in parenteral dose form (medicinal product form)	läkemedel som innehåller krizanlizumab, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836465002	Product containing enfortumab vedotin (medicinal product)	läkemedel som innehåller enfortumab vedotin	sv	ci	SYNONYM	Swedish	PREFERRED
+838493006	Product containing only lemborexant (medicinal product)	läkemedel som endast innehåller lemborexant	sv	ci	SYNONYM	Swedish	PREFERRED
+830101009	Product containing cefiderocol (medicinal product)	läkemedel som innehåller cefiderokol	sv	ci	SYNONYM	Swedish	PREFERRED
+838495004	Product containing only lemborexant in oral dose form (medicinal product form)	läkemedel som endast innehåller lemborexant, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836489009	Product containing mycophenolic acid in parenteral dose form (medicinal product form)	läkemedel som innehåller mykofenolsyra, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+838481002	Product containing only trastuzumab deruxtecan in parenteral dose form (medicinal product form)	läkemedel som endast innehåller trastuzumab deruxtekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+840398004	Product containing only teprotumumab (medicinal product)	läkemedel som endast innehåller teprotumumab	sv	ci	SYNONYM	Swedish	PREFERRED
+838477002	Product containing lumateperone in oral dose form (medicinal product form)	läkemedel som innehåller lumateperon, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836378001	Vaccine product containing Japanese encephalitis virus antigen (medicinal product)	vaccin som innehåller antigen från japanskt encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+836498007	Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)	vaccin som innehåller antigen från påssjukevirus	sv	ci	SYNONYM	Swedish	PREFERRED
+838475005	Product containing only lumateperone (medicinal product)	läkemedel som endast innehåller lumateperon	sv	ci	SYNONYM	Swedish	PREFERRED
+840556003	Product containing asenapine in transdermal dose form (medicinal product form)	läkemedel som innehåller asenapin, transdermal läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836393002	Vaccine product containing Rabies lyssavirus antigen (medicinal product)	vaccin som innehåller antigen från rabiesvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+871709004	Product containing pemigatinib (medicinal product)	läkemedel som innehåller pemigatinib	sv	ci	SYNONYM	Swedish	PREFERRED
+840669009	Product containing precisely lenvatinib (as lenvatinib mesilate) 10 milligram/1 each conventional release oral capsule (clinical drug)	lenvatinib (som lenvatinibmesylat) 10 mg, oral kapsel	sv	cI	SYNONYM	Swedish	PREFERRED
+836403007	Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)	vaccin som innehåller antigen från fästingburet encefalitvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+840667006	Product containing erdosteine in oral dose form (medicinal product form)	läkemedel som innehåller erdostein, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+830109006	Product containing mannitol in pulmonary dose form (medicinal product form)	läkemedel som innehåller mannitol, pulmonell läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+836398006	Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)	vaccin som innehåller antigen från Streptococcus pneumoniae	sv	cI	SYNONYM	Swedish	PREFERRED
+838483004	Product containing only golodirsen (medicinal product)	läkemedel som endast innehåller golodirsen	sv	ci	SYNONYM	Swedish	PREFERRED
+836462004	Product containing fluorodopa (18-F) in parenteral dose form (medicinal product form)	läkemedel som innehåller fluorodopa (^18^F), parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+830242004	Product containing givosiran in parenteral dose form (medicinal product form)	läkemedel som innehåller givosiran, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+871815006	Product containing only sacituzumab govitecan in parenteral dose form (medicinal product form)	läkemedel som endast innehåller sacituzumabgovitekan, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+601000221108	Vaccine product containing Bordetella pertussis antigen (medicinal product)	vaccin som innehåller antigen från Bordetella pertussis	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '41847000',
+  groupId: 0,
+  sourceFSN: 'Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)',
+  sourceId: '2051000221107',
+  term: 'vuxen ålder',
+  typeId: '860781008'
+}
+2051000221107	Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från inaktiverat toxin från Clostridium tetani och antigen från inaktiverat toxin från Corynebacterium diphtheriae, för vuxna	sv	cI	SYNONYM	Swedish	PREFERRED
+2211000221102	Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria lineage antigens (medicinal product)	vaccin som endast innehåller antigen från influensavirus A, subtyp H1N1, antigen från influensavirus A, subtyp H3N2 och antigen från influensavirus B, victorialinjen	sv	cI	SYNONYM	Swedish	PREFERRED
 2011000221106	Vaccine product containing only live attenuated Human poliovirus serotypes 1, 2, and 3 antigens in parenteral dose form (medicinal product form)	läkemedel som endast innehåller antigen från levande försvagat humant poliovirus, serotyp 1, antigen från levande försvagat humant poliovirus, serotyp 2 och antigen från levande försvagat humant poliovirus, serotyp 3, parenteral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+1801000221105	Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)	vaccin som endast innehåller konjugerat antigen från Streptococcus pneumoniae	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)',
+  sourceId: '2091000221104',
+  term: 'barndom',
+  typeId: '860781008'
+}
+2091000221104	Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B och antigen från poliovirus, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+1991000221106	Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)	vaccin som endast innehåller antigen från humant papillomvirus typ 16 och antigen från humant papillomvirus typ 18	sv	ci	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)',
+  sourceId: '318351000221106',
+  term: 'barndom',
+  typeId: '860781008'
+}
+318351000221106	Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från inaktiverat humant poliovirus, serotyp 1, antigen från inaktiverat humant poliovirus, serotyp 2, antigen från inaktiverat humant poliovirus, serotyp 3, antigen från inaktiverat toxin från Clostridium tetani och antigen från inaktiverat toxin från Corynebacterium diphtheriae, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+2251000221101	Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus and Human alphaherpesvirus 3 antigens (medicinal product)	vaccin som endast innehåller antigen från levande försvagat humant alfaherpesvirus 3, antigen från levande försvagat mässlingvirus, antigen från levande försvagat påsjuke-ortorubulavirus och antigen från levande försvagat rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+1061000221102	Vaccine product containing only Neisseria meningitidis capsular polysaccharide antigen (medicinal product)	vaccin som endast innehåller polysackaridantigen från Neisseria meningitidis	sv	cI	SYNONYM	Swedish	PREFERRED
+312068008	Medicinal product acting as macromolecular blood substitute (product)	läkemedel med behandlingsfunktion som makromolekylärt blodsubstitut	sv	ci	SYNONYM	Swedish	PREFERRED
+1001000221103	Vaccine product containing only inactivated whole Vibrio cholerae antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från inaktiverad Vibrio cholerae, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+1121000221106	Vaccine product containing only live attenuated Yellow fever virus antigen (medicinal product)	vaccin som endast innehåller antigen från levande försvagat gula febern-virus	sv	ci	SYNONYM	Swedish	PREFERRED
+2191000221103	Vaccine product containing only inactivated whole Rabies lyssavirus antigen grown in cellular line (medicinal product)	vaccin som endast innehåller antigen från inaktiverat helt rabies lyssavirus, odlat i cellinje	sv	ci	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '41847000',
+  groupId: 0,
+  sourceFSN: 'Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)',
+  sourceId: '2031000221103',
+  term: 'vuxen ålder',
+  typeId: '860781008'
+}
+2031000221103	Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)	vaccin som endast innehåller antigen från inaktiverat toxin från Clostridium tetani och antigen från inaktiverat toxin från Corynebacterium diphtheriae, för vuxna	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens (medicinal product)',
+  sourceId: '2071000221100',
+  term: 'barndom',
+  typeId: '860781008'
+}
+2071000221100	Pediatric vaccine product containing only whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens (medicinal product)	vaccin som endast innehåller antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae, antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B och helcellsantigen från Bordetella pertussis, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+1031000221108	Vaccine product containing Human poliovirus antigen (medicinal product)	vaccin som innehåller antigen från poliovirus	sv	ci	SYNONYM	Swedish	PREFERRED
+2231000221105	Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)	vaccin som endast innehåller antigen från levande försvagat mässlingvirus och antigen från levande försvagat rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+1971000221105	Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)	vaccin som endast innehåller antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp A, konjugerat, antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp C, konjugerat, antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp W135, konjugerat och antigen, kapselpolysackarid från Neisseria meningitidis, serogrupp Y, konjugerat	sv	cI	SYNONYM	Swedish	PREFERRED
+1101000221104	Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)	vaccin som innehåller antigen från inaktiverat toxin från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
+1131000221109	Vaccine product containing only inactivated whole Rabies lyssavirus antigen (medicinal product)	vaccin som endast innehåller antigen från inaktiverat rabies lyssavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+2221000221107	Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)	vaccin som endast innehåller antigen från levande försvagat humant alfaherpesvirus 3	sv	ci	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only acellular Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens (medicinal product)',
+  sourceId: '318341000221109',
+  term: 'barndom',
+  typeId: '860781008'
+}
+318341000221109	Pediatric vaccine product containing only acellular Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae och antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+2181000221101	Vaccine product containing only Vibrio cholerae antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från Vibrio cholerae, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+1181000221105	Vaccine product containing only Influenza virus antigen (medicinal product)	vaccin som endast innehåller antigen från influensavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+1981000221108	Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)	vaccin som endast innehåller antigen från Neisseria meningitidis grupp B	sv	cI	SYNONYM	Swedish	PREFERRED
+2201000221100	Vaccine product containing only inactivated whole Rabies lyssavirus antigen grown in brain tissue (medicinal product)	vaccin som endast innehåller antigen från inaktiverat helt rabies lyssavirus, odlat i hjärnvävnad	sv	ci	SYNONYM	Swedish	PREFERRED
+2171000221104	Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide unconjugated antigen in parenteral dose form (medicinal product form)	läkemedel som endast innehåller kapsulärt polysackaridantigen från Salmonella enterica, underart enterica serovar typhi, parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+1081000221109	Vaccine product containing only live attenuated Rotavirus antigen (medicinal product)	vaccin som endast innehåller antigen från levande försvagat rotavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+2241000221103	Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)	vaccin som endast innehåller antigen från levande försvagat mässlingvirus, antigen från levande försvagat påsjuke-ortorubulavirus och antigen från levande försvagat rubellavirus	sv	ci	SYNONYM	Swedish	PREFERRED
+121000221105	Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)	vaccin som endast innehåller antigen från inaktiverat hepatit A-virus och hepatit B-ytantigen	sv	cI	SYNONYM	Swedish	PREFERRED
+1051000221104	Vaccine product containing only live attenuated Human poliovirus serotypes 1 and 3 antigens in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från levande försvagat humant poliovirus, serotyp 1 och antigen från levande försvagat humant poliovirus, serotyp 3, oral läkemedelsform	sv	ci	SYNONYM	Swedish	PREFERRED
+1011000221100	Vaccine product containing only live attenuated Vibrio cholerae antigen in oral dose form (medicinal product form)	läkemedel som endast innehåller antigen från levande försvagad Vibrio cholerae, oral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+1861000221106	Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)	vaccin som endast innehåller antigen från Bacillus Calmette-Guerin	sv	cI	SYNONYM	Swedish	PREFERRED
+2001000221108	Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)	vaccin som endast innehåller antigen från humant papillomvirus 11, antigen från humant papillomvirus 6, antigen från humant papillomvirus typ 16 och antigen från humant papillomvirus typ 18	sv	ci	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)',
+  sourceId: '2061000221109',
+  term: 'barndom',
+  typeId: '860781008'
+}
+2061000221109	Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)	vaccin som endast innehåller antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae och helcellsantigen från Bordetella pertussis, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only acellular Bordetella pertussis, Clostridium tetani and Corynebacterium diphtheriae toxoids, Haemophilus influenzae type B capsular polysaccharide conjugated, Hepatitis B virus surface antigens (medicinal product)',
+  sourceId: '2081000221102',
+  term: 'barndom',
+  typeId: '860781008'
+}
+2081000221102	Pediatric vaccine product containing only acellular Bordetella pertussis, Clostridium tetani and Corynebacterium diphtheriae toxoids, Haemophilus influenzae type B capsular polysaccharide conjugated, Hepatitis B virus surface antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från inaktiverat toxin från Clostridium tetani, antigen från inaktiverat toxin från Corynebacterium diphtheriae, antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B och hepatit B-ytantigen, för barn	sv	cI	SYNONYM	Swedish	PREFERRED
+2041000221105	Vaccine product containing only Haemophilus influenzae type B capsular polysaccharide antigen conjugated (medicinal product)	vaccin som endast innehåller antigen, konjugerad kapselpolysackarid från Haemophilus influenzae typ B	sv	cI	SYNONYM	Swedish	PREFERRED
+1111000221101	Vaccine product containing only live attenuated Junin virus antigen (medicinal product)	vaccin som endast innehåller antigen från levande försvagat juninvirus	sv	ci	SYNONYM	Swedish	PREFERRED
+2261000221104	Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria and Yamagata lineage antigens (medicinal product)	vaccin som endast innehåller antigen från influensavirus A, subtyp H1N1, antigen från influensavirus A, subtyp H3N2, antigen från influensavirus B, victorialinjen och antigen från influensavirus B, yamagatalinjen	sv	cI	SYNONYM	Swedish	PREFERRED
+319941000221104	Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product form)	läkemedel som endast innehåller antigen från Bacillus Calmette-Guerin, parenteral läkemedelsform	sv	cI	SYNONYM	Swedish	PREFERRED
+2021000221101	Vaccine product containing only Clostridium tetani toxoid antigen (medicinal product)	vaccin som endast innehåller antigen från inaktiverat toxin från Clostridium tetani	sv	cI	SYNONYM	Swedish	PREFERRED
+{
+  caseSignificance: 'CASE_INSENSITIVE',
+  destinationId: '255398004',
+  groupId: 0,
+  sourceFSN: 'Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human Poliovirus antigens (medicinal product)',
+  sourceId: '2101000221107',
+  term: 'barndom',
+  typeId: '860781008'
+}
+2101000221107	Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human Poliovirus antigens (medicinal product)	vaccin som endast innehåller acellulärt antigen från Bordetella pertussis, antigen från Clostridium tetani, antigen från Corynebacterium diphtheriae, antigen från Haemophilus influenzae typ B, antigen från poliovirus och hepatit B-antigen, för barn	sv	cI	SYNONYM	Swedish	PREFERRED

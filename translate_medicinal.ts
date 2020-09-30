@@ -249,13 +249,13 @@ export const translate = (concept: any) => {
         if (productCharateristic) {
             console.log(productCharateristic);
             switch (productCharateristic.destinationId) {
-                case 255398004:
+                case '255398004':
                     term += ', för barn';
                     break;
-                case 41847000:
+                case '41847000':
                     term += ', för vuxna';
                     break;
-                case 262459003:
+                case '262459003':
                     term += ', lågdos';
                     break;
             }
