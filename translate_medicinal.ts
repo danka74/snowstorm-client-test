@@ -248,13 +248,13 @@ export const translate = (concept: any) => {
         const productCharateristic = concept.relationships.find((rel: any) => rel.typeId == 860781008);
         if (productCharateristic) {
             switch (productCharateristic.destinationId) {
-                case 255398004:
+                case '255398004':
                     term += ', för barn';
                     break;
-                case 41847000:
+                case '41847000':
                     term += ', för vuxna';
                     break;
-                case 262459003:
+                case '262459003':
                     term += ', lågdos';
                     break;
             }
