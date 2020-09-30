@@ -20,7 +20,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/MAIN%2FSNOMEDCT-SE/concepts/search',
+        url: 'http://localhost:8080/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -50,18 +50,19 @@ const search = {
     // conceptIds: [
       // 'string',
     // ],
-    definitionStatusFilter: '900000000000073002',
+    definitionStatusFilter: '900000000000073002', // fully defined
     eclFilter:
         '<763158003 | Medicinal product (product) |',
     // termFilter: 'actuation',
 };
 
+console.log('Concept ID\tGB/US FSN Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability');
+
 getConcepts(search)
     .pipe(
-        take(20),
-        filter((concept) =>  concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20200731'),
-        // tap(console.log),
+        filter((concept) =>  // concept.pt.lang !== 'sv' &&
+            concept.effectiveTime === '20200731'
+	),
         mergeMap((concept) => {
             return ajax({
                 createXHR: () => {
@@ -73,7 +74,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: `http://localhost:8080/MAIN%2FSNOMEDCT-SE/relationships?active=true&source=${concept.conceptId}`
+                url: `http://localhost:8080/MAIN/relationships?active=true&source=${concept.conceptId}`
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
@@ -90,15 +91,17 @@ getConcepts(search)
                             'Content-Type': 'application/json',
                         },
                         method: 'GET',
-                        url: 'http://localhost:8080/MAIN%2FSNOMEDCT-SE/descriptions?concept='
+                        url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?concept='
                             + relationship.destinationId,
                     }).pipe(
                         map((result) => {
                             const descArr = result.response.items.filter((d: any) => d.lang === 'sv' &&
                                 d.type === 'SYNONYM' && d.acceptabilityMap['46011000052107'] === 'PREFERRED');
                             if (descArr.length == 0) {
+				const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
+				//console.log(missing);
                                 return ({
-                                    term: 'översättning saknas: ' + relationship.destinationId,
+                                    term: missing,
                                 });
                             }
                             if (descArr[0].active !== true) {
@@ -129,22 +132,10 @@ getConcepts(search)
         }),
     )
     .subscribe(
-        // (x) => console.log,
-        (x: any) => console.log(`${x.conceptId}\t${x.fsn}\t${x.term}\t${x.caseSignificance}`),
-        // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
+        (x: any) => {
+		const cs = (x.caseSignificance === 'CASE_INSENSITIVE') ? 'ci' : (x.caseSignificance === 'INITIAL_CHARACTER_CASE_INSENSITIVE') ? 'cI' : 'CS';
+		console.log(`${x.conceptId}\t${x.fsn}\t${x.term}\tsv\t${cs}\tSYNONYM\tSwedish\tPREFERRED`);
+	},
+        (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
     );
-
-/*
-    ajax({
-        createXHR: () => {
-            return new XMLHttpRequest();
-        },
-        crossDomain: true,
-        headers: {
-            'Accept-Language': 'sv',
-            'Content-Type': 'application/json',
-        },
-        method: 'GET',
-        url: 'http://localhost:8080/MAIN%2FSNOMEDCT-SE/descriptions/concept=' + rel.destinationId,
-    } */
