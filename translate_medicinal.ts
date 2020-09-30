@@ -247,7 +247,6 @@ export const translate = (concept: any) => {
 
         const productCharateristic = concept.relationships.find((rel: any) => rel.typeId == 860781008);
         if (productCharateristic) {
-            console.log(productCharateristic);
             switch (productCharateristic.destinationId) {
                 case '255398004':
                     term += ', för barn';
