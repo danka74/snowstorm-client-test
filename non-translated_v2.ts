@@ -1,9 +1,9 @@
 import { from, Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
-import { concat, delay, filter, map,
-    mapTo, mergeMap, reduce, switchMap, tap, take, groupBy } from 'rxjs/operators';
+import { concat, filter, groupBy, map,
+    mergeMap, reduce } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
-import { translate } from './translate_medicinal';
+import { combineIngredients, translate } from './translate_medicinal';
 
 const MAX_PAGE_SIZE = 10000;
 
@@ -56,14 +56,18 @@ const search = {
     // termFilter: 'actuation',
 };
 
+
+console.log(combineIngredients([
+    {term: '123456789 6789', caseSignificance: 'CASE_INSENSITIVE'},
+    {term: '123456789 90123'},
+], 'CASE_INSENSITIVE'));
 console.log('Concept ID\tGB/US FSN Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability');
 
 getConcepts(search)
     .pipe(
-        filter((concept) =>  concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20200731'
-	),
-	// tap(console.log),
+        filter((concept) => concept.pt.lang !== 'sv' &&
+            concept.effectiveTime === '20200731'),
+        // tap(console.log),
         mergeMap((concept) => {
             return ajax({
                 createXHR: () => {

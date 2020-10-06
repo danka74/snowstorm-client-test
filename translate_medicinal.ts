@@ -8,12 +8,12 @@ const combineTerms = (total: any, current: any, index: number, length: number) =
     if (index === length - 1) {
         return ({
             caseSignificance: aggregateCS(total.caseSignificance, current.caseSignificance),
-            term: total.term + ' och ' + current.term,
+            term: total.term + ' och ' + current.term.trim(),
         });
     }
     return ({
         caseSignificance: aggregateCS(total.caseSignificance, current.caseSignificance),
-        term: total.term + ', ' + current.term,
+        term: total.term + ', ' + current.term.trim(),
     });
 };
 
@@ -94,7 +94,7 @@ const translateIngredients = (concept: any): any => {
     groups.forEach((groupId) => {
         if (groupId !== 0) {
             let term: string = '';
-            let caseSignificance = 'CASE_INSENSITIVE';
+            let caseSignificance = 'CASE_INSEsortNSITIVE';
 
             const curRelationships = concept.relationships.filter((rel: any) => rel.groupId == groupId);
             const activeIngredientRel = curRelationships.find((rel: any) => rel.typeId == 127489000);
@@ -192,6 +192,45 @@ const translateIngredients = (concept: any): any => {
     });
 };
 
+const commonPrefix = (s1: string, s2: string): number => {
+    let i;
+    for (i = 0; (i < s1.length) && (i < s2.length); i++) {
+        if (s1[i] !== s2[i]) {
+            return i - 1;
+        }
+    }
+    return i;
+};
+
+export const combineIngredients = (ingredients: any[], caseSignificance: any): string => {
+    const prefixThreshold = 6;
+    if (ingredients.length) {
+        let ingredientPrefix: string = ingredients[0].term;
+        let prefix: number = -1;
+        for (let i = 1; i < (ingredients.length); i++) {
+            prefix = commonPrefix(ingredientPrefix, ingredients[i].term);
+            if (prefix > 0) {
+                ingredientPrefix = ingredientPrefix.slice(0, prefix);
+            }
+        }
+
+        if (prefix < prefixThreshold) {
+            return ingredients.reduce((total: any, word: any, index: number, wordList: any[]) => {
+                return combineTerms(total, word, index, wordList.length);
+            }, { term: '', caseSignificance });
+        } else {
+            return ingredients.reduce((total: any, word: any, index: number, wordList: any[]) => {
+                return combineTerms(total,
+                    { term: word.term.slice(prefix), caseSignificance: word.caseSignificance },
+                    index,
+                    wordList.length);
+            }, { term: ingredientPrefix, caseSignificance });
+        }
+    }
+
+    return '';
+};
+
 export const translate = (concept: any) => {
     const semtag = getSemanticTag(concept.fsn);
 
@@ -201,7 +240,8 @@ export const translate = (concept: any) => {
 
     if (semtag === '(product)' || semtag === '(medicinal product)') {
         const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
-        if (playsRole && playsRole.destinationId == 318331000221102 ) { // Active immunity stimulant therapeutic role (role)
+        // 318331000221102 | Active immunity stimulant therapeutic role (role) |
+        if (playsRole && playsRole.destinationId == 318331000221102 ) {
             term = 'vaccin';
         } else {
             term = 'läkemedel';
@@ -219,9 +259,7 @@ export const translate = (concept: any) => {
                 term += ' innehåller';
             }
 
-            ingredients = ingredients.reduce((total: string, word: string, index: number, wordList: string[]) => {
-                return combineTerms(total, word, index, wordList.length);
-            }, { term: '', caseSignificance });
+            ingredients = combineIngredients(ingredients, caseSignificance);
             term += ' ' + ingredients.term;
             if (ingredients.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE') {
                 caseSignificance = 'INITIAL_CHARACTER_CASE_INSENSITIVE';
@@ -279,9 +317,7 @@ export const translate = (concept: any) => {
             term += ' innehåller';
         }
 
-        ingredients = ingredients.reduce((total: string, word: string, index: number, wordList: string[]) => {
-            return combineTerms(total, word, index, wordList.length);
-        }, { term: '', caseSignificance });
+        ingredients = combineIngredients(ingredients, caseSignificance);
         term += ' ' + ingredients.term;
         if (ingredients.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE') {
             caseSignificance = 'INITIAL_CHARACTER_CASE_INSENSITIVE';
@@ -301,9 +337,7 @@ export const translate = (concept: any) => {
     if (semtag === '(clinical drug)') {
         let ingredients = translateIngredients(concept);
 
-        ingredients = ingredients.reduce((total: string, word: string, index: number, wordList: string[]) => {
-            return combineTerms(total, word, index, wordList.length);
-        }, { term: '', caseSignificance });
+        ingredients = combineIngredients(ingredients, caseSignificance);
         term = ingredients.term;
         caseSignificance = ingredients.caseSignificance;
 
