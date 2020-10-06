@@ -56,11 +56,14 @@ const search = {
     // termFilter: 'actuation',
 };
 
-
+/*
 console.log(combineIngredients([
-    {term: '123456789 6789', caseSignificance: 'CASE_INSENSITIVE'},
-    {term: '123456789 90123'},
-], 'CASE_INSENSITIVE'));
+    // vaccin som endast innehåller , ,  och antigen från Neisseria meningitidis, grupp Y
+    {term: 'antigen från Neisseria meningitidis W-135', caseSignificance: 'CASE_INSENSITIVE'},
+    {term: 'antigen från Neisseria meningitidis grupp A', caseSignificance: 'CASE_INSENSITIVE'},
+    {term: 'antigen från Neisseria meningitidis grupp C', caseSignificance: 'CASE_INSENSITIVE'},
+    {term: 'antigen från Neisseria meningitidis, grupp Y', caseSignificance: 'CASE_INSENSITIVE'}
+], 'CASE_INSENSITIVE')); */
 console.log('Concept ID\tGB/US FSN Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability');
 
 getConcepts(search)

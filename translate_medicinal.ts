@@ -8,12 +8,12 @@ const combineTerms = (total: any, current: any, index: number, length: number) =
     if (index === length - 1) {
         return ({
             caseSignificance: aggregateCS(total.caseSignificance, current.caseSignificance),
-            term: total.term + ' och ' + current.term.trim(),
+            term: total.term + ' och ' + current.term.replace(/^[ ,.]+/g, ''),
         });
     }
     return ({
         caseSignificance: aggregateCS(total.caseSignificance, current.caseSignificance),
-        term: total.term + ', ' + current.term.trim(),
+        term: total.term + ', ' + current.term.replace(/^[ ,.]+/g, ''),
     });
 };
 
