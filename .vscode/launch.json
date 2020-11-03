@@ -60,6 +60,13 @@
             "request": "launch",
             "name": "Launch Program dups",
             "program": "${workspaceFolder}/dist/duplicates.js"
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program nll",
+            "program": "${workspaceFolder}/dist/nll.js"
         }
 
     ]
