@@ -71,18 +71,20 @@ const main = () => {
     let mainObservable: any = null;
 
     sheets.forEach((sheet: Sheet) => {
-        const admVag = workbook.getWorksheet(sheet.sheetName);
+        const s = workbook.getWorksheet(sheet.sheetName);
 
         // console.log(admVag.actualRowCount);
 
-        admVag.eachRow((row: Excel.Row, rowNumber: number) => {
+        s.eachRow((row: Excel.Row, rowNumber: number) => {
             if (rowNumber > 1) {
                 // const edqmId = row.getCell(1).value;
                 // const edqmTerm = row.getCell(2).value;
-                const sctid: string = row.getCell(3).value ? row.getCell(sheet.startColumn).value.toString() : '';
-                const term: string = row.getCell(4).value ? row.getCell(sheet.startColumn + 1).value.toString() : '';
+                const sctid: string =
+                    row.getCell(sheet.startColumn).value ? row.getCell(sheet.startColumn).value.toString() : '';
+                const term: string =
+                    row.getCell(sheet.startColumn + 1).value ? row.getCell(sheet.startColumn + 1).value.toString() : '';
                 const patFriend: string =
-                    row.getCell(5).value ? row.getCell(sheet.startColumn + 2).value.toString() : '';
+                    row.getCell(sheet.startColumn + 2).value ? row.getCell(sheet.startColumn + 2).value.toString() : '';
                 // console.log(`${sctid}. ${term}. ${patFriend}`);
 
                 const obs = getDescriptions(sctid).pipe(
