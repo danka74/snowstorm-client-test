@@ -2,3 +2,11 @@ node_modules/
 dist/
 download_member.ts
 *.csv
+förkortning_lang_refset.txt
+förkortning_new_desc.xlsx
+kontextspecifik_lang_refset.txt
+kontextspecifik_new_desc.xlsx
+patient_lang_refset.txt
+patient_new_desc.xlsx
+plural_lang_refset.txt
+plural_new_desc.xlsx
