@@ -140,7 +140,7 @@ const main = () => {
                             'Language reference set\tAcceptability\n');
                         newProDesc.forEach((desc: NewDescription) => {
                             const u = uuid();
-                            fs.writeSync(fd, `${desc.conceptId}\tDummy\t${desc.term}\tsv\tci\tSwedish\tPREFERRED\n`);
+                            fs.writeSync(fd, `${desc.conceptId}\tDummy\t${desc.term}\tsv\tci\tSYNONYM\tSwedish\tPREFERRED\n`);
                         });
                         fs.closeSync(fd);
 
@@ -150,7 +150,7 @@ const main = () => {
                             'Language reference set\tAcceptability\n');
                         newPatDesc.forEach((desc: NewDescription) => {
                             const u = uuid();
-                            fs.writeSync(fd, `${desc.conceptId}\tDummy\t${desc.term}\tsv\tci\tSwedish\tPREFERRED\n`);
+                            fs.writeSync(fd, `${desc.conceptId}\tDummy\t${desc.term}\tsv\tci\tSYNONYM\tSwedish\tPREFERRED\n`);
                         });
                         fs.closeSync(fd);
                     } },
