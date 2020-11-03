@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@types/request": "^2.48.4",
+    "@types/uuid": "^8.3.0",
     "nodemon": "^2.0.6",
     "ts-node": "^9.0.0",
     "tslint": "^5.18.0",
