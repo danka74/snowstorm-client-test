@@ -1,9 +1,8 @@
-import { combineLatest, from, Observable } from 'rxjs';
+import { combineLatest, concat, from, Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
-import { concat, delay, filter, map,
-    mapTo, mergeMap, reduce, switchMap, tap, take } from 'rxjs/operators';
+import { filter, map,
+     mergeMap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
-import { translate } from './translate_medicinal';
 
 const MAX_PAGE_SIZE = 10000;
 
@@ -35,9 +34,7 @@ const getConcepts = (search: any): Observable<any> => {
             if (response.items.length < response.limit) {
                 return result;
             } else {
-                return result.pipe(
-                    concat(getConcepts({...search, searchAfter: response.searchAfter})),
-                );
+                return concat(result, getConcepts({...search, searchAfter: response.searchAfter}));
             }
         }),
     );
@@ -59,6 +56,7 @@ const search = {
     // termFilter: 'string',
 };
 
+console.log('Concept_ID\tPreferred_term\tFully_specified_name\tCase_significance\tSemtag')
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
