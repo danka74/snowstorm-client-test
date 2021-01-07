@@ -41,9 +41,17 @@ const getConcepts = (search: any): Observable<any> => {
 
 };
 
+const getSemanticTag = (fsn: string) => {
+    const semtag = fsn.match(/\([^)]*\)$/);
+    if (semtag !== null) {
+        return semtag[0];
+    } else {
+        return '';
+    }
+};
+
 const release = process.argv[2];
 const ecl = process.argv[3];
-console.log(ecl);
 
 const search = {
     activeFilter: true,
@@ -88,7 +96,7 @@ getConcepts(search)
                 url: 'http://localhost:8080/MAIN/descriptions?conceptId=' + concept.conceptId,
             }).pipe(map((r) => r.response));
 
-            return combineLatest(sv$, en$).pipe(
+            return combineLatest([sv$, en$]).pipe(
                 filter(([sv, en]) => sv.total === 0),
                 map(([sv, en]) => ({
                         conceptId: concept.conceptId,
@@ -96,16 +104,18 @@ getConcepts(search)
                         pt: en.items.find((d: any) => d.typeId === '900000000000013009' && 
                             d.acceptabilityMap['900000000000509007'] === 'PREFERRED'),
                     })),
-            )
+            );
         }),
 
     )
     .subscribe(
         (x: any) => {
+            const fsn = x.fsn.term;
+            const semtag = getSemanticTag(x.fsn.term);
             const cs = x.fsn.caseSignificance === 'CASE_INSENSITIVE' ?
                 'ci' :
                 (x.fsn.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE' ? 'CS' : 'cI');
-            console.log(`${x.conceptId}\t${x.fsn.term}\t${x.pt.term}\t${cs}`)
+            console.log(`${x.conceptId}\t${fsn}\t${x.pt.term}\t${cs}\t${semtag}`)
         },
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
