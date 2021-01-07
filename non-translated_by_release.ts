@@ -95,14 +95,15 @@ getConcepts(search)
                 map(([sv, en]) => ({
                         conceptId: concept.conceptId,
                         fsn: en.items.find((d: any) => d.typeId === '900000000000003001' && d.lang === 'en' ),
-                        pt: en.items.find((d: any) => d.typeId === '900000000000013009' && d.acceptabilityMap['900000000000509007'] === 'PREFERRED'),
+                        pt: en.items.find((d: any) => d.typeId === '900000000000013009' && 
+                            d.acceptabilityMap['900000000000509007'] === 'PREFERRED'),
                     })),
             )
         }),
 
     )
     .subscribe(
-        (x: any) => console.log(`${x.conceptId}\t${x.fsn.term}\t${x.pt.term}\t${x.fsn.caseSignificanceId}`),
+        (x: any) => console.log(`${x.conceptId}\t${x.fsn.term}\t${x.pt.term}\t${x.fsn.caseSignificance}`),
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
     );
