@@ -44,21 +44,25 @@ const getConcepts = (search: any): Observable<any> => {
 
 };
 
+const release = process.argv[2];
+const ecl = process.argv[3];
+console.log(ecl);
+
 const search = {
     activeFilter: true,
     // conceptIds: [
       // 'string',
     // ],
-    definitionStatusFilter: '900000000000073002',
+    //definitionStatusFilter: '900000000000073002',
     eclFilter:
-        '<<763158003 | Medicinal product (product) |',
+        ecl,
     // termFilter: 'string',
 };
 
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20210131'),
+            concept.effectiveTime === release),
         // tap(console.log),
         mergeMap((concept) => {
             const sv$ = ajax({
@@ -79,7 +83,7 @@ getConcepts(search)
                 },
                 crossDomain: true,
                 headers: {
-                    'Accept-Language': 'sv',
+                    'Accept-Language': 'en',
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
