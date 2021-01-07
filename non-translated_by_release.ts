@@ -103,7 +103,12 @@ getConcepts(search)
 
     )
     .subscribe(
-        (x: any) => console.log(`${x.conceptId}\t${x.fsn.term}\t${x.pt.term}\t${x.fsn.caseSignificance}`),
+        (x: any) => {
+            const cs = x.fsn.caseSignificance === 'CASE_INSENSITIVE' ?
+                'ci' :
+                (x.fsn.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE' ? 'CS' : 'cI');
+            console.log(`${x.conceptId}\t${x.fsn.term}\t${x.pt.term}\t${cs}`)
+        },
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
     );
