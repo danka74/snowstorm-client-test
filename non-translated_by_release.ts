@@ -98,7 +98,7 @@ getConcepts(search)
 
     )
     .subscribe(
-        (x: any) => console.log(`${x.conceptId}\t${x.fsn}\t${x.term}\t${x.caseSignificanceId}`),
+        (x: any) => console.log(`${x.conceptId}\t${x.fsn.term}\t${x.pt.term}\t${x.fsn.caseSignificanceId}`),
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
     );
