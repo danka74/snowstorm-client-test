@@ -42,9 +42,9 @@ const getConcepts = (search: any): Observable<any> => {
 };
 
 const getSemanticTag = (fsn: string) => {
-    const semtag = fsn.match(/\([^)]*\)$/);
+    const semtag = fsn.match(/\(([^)]*)\)$/);
     if (semtag !== null) {
-        return semtag[0];
+        return semtag[1];
     } else {
         return '';
     }
