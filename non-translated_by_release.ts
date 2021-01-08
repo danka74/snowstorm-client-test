@@ -64,7 +64,7 @@ const search = {
     // termFilter: 'string',
 };
 
-console.log('Concept ID\tFully_specified_name\tPreferred_term\tCase_significance\tSemtag')
+console.log('Concept ID\tFully specified name\tPreferred term\tCase significance\tSemtag')
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
