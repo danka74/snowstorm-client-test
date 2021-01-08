@@ -64,7 +64,7 @@ const search = {
     // termFilter: 'string',
 };
 
-console.log('Concept_ID\tPreferred_term\tFully_specified_name\tCase_significance\tSemtag')
+console.log('Concept ID\tFully_specified_name\tPreferred_term\tCase_significance\tSemtag')
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
@@ -112,9 +112,9 @@ getConcepts(search)
         (x: any) => {
             const fsn = x.fsn.term;
             const semtag = getSemanticTag(x.fsn.term);
-            const cs = x.fsn.caseSignificance === 'CASE_INSENSITIVE' ?
+            const cs = x.pt.caseSignificance === 'CASE_INSENSITIVE' ?
                 'ci' :
-                (x.fsn.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE' ? 'CS' : 'cI');
+                (x.pt.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE' ? 'CS' : 'cI');
             console.log(`${x.conceptId}\t${fsn}\t${x.pt.term}\t${cs}\t${semtag}`)
         },
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
