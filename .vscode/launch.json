@@ -6,6 +6,14 @@
     "configurations": [
 
 
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program gen_owl",
+            "program": "${workspaceFolder}/dist/gen_owl.js"
+        },
+
         {
             "type": "node",
             "request": "launch",
