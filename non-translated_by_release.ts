@@ -19,7 +19,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/MAIN/concepts/search',
+        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -81,7 +81,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.conceptId,
+                url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.conceptId,
             }).pipe(map((r) => r.response));
             const en$ = ajax({
                 createXHR: () => {
@@ -93,7 +93,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/MAIN/descriptions?conceptId=' + concept.conceptId,
+                url: 'http://localhost:8080/snowstorm/MAIN/descriptions?conceptId=' + concept.conceptId,
             }).pipe(map((r) => r.response));
 
             return combineLatest([sv$, en$]).pipe(
