@@ -69,7 +69,7 @@ console.log('Concept ID\tGB/US FSN Term (For reference only)\tTranslated Term\tL
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20200731'),
+            concept.effectiveTime === '20210131'),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
