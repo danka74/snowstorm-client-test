@@ -20,7 +20,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/MAIN/concepts/search',
+        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -82,7 +82,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: `http://localhost:8080/MAIN/relationships?active=true&source=${concept.conceptId}`
+                url: `http://localhost:8080/snowstorm/MAIN/relationships?active=true&source=${concept.conceptId}`
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
@@ -99,7 +99,7 @@ getConcepts(search)
                             'Content-Type': 'application/json',
                         },
                         method: 'GET',
-                        url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?concept='
+                        url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?concept='
                             + relationship.destinationId,
                     }).pipe(
                         map((result) => {
