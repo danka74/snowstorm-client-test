@@ -19,7 +19,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
+        url: 'http://localhost:8080/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -67,8 +67,9 @@ const search = {
 console.log('Concept ID\tFully specified name\tPreferred term\tCase significance\tSemtag')
 getConcepts(search)
     .pipe(
-        filter((concept) => concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === release),
+        filter((concept) => {
+            return concept.effectiveTime === release;
+        }),
         // tap(console.log),
         mergeMap((concept) => {
             const sv$ = ajax({
@@ -81,7 +82,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.conceptId,
+                url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
             }).pipe(map((r) => r.response));
             const en$ = ajax({
                 createXHR: () => {
@@ -93,15 +94,20 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/snowstorm/MAIN/descriptions?conceptId=' + concept.conceptId,
+                url: 'http://localhost:8080/MAIN/descriptions?conceptId=' + concept.id,
             }).pipe(map((r) => r.response));
 
             return combineLatest([sv$, en$]).pipe(
-                filter(([sv, en]) => sv.total === 0),
+                filter(([sv, en]) => {
+                    const found = sv.items.find((d: any) => d.active === true && d.lang === 'sv');
+                    return found === undefined;
+                }),
                 map(([sv, en]) => ({
-                        conceptId: concept.conceptId,
-                        fsn: en.items.find((d: any) => d.typeId === '900000000000003001' && d.lang === 'en' ),
-                        pt: en.items.find((d: any) => d.typeId === '900000000000013009' && 
+                        conceptId: concept.id,
+                        fsn: en.items.find((d: any) =>
+                            d.active === true && d.typeId === '900000000000003001' && d.lang === 'en' ),
+                        pt: en.items.find((d: any) =>
+                            d.active === true && d.typeId === '900000000000013009' &&
                             d.acceptabilityMap['900000000000509007'] === 'PREFERRED'),
                     })),
             );

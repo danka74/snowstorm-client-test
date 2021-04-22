@@ -20,7 +20,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
+        url: 'http://localhost:8080/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -64,13 +64,17 @@ console.log(combineIngredients([
     {term: 'antigen från Neisseria meningitidis grupp C', caseSignificance: 'CASE_INSENSITIVE'},
     {term: 'antigen från Neisseria meningitidis, grupp Y', caseSignificance: 'CASE_INSENSITIVE'}
 ], 'CASE_INSENSITIVE')); */
-console.log('Concept ID\tGB/US FSN Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability');
+console.log('Concept ID\tGB/US FSN Term (For reference only)\tPreferred Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tNotes');
 
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20210131'),
+<<<<<<< HEAD
 	// take(5),
+=======
+        take(5),
+>>>>>>> f93cdeb957c5a62836e3375c21a76e60edfdc59b
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
@@ -83,7 +87,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: `http://localhost:8080/snowstorm/MAIN/relationships?active=true&source=${concept.conceptId}`
+                url: `http://localhost:8080/MAIN/relationships?active=true&source=${concept.conceptId}`
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
@@ -100,7 +104,11 @@ getConcepts(search)
                             'Content-Type': 'application/json',
                         },
                         method: 'GET',
+<<<<<<< HEAD
                         url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId='
+=======
+                        url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?concept='
+>>>>>>> f93cdeb957c5a62836e3375c21a76e60edfdc59b
                             + relationship.destinationId,
                     }).pipe(
                         map((result) => {
@@ -144,7 +152,7 @@ getConcepts(search)
     .subscribe(
         (x: any) => {
 		const cs = (x.caseSignificance === 'CASE_INSENSITIVE') ? 'ci' : (x.caseSignificance === 'INITIAL_CHARACTER_CASE_INSENSITIVE') ? 'cI' : 'CS';
-		console.log(`${x.conceptId}\t${x.fsn}\t${x.term}\tsv\t${cs}\tSYNONYM\tSwedish\tPREFERRED`);
+		console.log(`${x.conceptId}\t${x.fsn}\t${x.fsn}\t${x.term}\tsv\t${cs}\tSYNONYM\tSwedish\tPREFERRED`);
 	},
         (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),

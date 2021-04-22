@@ -5,7 +5,31 @@
     "version": "0.2.0",
     "configurations": [
 
-
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch csv2owl",
+            "program": "${workspaceFolder}/dist/csv2owl.js",
+            "args": ["serum.csv"],
+            },{
+            "type": "node",
+            "request": "launch",
+            "name": "Launch gen nll",
+            "program": "${workspaceFolder}/dist/gen_nll.js"
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch non-translated_by_release",
+                "program": "${workspaceFolder}/dist/non-translated_by_release.js",
+                "args": [ "20210131", "123276005"]
+                },
+    {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program yrke",
+            "program": "${workspaceFolder}/dist/yrke.js"
+        },
 
         {
             "type": "node",

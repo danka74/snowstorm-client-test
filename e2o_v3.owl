@@ -1,0 +1,1118 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+Ontology(<http://snomed.info/e2o-test>
+
+Declaration(Class(<http://snomed.info/id/e2o_74765001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_74765001> "[E2O]Lymphocyte count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_74765001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/56972008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_60306005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_60306005> "[E2O]Folic acid measurement, serum (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_60306005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/63718003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_72191006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_72191006> "[E2O]Glucose measurement, plasma (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_72191006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/67079006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_46716003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_46716003> "[E2O]Microalbuminuria measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_46716003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/52454007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/122575003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/78014005>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_61594008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_61594008> "[E2O]Microbial culture (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_61594008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/410607006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118584009>))
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                        ObjectSomeValuesFrom(<http://snomed.info/id/246501002> <http://snomed.info/id/702658000>))
+                                    ))
+
+Declaration(Class(<http://snomed.info/id/e2o_88810008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_88810008> "[E2O]Alkaline phosphatase measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_88810008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/57056007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_767002>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_767002> "[E2O]White blood cell count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_767002>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/52501007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_67776007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_67776007> "[E2O]Monocyte count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_67776007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/55918008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_71960002>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_71960002> "[E2O]Eosinophil count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_71960002>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/127916009>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_63476009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_63476009> "[E2O]Prostate specific antigen measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_63476009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/102687007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_66842004>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_66842004> "[E2O]Red cell distribution width determination (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_66842004>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_442673006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_442673006> "[E2O]Measurement of total hemoglobin concentration using dipstick (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_442673006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/38082009>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_443796007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_443796007> "[E2O]Corrected measurement of calcium (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_443796007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/5540006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_54706004>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_54706004> "[E2O]Mean corpuscular hemoglobin determination (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_54706004>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_396451008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_396451008> "[E2O]Prothrombin time (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_396451008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/443017007>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_61928009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_61928009> "[E2O]Platelet count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_61928009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/63370004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/16378004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_167036008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_167036008> "[E2O]Bone profile (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_167036008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/256646004>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_409087007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_409087007> "[E2O]Large unstained cell count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_409087007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/63370004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_395015001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_395015001> "[E2O]Percentage hypochromic cells (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_395015001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_42351005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_42351005> "[E2O]Basophil count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_42351005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/30061004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_390955003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_390955003> "[E2O]Plasma albumin level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_390955003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/52454007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_34608000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_34608000> "[E2O]Alanine aminotransferase measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_34608000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/56935002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_26958001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_26958001> "[E2O]Hepatic function panel (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_26958001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/105590001>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_273969007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_273969007> "[E2O]Serum luteinizing hormone measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_273969007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/64182005>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_398245009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_398245009> "[E2O]Serum creatine kinase measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_398245009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/75828004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313849004>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313849004> "[E2O]Serum gamma-glutamyl transferase measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313849004>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/60153001>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271037006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271037006> "[E2O]Monocyte percent differential count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271037006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/55918008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_252167001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_252167001> "[E2O]Urea and electrolytes (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_252167001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/387092000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/86355000>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_273967009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_273967009> "[E2O]Serum urea measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_273967009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/387092000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_30630007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_30630007> "[E2O]Neutrophil count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_30630007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/127913001>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_28317006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_28317006> "[E2O]Hematocrit determination (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_28317006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313840000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313840000> "[E2O]Serum total bilirubin measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313840000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/79706000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271038001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271038001> "[E2O]Basophil percent differential count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271038001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/30061004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313440008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313440008> "[E2O]Measurement of serum thyroid stimulating hormone (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313440008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/65428006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313936008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313936008> "[E2O]Plasma creatinine measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313936008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/15373003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_33747003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_33747003> "[E2O]Glucose measurement, blood (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_33747003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/67079006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119297000>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/256906008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_26604007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_26604007> "[E2O]Complete blood count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_26604007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/63370004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_390962007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_390962007> "[E2O]Plasma alkaline phosphatase level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_390962007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/57056007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_270980008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_270980008> "[E2O]Plasma C-reactive protein measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_270980008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/61425002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_273971007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_273971007> "[E2O]Serum follicle stimulating hormone measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_273971007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/25217009>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_167226008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_167226008> "[E2O]Urine dipstick test (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_167226008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/105590001>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/122575003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/78014005>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/424226004> <http://snomed.info/id/272187004>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271260009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271260009> "[E2O]Urine creatinine measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271260009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/15373003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/122575003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/78014005>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271245006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271245006> "[E2O]Measurement of serum triglyceride level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271245006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/85600001>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271236005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271236005> "[E2O]Serum potassium measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271236005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/88480006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313837000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313837000> "[E2O]Serum free T4 measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313837000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/86211008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/73187006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_250216004>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_250216004> "[E2O]Serum iron measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_250216004>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/3829006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_390964008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_390964008> "[E2O]Plasma potassium level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_390964008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/88480006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_412808005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_412808005> "[E2O]Serum total cholesterol measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_412808005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/84698008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_270994009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_270994009> "[E2O]Serum globulin measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_270994009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/81905004>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_250641004>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_250641004> "[E2O]Aspartate aminotransferase serum measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_250641004>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/26091008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_270992008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_270992008> "[E2O]Serum total protein measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_270992008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/88878007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_22569008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_22569008> "[E2O]Glucose measurement, serum (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_22569008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/67079006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_312349000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_312349000> "[E2O]Blood hematinic measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_312349000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/259699009>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119297000>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/256906008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_310540006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_310540006> "[E2O]Eosinophil percent differential count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_310540006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/127916009>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_390958001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_390958001> "[E2O]Plasma sodium measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_390958001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/39972003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_37254006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_37254006> "[E2O]Mean corpuscular hemoglobin concentration determination (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_37254006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271216009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271216009> "[E2O]Serum vitamin B12 measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271216009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/419382002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271241002>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271241002> "[E2O]Serum inorganic phosphate measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271241002>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/259296007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313835008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313835008> "[E2O]Hemoglobin A1c measurement aligned to the Diabetes Control and Complications Trial (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313835008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/31299006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/733830002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271239003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271239003> "[E2O]Serum bicarbonate measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271239003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/68615006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_269821003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_269821003> "[E2O]Serum ferritin measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_269821003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/32789000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271035003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271035003> "[E2O]Neutrophil percent differential count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271035003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/127913001>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_413625003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_413625003> "[E2O]Bacterial culture and sensitivity (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_413625003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/41146007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118584009>))
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                        ObjectSomeValuesFrom(<http://snomed.info/id/246501002> <http://snomed.info/id/702658000>))
+                                    ))
+
+Declaration(Class(<http://snomed.info/id/e2o_395144002>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_395144002> "[E2O]B12/folate level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_395144002>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/259699009>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119297000>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/256906008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_313989009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_313989009> "[E2O]Serum cholesterol/high density lipoprotein ratio measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_313989009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/70106000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271238006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271238006> "[E2O]Serum chloride measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271238006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/50213009>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/304052005>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_270990000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_270990000> "[E2O]Serum vitamin D measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_270990000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/30178006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_391558003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_391558003> "[E2O]Total white blood cell count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_391558003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/52501007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_135842001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_135842001> "[E2O]Serum C reactive protein level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_135842001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/61425002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_395065005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_395065005> "[E2O]Calculated low density lipoprotein cholesterol level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_395065005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/70106000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_20109005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_20109005> "[E2O]Electrolytes measurement, serum (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_20109005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/86355000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_117010004>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_117010004> "[E2O]Urine culture (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_117010004>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/122575003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/78014005>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/410607006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118584009>))
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                        ObjectSomeValuesFrom(<http://snomed.info/id/246501002> <http://snomed.info/id/702658000>))
+                                    ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271234008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271234008> "[E2O]Serum alkaline phosphatase measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271234008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/57056007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271075006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271075006> "[E2O]Urine albumin/creatinine ratio measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271075006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118586006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/122575003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/78014005>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/105590001>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_167096006>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_167096006> "[E2O]Plasma fasting glucose measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_167096006>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/67079006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_390961000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_390961000> "[E2O]Plasma alanine aminotransferase level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_390961000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/56935002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119361006>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271244005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271244005> "[E2O]Measurement of serum lipid level (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271244005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/70106000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_165511009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_165511009> "[E2O]Differential white blood cell count procedure (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_165511009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/52501007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_166832000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_166832000> "[E2O]Serum high density lipoprotein cholesterol measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_166832000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/102737005>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_104133003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_104133003> "[E2O]Erythrocyte mean corpuscular volume determination (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_104133003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_166610007>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_166610007> "[E2O]Serum bilirubin measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_166610007>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/79706000>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_166842003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_166842003> "[E2O]Total cholesterol:high density lipoprotein ratio measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_166842003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118586006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/105590001>))
+                                            ))
+
+Declaration(Class(<http://snomed.info/id/e2o_104934005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_104934005> "[E2O]Sodium measurement, serum (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_104934005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/39972003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271240001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271240001> "[E2O]Serum calcium measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271240001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/5540006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_165426009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_165426009> "[E2O]Nucleated red blood cell count procedure (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_165426009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/29208003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119297000>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/256906008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_273966000>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_273966000> "[E2O]Serum urate measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_273966000>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/88476001>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_113075003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_113075003> "[E2O]Creatinine measurement, serum (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_113075003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/15373003>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_104485008>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_104485008> "[E2O]Albumin measurement, serum (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_104485008>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/52454007>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_166833005>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_166833005> "[E2O]Serum low density lipoprotein cholesterol measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_166833005>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/102739008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_166708003>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_166708003> "[E2O]Corrected serum calcium measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_166708003>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/5540006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                            ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/119364003>))
+                                                ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                                    ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/50863008>))
+                                                        ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_395202001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_395202001> "[E2O]Epithelial cell count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_395202001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/4212006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_43396009>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_43396009> "[E2O]Hemoglobin A1c measurement (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_43396009>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/31299006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/733830002>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_271036002>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_271036002> "[E2O]Lymphocyte percent differential count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_271036002>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/56972008>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+Declaration(Class(<http://snomed.info/id/e2o_14089001>))
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_14089001> "[E2O]Red blood cell count (observable entity)"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_14089001>
+            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/41898006>))
+                                                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
+                                ))
+
+)
+
