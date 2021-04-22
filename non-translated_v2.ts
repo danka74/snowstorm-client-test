@@ -1,7 +1,7 @@
 import { from, Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { concat, filter, groupBy, map,
-    mergeMap, reduce } from 'rxjs/operators';
+    mergeMap, reduce, take } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 import { combineIngredients, translate } from './translate_medicinal';
 
@@ -70,6 +70,7 @@ getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20210131'),
+	// take(5),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
@@ -99,7 +100,7 @@ getConcepts(search)
                             'Content-Type': 'application/json',
                         },
                         method: 'GET',
-                        url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?concept='
+                        url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId='
                             + relationship.destinationId,
                     }).pipe(
                         map((result) => {
@@ -136,6 +137,7 @@ getConcepts(search)
         mergeMap((concept$) => concept$.pipe(reduce((acc, cur) => [...acc, cur], [concept$.key]))),
         map((arr) => ({ conceptId: arr[0], fsn: arr[1].sourceFSN, relationships: arr.slice(1) })),
         map((concept) => {
+	    // console.log(JSON.stringify(concept));
             return translate(concept);
         }),
     )
