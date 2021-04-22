@@ -70,11 +70,7 @@ getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20210131'),
-<<<<<<< HEAD
-	// take(5),
-=======
-        take(5),
->>>>>>> f93cdeb957c5a62836e3375c21a76e60edfdc59b
+	    // take(5),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
@@ -104,19 +100,15 @@ getConcepts(search)
                             'Content-Type': 'application/json',
                         },
                         method: 'GET',
-<<<<<<< HEAD
                         url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId='
-=======
-                        url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?concept='
->>>>>>> f93cdeb957c5a62836e3375c21a76e60edfdc59b
                             + relationship.destinationId,
                     }).pipe(
                         map((result) => {
                             const descArr = result.response.items.filter((d: any) => d.lang === 'sv' &&
                                 d.type === 'SYNONYM' && d.acceptabilityMap['46011000052107'] === 'PREFERRED');
                             if (descArr.length == 0) {
-				const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
-				//console.log(missing);
+				                const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
+				                //console.log(missing);
                                 return ({
                                     term: missing,
                                 });
