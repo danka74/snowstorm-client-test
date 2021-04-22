@@ -1,7 +1,7 @@
 import { from, Observable } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { concat, filter, groupBy, map,
-    mergeMap, reduce } from 'rxjs/operators';
+    mergeMap, reduce, take } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 import { combineIngredients, translate } from './translate_medicinal';
 
@@ -20,7 +20,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
+        url: 'http://localhost:8080/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -70,6 +70,7 @@ getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20210131'),
+        take(5),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
@@ -82,7 +83,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: `http://localhost:8080/snowstorm/MAIN/relationships?active=true&source=${concept.conceptId}`
+                url: `http://localhost:8080/MAIN/relationships?active=true&source=${concept.conceptId}`
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
@@ -99,7 +100,7 @@ getConcepts(search)
                             'Content-Type': 'application/json',
                         },
                         method: 'GET',
-                        url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?concept='
+                        url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?concept='
                             + relationship.destinationId,
                     }).pipe(
                         map((result) => {

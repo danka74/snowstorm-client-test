@@ -44,6 +44,11 @@ const getConcepts = (search: any): Observable<any> => {
 
 };
 
+/* const search = {
+    activeFilter: true,
+    eclFilter: "(<<386053000 | bedömning |: 260686004 |Method|=<<129266000 |Measurement - action|) AND <<108252007 | laboratorieförfarande |",
+}; */
+
 const search = {
     activeFilter: true,
     conceptIds: [
@@ -178,28 +183,7 @@ getConcepts(search)
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
-                // tap(console.log),
                 filter((relationship: any) => relationship.typeId !== '116680003'), // filter out Is A
-                /* mergeMap((relationship: any) => {
-                    return ajax({
-                        createXHR: () => {
-                            return new XMLHttpRequest();
-                        },
-                        crossDomain: true,
-                        headers: {
-                            'Accept-Language': 'en',
-                            'Content-Type': 'application/json',
-                        },
-                        method: 'GET',
-                        url: 'http://localhost:8080/browser/MAIN/concepts/'
-                            + relationship.destinationId,
-                    }).pipe(
-                        map((concept) => {
-                            relationship.destinationConcept = concept;
-                            return relationship;
-                        }),
-                    );
-                }), */
             );
         }),
         groupBy((relationship) => relationship.sourceId),
@@ -210,12 +194,12 @@ getConcepts(search)
         (concept: { conceptId: string, fsn: string; relationships: any[] }) => {
             const fsn: string = concept.fsn.replace('(procedure)', '(observable entity)');
             let result: string = `Declaration(Class(<http://snomed.info/id/e2o_${concept.conceptId}>))
-            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_${concept.conceptId}> "${fsn}"^^xsd:string)
-            EquivalentClasses(<http://snomed.info/id/e2o_${concept.conceptId}> 
-                ObjectIntersectionOf(<http://snomed.info/id/363787002>
+            AnnotationAssertion(rdfs:label <http://snomed.info/id/e2o_${concept.conceptId}> "[E2O]${fsn}"^^xsd:string)
+            EquivalentClasses(<http://snomed.info/id/e2o_${concept.conceptId}>
 `;
-
             const attributes: string[] = [];
+
+            result += '            ObjectIntersectionOf(<http://snomed.info/id/363787002> <http://snomed.info/id/363787002>\n';
 
             // add existing Procedure attributes with translation to Observables attributes
             concept.relationships.forEach((relationship: { typeId: string; destinationId: string; }) => {
@@ -260,9 +244,15 @@ getConcepts(search)
                     }
                     // Property, Component, Using device
                     default: {
-                        result += `                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
-                            ObjectSomeValuesFrom(<http://snomed.info/id/${relationship.typeId}> <http://snomed.info/id/${relationship.destinationId}>))
-                            `;
+                        if (relationship.typeId === '246093002' && concept.fsn.includes('culture')) {
+                            result += `                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/${relationship.destinationId}>))
+                                `;
+                        } else {
+                            result += `                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                                ObjectSomeValuesFrom(<http://snomed.info/id/${relationship.typeId}> <http://snomed.info/id/${relationship.destinationId}>))
+                                `;
+                        }
                     }
                 }
             });
@@ -271,12 +261,21 @@ getConcepts(search)
             if (concept.fsn.includes('count') && attributes.indexOf('370130000') === -1) {
                 result += `                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))
-                    `;
+                    `; // number concentration
             }
+
+            if (concept.fsn.includes('culture') && attributes.indexOf('370130000') === -1) {
+                result += `                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                    ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118584009>))
+                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                        ObjectSomeValuesFrom(<http://snomed.info/id/246501002> <http://snomed.info/id/702658000>))
+                        `; // presence or identity, microbial culture technique
+            }
+
             if ((concept.fsn.includes('level') || concept.fsn.includes('measurement')) && attributes.indexOf('370130000') === -1) {
                 result += `                    ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
                     ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))
-                    `;
+                    `; // quantity concentration
             }
 
             result += '            ))\n';
