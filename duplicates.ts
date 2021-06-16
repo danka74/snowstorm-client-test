@@ -6,6 +6,14 @@ import { XMLHttpRequest } from 'xmlhttprequest';
 
 const MAX_PAGE_SIZE = 10000;
 
+if (process.argv.length < 3) {
+    console.error('Usage: duplicates <host> <branch>');
+    process.exit(1);
+}
+
+const host = process.argv[2];
+const branch = process.argv[3];
+
 const getPage = (search: any) => {
     search.limit = MAX_PAGE_SIZE;
     return ajax({
@@ -19,7 +27,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/MAIN%2FSNOMEDCT-SE/concepts/search',
+        url: host + '/' + branch + '/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -92,8 +100,7 @@ getConcepts(search)
                 const semtag = parts.pop();
                 const pt = parts.join(':');
                 concepts.forEach((concept: any) => {
-                    console.log(pt + '\t' + semtag + '\t' + concept.conceptId + '\t' + concept.fsn.term +
-                    '\thttps://browser.ihtsdotools.org/?perspective=full&conceptId1=${concept.conceptId}&edition=MAIN/SNOMEDCT-SE/2020-05-31&release=&languages=sv,en');
+                    console.log(pt + '\t' + semtag + '\t' + concept.conceptId + '\t' + concept.fsn.term);
                 });
             });
         },
