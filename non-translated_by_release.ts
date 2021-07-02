@@ -19,7 +19,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/MAIN/concepts/search',
+        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -72,41 +72,27 @@ getConcepts(search)
         }),
         // tap(console.log),
         mergeMap((concept) => {
-            const sv$ = ajax({
+            return ajax({
                 createXHR: () => {
                     return new XMLHttpRequest();
                 },
                 crossDomain: true,
                 headers: {
-                    'Accept-Language': 'sv',
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
-            }).pipe(map((r) => r.response));
-            const en$ = ajax({
-                createXHR: () => {
-                    return new XMLHttpRequest();
-                },
-                crossDomain: true,
-                headers: {
-                    'Accept-Language': 'en',
-                    'Content-Type': 'application/json',
-                },
-                method: 'GET',
-                url: 'http://localhost:8080/MAIN/descriptions?conceptId=' + concept.id,
-            }).pipe(map((r) => r.response));
-
-            return combineLatest([sv$, en$]).pipe(
-                filter(([sv, en]) => {
-                    const found = sv.items.find((d: any) => d.active === true && d.lang === 'sv');
+                url: 'http://localhost:8080/snowstorm/MAIN/descriptions?conceptId=' + concept.id,
+            }).pipe(
+                map((r) => r.response),
+                filter((descriptions) => {
+                    const found = descriptions.items.find((d: any) => d.active === true && d.lang === 'sv');
                     return found === undefined;
                 }),
-                map(([sv, en]) => ({
+                map((descriptions) => ({
                         conceptId: concept.id,
-                        fsn: en.items.find((d: any) =>
+                        fsn: descriptions.items.find((d: any) =>
                             d.active === true && d.typeId === '900000000000003001' && d.lang === 'en' ),
-                        pt: en.items.find((d: any) =>
+                        pt: descriptions.items.find((d: any) =>
                             d.active === true && d.typeId === '900000000000013009' &&
                             d.acceptabilityMap['900000000000509007'] === 'PREFERRED'),
                     })),
