@@ -72,28 +72,42 @@ getConcepts(search)
         }),
         // tap(console.log),
         mergeMap((concept) => {
-            return ajax({
+            const sv$ = ajax({
                 createXHR: () => {
                     return new XMLHttpRequest();
                 },
                 crossDomain: true,
                 headers: {
+                    'Accept-Language': 'sv',
+                    'Content-Type': 'application/json',
+                },
+                method: 'GET',
+                url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
+            }).pipe(map((r) => r.response));
+            const en$ = ajax({
+                createXHR: () => {
+                    return new XMLHttpRequest();
+                },
+                crossDomain: true,
+                headers: {
+                    'Accept-Language': 'en',
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
                 url: 'http://localhost:8080/snowstorm/MAIN/descriptions?conceptId=' + concept.id,
-            }).pipe(
-                map((r) => r.response),
-                filter((descriptions) => {
-                    const found = descriptions.items.find((d: any) => d.active === true && d.lang === 'sv');
+            }).pipe(map((r) => r.response));
+
+            return combineLatest([sv$, en$]).pipe(
+                filter(([sv, en]) => {
+                    const found = sv.items.find((d: any) => d.lang === 'sv');
                     return found === undefined;
                 }),
-                map((descriptions) => ({
+                map(([sv, en]) => ({
                         conceptId: concept.id,
-                        fsn: descriptions.items.find((d: any) =>
+                        fsn: en.items.find((d: any) =>
                             d.active === true && d.typeId === '900000000000003001' && d.lang === 'en' ),
-                        pt: descriptions.items.find((d: any) =>
-                            d.active === true && d.typeId === '900000000000013009' &&
+                        pt: en.items.find((d: any) =>
+                            d.active === true && d.typeId === '900000000000013009' && d.lang === 'en' &&
                             d.acceptabilityMap['900000000000509007'] === 'PREFERRED'),
                     })),
             );
