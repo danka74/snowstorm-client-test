@@ -1,7 +1,7 @@
-import { from, Observable } from 'rxjs';
+import { from, Observable, of } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
-import { concat, delay, filter, map,
-    mapTo, mergeMap, reduce, switchMap, tap } from 'rxjs/operators';
+import { catchError, concatWith, filter, map,
+    mergeMap, reduce, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
 const MAX_PAGE_SIZE = 10000;
@@ -14,28 +14,35 @@ if (process.argv.length < 3) {
 const host = process.argv[2];
 const branch = process.argv[3];
 
-const getPage = (search: any) => {
-    search.limit = MAX_PAGE_SIZE;
+const getPage = (s: any) => {
+    s.limit = MAX_PAGE_SIZE;
     return ajax({
-        body: search,
+        async: true,
+        body: {
+            conceptIds: [
+                '404684003',
+              ],
+        },
         createXHR: () => {
             return new XMLHttpRequest();
         },
         crossDomain: true,
         headers: {
             'Accept-Language': 'sv',
-            'Content-Type': 'application/json',
         },
         method: 'POST',
         url: host + '/' + branch + '/concepts/search',
     }).pipe(
-//        tap(console.log),
-        map((r) => r.response),
+        catchError((error: any) => {
+            console.log('error: ', error);
+            return of(error);
+          }),
+        map((r: any) => r.response),
     );
 };
 
-const getConcepts = (search: any): Observable<any> => {
-    return getPage(search).pipe(
+const getConcepts = (s: any): Observable<any> => {
+    return getPage(s).pipe(
         // tap(console.log),
         mergeMap((response: any) => {
             const result: Observable<any> = from(response.items);
@@ -43,7 +50,7 @@ const getConcepts = (search: any): Observable<any> => {
                 return result;
             } else {
                 return result.pipe(
-                    concat(getConcepts({...search, searchAfter: response.searchAfter})),
+                    concatWith(getConcepts({...s, searchAfter: response.searchAfter})),
                 );
             }
         }),
@@ -104,7 +111,7 @@ getConcepts(search)
                 });
             });
         },
-        (error: any) => console.log ('Error: ' + JSON.stringify(error)),
+        // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
     );
 

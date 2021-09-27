@@ -1,5 +1,5 @@
 import { from, Observable, of } from 'rxjs';
-import { ajax } from 'rxjs/ajax';
+import { ajax, AjaxResponse } from 'rxjs/ajax';
 import { concat, filter, map, mapTo, mergeMap, switchMap, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
@@ -88,8 +88,8 @@ getConcepts()
           + '%20AND%20408102007)&offset=0&limit=1',
       })
       .pipe(
-          filter((result) => result.response.total > 0),
-          map((result) => ({
+          filter((result: AjaxResponse<any>) => result.response.total > 0),
+          map((result: AjaxResponse<any>) => ({
             conceptId: code,
             kind: result.response.items[0],
           })),

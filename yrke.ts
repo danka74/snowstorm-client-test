@@ -19,7 +19,6 @@ function sleep(ms: number) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-
 const main = () => {
     const workbook = new Excel.Workbook();
     workbook.xlsx.readFile('Termlista_yrken_201210.xlsx').then(async () => {
@@ -29,7 +28,9 @@ const main = () => {
 
             // console.log(admVag.actualRowCount);
 
-            s.eachRow(async (row: Excel.Row, rowNumber: number) => {
+            const temp: object[] = [];
+
+            s.eachRow((row: Excel.Row, rowNumber: number) => {
                 if (rowNumber > 1) {
 
                     const sctExpression: string =
@@ -44,34 +45,37 @@ const main = () => {
                     const mapMember = {
                         active: true,
                         additionalFields: {
-                            mapTarget: SOSNYKCode,
+                            mapTarget: AIDCode,
 
                         },
                         moduleId: MODULEID,
                         referencedComponentId: sctid,
-                        refsetId: 1234567890,
+                        refsetId: 1234567891,
                     };
 
-                    const response = await fetch(
-                        'http://localhost:8080/MAIN/SNOMEDCT-SE/MAPTEST1/members',
-                        {
-                            method: 'POST',
-                            headers: {
-                                'Accept-Language': 'sv',
-                                'Content-Type': 'application/json',
-                            },
-                            redirect: 'follow',
-                            body: JSON.stringify(mapMember),
-                        },
-                    ).catch((error) => {
-                        console.error(error);
-                    }).then((data) => {
-                        console.log(data);
-                    });
-
-                    await sleep(10000);
+                    temp.push(mapMember);
                 }
             });
+
+            for (let i = 0; i < temp.length; i++) {
+                const map = temp[i];
+                const response = await fetch(
+                    'http://localhost:8080/MAIN/SNOMEDCT-SE/MAPTEST1/members',
+                    {
+                        body: JSON.stringify(map),
+                        headers: {
+                            'Accept-Language': 'sv',
+                            'Content-Type': 'application/json',
+                        },
+                        method: 'POST',
+                        redirect: 'follow',
+                    },
+                ).catch((error) => {
+                    console.error(error);
+                });
+
+                console.log(response);
+            }
         });
     });
 };

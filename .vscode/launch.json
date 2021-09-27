@@ -4,13 +4,18 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+{
+            "type": "node",
+            "request": "launch",
+            "name": "Launch ecl_2_owl",
+            "program": "${workspaceFolder}/dist/ecl_2_owl.js",
+            },
         {
             "type": "node",
             "request": "launch",
             "name": "Launch csv2owl",
             "program": "${workspaceFolder}/dist/csv2owl.js",
-            "args": ["serum.csv"],
+            "args": ["/mnt/hgfs/C/Downloads/FINAL_1200_1430.txt"],
             },{
             "type": "node",
             "request": "launch",
@@ -22,7 +27,7 @@
                 "request": "launch",
                 "name": "Launch non-translated_by_release",
                 "program": "${workspaceFolder}/dist/non-translated_by_release.js",
-                "args": [ "20210131", "123276005"]
+                "args": [ "20210731", "772227002"]
                 },
     {
             "type": "node",
@@ -93,7 +98,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program dups",
-            "program": "${workspaceFolder}/dist/duplicates.js"
+            "program": "${workspaceFolder}/dist/duplicates.js",
+            "args": ["http://localhost:8080", "MAIN/SNOMEDCT-SE"]
         },
         {
             "type": "node",

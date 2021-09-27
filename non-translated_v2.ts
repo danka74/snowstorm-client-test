@@ -103,12 +103,12 @@ getConcepts(search)
                         url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId='
                             + relationship.destinationId,
                     }).pipe(
-                        map((result) => {
+                        map((result: any) => {
                             const descArr = result.response.items.filter((d: any) => d.lang === 'sv' &&
                                 d.type === 'SYNONYM' && d.acceptabilityMap['46011000052107'] === 'PREFERRED');
-                            if (descArr.length == 0) {
-				                const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
-				                //console.log(missing);
+                            if (descArr.length === 0) {
+                                const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
+                                // console.log(missing);
                                 return ({
                                     term: missing,
                                 });

@@ -19,7 +19,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
+        url: 'http://localhost:8080/snowstorm/snomed-ct/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -55,16 +55,11 @@ const ecl = process.argv[3];
 
 const search = {
     activeFilter: true,
-    // conceptIds: [
-      // 'string',
-    // ],
-    //definitionStatusFilter: '900000000000073002',
     eclFilter:
         ecl,
-    // termFilter: 'string',
 };
 
-console.log('Concept ID\tFully specified name\tPreferred term\tCase significance\tSemtag')
+console.log('Concept ID\tFully specified name\tPreferred term\tCase significance\tSemtag');
 getConcepts(search)
     .pipe(
         filter((concept) => {
@@ -82,7 +77,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
+                url: 'http://localhost:8080/snowstorm/snomed-ct/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
             }).pipe(map((r) => r.response));
             const en$ = ajax({
                 createXHR: () => {
@@ -94,11 +89,11 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/snowstorm/MAIN/descriptions?conceptId=' + concept.id,
+                url: 'http://localhost:8080/snowstorm/snomed-ct/MAIN/descriptions?conceptId=' + concept.id,
             }).pipe(map((r) => r.response));
 
             return combineLatest([sv$, en$]).pipe(
-                filter(([sv, en]) => {
+                filter(([sv, en]: [any, any]) => {
                     const found = sv.items.find((d: any) => d.lang === 'sv');
                     return found === undefined;
                 }),

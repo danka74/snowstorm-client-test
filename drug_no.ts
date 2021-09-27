@@ -1,5 +1,5 @@
 import { from } from 'rxjs';
-import { ajax } from 'rxjs/ajax';
+import { ajax, AjaxResponse } from 'rxjs/ajax';
 import { map, mergeMap, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
@@ -26,10 +26,10 @@ ajax({
     method: 'GET',
     url: 'http://localhost:8080/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/%3C%3C763158003&count=5&includeDesignations=true&_output=json',
 }).pipe(
-    tap((x) => {
+    tap((x: AjaxResponse<any>) => {
         console.log(x.response.expansion.contains);
     }),
-    mergeMap((r) => from(r.response.expansion.contains)),
+    mergeMap((r: AjaxResponse<any>) => from(r.response.expansion.contains)),
         mergeMap((concept: any) => {
             return ajax({
                 createXHR: () => {
@@ -43,7 +43,7 @@ ajax({
                 method: 'GET',
                 url: `http://localhost:8080/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&property=normalForm&code=${concept.code}`,
             }).pipe(
-                map((r) => ({
+                map((r: AjaxResponse<any>) => ({
                     code: concept.code,
                     parameters: r.response.parameter,
                 })),
