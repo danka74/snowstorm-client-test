@@ -20,7 +20,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/MAIN/concepts/search',
+        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -69,7 +69,7 @@ console.log('Concept ID\tGB/US FSN Term (For reference only)\tPreferred Term (Fo
 getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
-            concept.effectiveTime === '20210131'),
+            concept.effectiveTime === '20210731'),
 	    // take(5),
         // tap(console.log),
         mergeMap((concept) => {
@@ -83,7 +83,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: `http://localhost:8080/MAIN/relationships?active=true&source=${concept.conceptId}`
+                url: `http://localhost:8080/snowstorm/MAIN/relationships?active=true&source=${concept.conceptId}`
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
