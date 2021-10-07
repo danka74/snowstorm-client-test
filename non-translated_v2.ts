@@ -1,7 +1,7 @@
-import { from, Observable } from 'rxjs';
+import { from, Observable, of } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { concat, filter, groupBy, map,
-    mergeMap, reduce, take } from 'rxjs/operators';
+    mergeMap, reduce, take, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 import { combineIngredients, translate } from './translate_medicinal';
 
@@ -20,7 +20,7 @@ const getPage = (search: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
+        url: 'http://localhost:8080/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -47,9 +47,9 @@ const getConcepts = (search: any): Observable<any> => {
 
 const search = {
     activeFilter: true,
-    // conceptIds: [
-      // 'string',
-    // ],
+     /* conceptIds: [
+      '407816003',
+     ], */
     definitionStatusFilter: '900000000000073002', // fully defined
     eclFilter:
         '<763158003 | Medicinal product (product) |',
@@ -70,7 +70,7 @@ getConcepts(search)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20210731'),
-	    // take(5),
+        // take(5),
         // tap(console.log),
         mergeMap((concept) => {
             return ajax({
@@ -83,69 +83,82 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: `http://localhost:8080/snowstorm/MAIN/relationships?active=true&source=${concept.conceptId}`
+                url: `http://localhost:8080/MAIN/relationships?active=true&source=${concept.conceptId}`
                     + '&characteristicType=INFERRED_RELATIONSHIP',
             }).pipe(
                 mergeMap((result: any) => from(result.response.items)),
                 // tap(console.log),
                 filter((relationship: any) => relationship.typeId !== '116680003'), // filter out Is A
                 mergeMap((relationship: any) => {
-                    return ajax({
-                        createXHR: () => {
-                            return new XMLHttpRequest();
-                        },
-                        crossDomain: true,
-                        headers: {
-                            'Accept-Language': 'sv',
-                            'Content-Type': 'application/json',
-                        },
-                        method: 'GET',
-                        url: 'http://localhost:8080/snowstorm/MAIN/SNOMEDCT-SE/descriptions?conceptId='
-                            + relationship.destinationId,
-                    }).pipe(
-                        map((result: any) => {
-                            const descArr = result.response.items.filter((d: any) => d.lang === 'sv' &&
-                                d.type === 'SYNONYM' && d.acceptabilityMap['46011000052107'] === 'PREFERRED');
-                            if (descArr.length === 0) {
-                                const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
-                                // console.log(missing);
-                                return ({
-                                    term: missing,
-                                });
-                            }
-                            if (descArr[0].active !== true) {
-                                console.log(descArr[0]);
-                            }
-
-                            return descArr[0]; // should be only one preferred term per lanugage
-                        }),
-                        map((description) => ({
-                            caseSignificance: description.caseSignificance,
+                    if (relationship.concreteValue) {
+                        return of({
+                            caseSignificance: 'CASE_INSENSITIVE',
                             destinationId: relationship.destinationId,
                             groupId: relationship.groupId,
                             sourceFSN: concept.fsn.term,
                             sourceId: relationship.sourceId,
-                            term: description.term,
+                            term: relationship.concreteValue.value,
                             typeId: relationship.typeId,
-                        })),
-                    );
+                        });
+                    } else {
+                        return ajax({
+                            createXHR: () => {
+                                return new XMLHttpRequest();
+                            },
+                            crossDomain: true,
+                            headers: {
+                                'Accept-Language': 'sv',
+                                'Content-Type': 'application/json',
+                            },
+                            method: 'GET',
+                            url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/descriptions?conceptId='
+                                + relationship.destinationId,
+                        }).pipe(
+                            map((result: any) => {
+                                const descArr = result.response.items.filter((d: any) => d.lang === 'sv' &&
+                                    d.type === 'SYNONYM' && d.acceptabilityMap['46011000052107'] === 'PREFERRED');
+                                if (descArr.length === 0) {
+                                    const missing = `översättning saknas: ${relationship.destinationId} | ${relationship.target.fsn.term} |`;
+                                    // console.log(missing);
+                                    return ({
+                                        term: missing,
+                                    });
+                                }
+                                if (descArr[0].active !== true) {
+                                    console.log(descArr[0]);
+                                }
+
+                                return descArr[0]; // should be only one preferred term per lanugage
+                            }),
+                            map((description) => ({
+                                caseSignificance: description.caseSignificance,
+                                destinationId: relationship.destinationId,
+                                groupId: relationship.groupId,
+                                sourceFSN: concept.fsn.term,
+                                sourceId: relationship.sourceId,
+                                term: description.term,
+                                typeId: relationship.typeId,
+                            })),
+                        );
+                    }
                 }),
 
             );
         }),
+        // tap(console.log),
         groupBy((relationship) => relationship.sourceId),
         mergeMap((concept$) => concept$.pipe(reduce((acc, cur) => [...acc, cur], [concept$.key]))),
-        map((arr) => ({ conceptId: arr[0], fsn: arr[1].sourceFSN, relationships: arr.slice(1) })),
+        map((arr: any[]) => ({ conceptId: arr[0], fsn: arr[1].sourceFSN, relationships: arr.slice(1) })),
         map((concept) => {
-	    // console.log(JSON.stringify(concept));
+            // console.log(concept);
             return translate(concept);
         }),
     )
     .subscribe(
         (x: any) => {
-		const cs = (x.caseSignificance === 'CASE_INSENSITIVE') ? 'ci' : (x.caseSignificance === 'INITIAL_CHARACTER_CASE_INSENSITIVE') ? 'cI' : 'CS';
-		console.log(`${x.conceptId}\t${x.fsn}\t${x.fsn}\t${x.term}\tsv\t${cs}\tSYNONYM\tSwedish\tPREFERRED`);
-	},
-        (error: any) => console.log ('Error: ' + JSON.stringify(error)),
+            const cs = (x.caseSignificance === 'CASE_INSENSITIVE') ? 'ci' : (x.caseSignificance === 'INITIAL_CHARACTER_CASE_INSENSITIVE') ? 'cI' : 'CS';
+            console.log(`${x.conceptId}\t${x.fsn}\t${x.fsn}\t${x.term}\tsv\t${cs}\tSYNONYM\tSwedish\tPREFERRED`);
+        },
+        // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
     );

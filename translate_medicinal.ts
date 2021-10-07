@@ -94,7 +94,7 @@ const translateIngredients = (concept: any): any => {
     groups.forEach((groupId) => {
         if (groupId !== 0) {
             let term: string = '';
-            let caseSignificance = 'CASE_INSEsortNSITIVE';
+            let caseSignificance = 'CASE_INSENSITIVE';
 
             const curRelationships = concept.relationships.filter((rel: any) => rel.groupId == groupId);
             const activeIngredientRel = curRelationships.find((rel: any) => rel.typeId == 127489000);
@@ -116,8 +116,8 @@ const translateIngredients = (concept: any): any => {
                 caseSignificance = aggregateCS(boss.caseSignificance, caseSignificance);
             }
 
-            const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '732944001');
-            const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '733724008');
+            const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '1142135004');
+            const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '1142138002');
             if (presentNumeratorVal) {
                 const numeratorUnit =
                     curRelationships.find((rel: any) => rel.typeId == '732945000');
@@ -132,8 +132,8 @@ const translateIngredients = (concept: any): any => {
                     caseSignificance = aggregateCS(caseSignificance, numeratorUnit.caseSignificance);
                 }
                 const denominatorVal =
-                    curRelationships.find((rel: any) => rel.typeId == '732946004');
-                if (denominatorVal && denominatorVal.destinationId !== '38112003') { // ett
+                    curRelationships.find((rel: any) => rel.typeId == '1142136003');
+                if (denominatorVal && denominatorVal.term !== '1') { // ett
                     throw new Error('Not implemented: denominator value not 1, ' + JSON.stringify(denominatorVal));
                 }
                 const denominatorUnit =
@@ -156,7 +156,7 @@ const translateIngredients = (concept: any): any => {
                 const numeratorUnit =
                     curRelationships.find((rel: any) => rel.typeId == '733725009');
                 const denominatorVal =
-                    curRelationships.find((rel: any) => rel.typeId == '733723002');
+                    curRelationships.find((rel: any) => rel.typeId == '1142137007');
                 const denominatorUnit =
                     curRelationships.find((rel: any) => rel.typeId == '733722007');
                 if (numeratorUnit.term.match('enhet([^e][^r]|$)') &&
