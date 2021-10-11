@@ -39,46 +39,6 @@ const aggregateCS = (first: string, second: string) => {
     return first;
 };
 
-const numerize = (word: string): string => {
-    if (word === 'ett') {
-        return '1';
-    }
-    if (word === 'två') {
-        return '2';
-    } else
-    if (word === 'tre') {
-        return '3';
-    } else
-    if (word === 'fyra') {
-        return '4';
-    } else
-    if (word === 'fem') {
-        return '5';
-    }
-    if (word === 'sex') {
-        return '6';
-    }
-    if (word === 'sju') {
-        return '7';
-    } else
-    if (word === 'åtta') {
-        return '8';
-    } else
-    if (word === 'nio') {
-        return '9';
-    } else
-    if (word === 'tio') {
-        return '10';
-    }
-    if (word === 'elva') {
-        return '11';
-    }
-    if (word === 'tolv') {
-        return '12';
-    }
-    return word;
-};
-
 const getRoleGroups = (concept: any): number[] => {
     return concept.relationships.reduce((acc: number[], cur: any) => {
         if (acc.indexOf(cur.groupId) === -1) {
@@ -96,10 +56,10 @@ const translateIngredients = (concept: any): any => {
             let term: string = '';
             let caseSignificance = 'CASE_INSENSITIVE';
 
-            const curRelationships = concept.relationships.filter((rel: any) => rel.groupId == groupId);
-            const activeIngredientRel = curRelationships.find((rel: any) => rel.typeId == 127489000);
-            const preciseActiveIngredientRel = curRelationships.find((rel: any) => rel.typeId == 762949000);
-            const boss = curRelationships.find((rel: any) => rel.typeId == 732943007);
+            const curRelationships = concept.relationships.filter((rel: any) => rel.groupId === groupId);
+            const activeIngredientRel = curRelationships.find((rel: any) => rel.typeId === '127489000');
+            const preciseActiveIngredientRel = curRelationships.find((rel: any) => rel.typeId === '762949000');
+            const boss = curRelationships.find((rel: any) => rel.typeId === '732943007');
 
             if (activeIngredientRel) {
                 term = activeIngredientRel.term;
@@ -116,30 +76,30 @@ const translateIngredients = (concept: any): any => {
                 caseSignificance = aggregateCS(boss.caseSignificance, caseSignificance);
             }
 
-            const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '1142135004');
-            const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId == '1142138002');
+            const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId === '1142135004');
+            const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId === '1142138002');
             if (presentNumeratorVal) {
                 const numeratorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == '732945000');
+                    curRelationships.find((rel: any) => rel.typeId === '732945000');
                 if (numeratorUnit.term.match('enhet([^e][^r]|$)') &&
-                    parseInt(numerize(presentNumeratorVal.term.replace(/ /g, '')), 10) !== 1) {
-                    term += ' ' + numerize(presentNumeratorVal.term) + ' ' +
+                    presentNumeratorVal.term !== '1') {
+                    term += ' ' + presentNumeratorVal.term.replace('.', ',') + ' ' +
                         numeratorUnit.term.replace('enhet', 'enheter');
                     caseSignificance = aggregateCS(caseSignificance, presentNumeratorVal.caseSignificance);
                 } else {
-                    term += ' ' + numerize(presentNumeratorVal.term) + ' ' + numeratorUnit.term;
+                    term += ' ' + presentNumeratorVal.term.replace('.', ',') + ' ' + numeratorUnit.term;
                     caseSignificance = aggregateCS(caseSignificance, presentNumeratorVal.caseSignificance);
                     caseSignificance = aggregateCS(caseSignificance, numeratorUnit.caseSignificance);
                 }
                 const denominatorVal =
-                    curRelationships.find((rel: any) => rel.typeId == '1142136003');
+                    curRelationships.find((rel: any) => rel.typeId === '1142136003');
                 if (denominatorVal && denominatorVal.term !== '1') { // ett
                     throw new Error('Not implemented: denominator value not 1, ' + JSON.stringify(denominatorVal));
                 }
                 const denominatorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == '732947008');
-                if (denominatorUnit.destinationId == '732981002') { // actuation
-                    const doseForm = concept.relationships.find((rel: any) => rel.typeId == 411116001);
+                    curRelationships.find((rel: any) => rel.typeId === '732947008');
+                if (denominatorUnit.destinationId === '732981002') { // actuation
+                    const doseForm = concept.relationships.find((rel: any) => rel.typeId === '411116001');
                     if (doseForm.term.match('inhalation')) {
                         term += '/dos';
                     } else if (doseForm.term.match('sprej')) {
@@ -154,18 +114,18 @@ const translateIngredients = (concept: any): any => {
                 }
             } else if (concNumeratorVal) {
                 const numeratorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == '733725009');
+                    curRelationships.find((rel: any) => rel.typeId === '733725009');
                 const denominatorVal =
-                    curRelationships.find((rel: any) => rel.typeId == '1142137007');
+                    curRelationships.find((rel: any) => rel.typeId === '1142137007');
                 const denominatorUnit =
-                    curRelationships.find((rel: any) => rel.typeId == '733722007');
+                    curRelationships.find((rel: any) => rel.typeId === '733722007');
                 if (numeratorUnit.term.match('enhet([^e][^r]|$)') &&
-                    parseInt(numerize(concNumeratorVal.term.replace(/ /g, '')), 10) !== 1) {
-                    term += ' ' + numerize(concNumeratorVal.term) + ' ' +
+                    concNumeratorVal.term !== '1') {
+                    term += ' ' + concNumeratorVal.term.replace('.', ',') + ' ' +
                         numeratorUnit.term.replace('enhet', 'enheter') + '/'
                         + denominatorUnit.term;
                 } else {
-                    term += ' ' + numerize(concNumeratorVal.term) + ' ' + numeratorUnit.term + '/'
+                    term += ' ' + concNumeratorVal.term.replace('.', ',') + ' ' + numeratorUnit.term + '/'
                         + denominatorUnit.term;
                 }
                 caseSignificance = aggregateCS(caseSignificance, concNumeratorVal.caseSignificance);
@@ -239,9 +199,9 @@ export const translate = (concept: any) => {
     let caseSignificance = 'CASE_INSENSITIVE';
 
     if (semtag === '(product)' || semtag === '(medicinal product)') {
-        const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
+        const playsRole = concept.relationships.find((rel: any) => rel.typeId === '766939001');
         // 318331000221102 | Active immunity stimulant therapeutic role (role) |
-        if (playsRole && playsRole.destinationId == 318331000221102 ) {
+        if (playsRole && playsRole.destinationId === '318331000221102' ) {
             term = 'vaccin';
         } else {
             term = 'läkemedel';
@@ -251,8 +211,8 @@ export const translate = (concept: any) => {
 
             term += ' som';
 
-            // 766952006 | Count of base of active ingredient (attribute) |
-            const countIngredient = concept.relationships.find((rel: any) => rel.typeId == 766952006);
+            // 1142139005 | Count of base of active ingredient (attribute) |
+            const countIngredient = concept.relationships.find((rel: any) => rel.typeId === '1142139005');
             if (countIngredient) {
                 term += ' endast innehåller';
             } else {
