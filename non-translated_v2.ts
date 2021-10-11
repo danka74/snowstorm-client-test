@@ -45,7 +45,7 @@ const getConcepts = (search: any): Observable<any> => {
 
 };
 
-const search = {
+const searchSpec = {
     activeFilter: true,
      /* conceptIds: [
       '407816003',
@@ -66,7 +66,7 @@ console.log(combineIngredients([
 ], 'CASE_INSENSITIVE')); */
 console.log('Concept ID\tGB/US FSN Term (For reference only)\tPreferred Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tNotes');
 
-getConcepts(search)
+getConcepts(searchSpec)
     .pipe(
         filter((concept) => concept.pt.lang !== 'sv' &&
             concept.effectiveTime === '20210731'),

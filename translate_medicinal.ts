@@ -229,21 +229,21 @@ export const translate = (concept: any) => {
         }
 
         if (semtag === '(product)') {
-            const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
+            // const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
             if (playsRole) {
                 term += ' med ' + playsRole.term;
                 caseSignificance = aggregateCS(caseSignificance, playsRole.caseSignificance);
             }
 
             // 411116001 | Has manufactured dose form (attribute) |
-            const doseForm = concept.relationships.find((rel: any) => rel.typeId == 411116001);
+            const doseForm = concept.relationships.find((rel: any) => rel.typeId === '411116001');
             if (doseForm) {
                 term += ', ' + doseForm.term;
                 caseSignificance = aggregateCS(caseSignificance, doseForm.caseSignificance);
             }
         }
 
-        const productCharateristic = concept.relationships.find((rel: any) => rel.typeId == 860781008);
+        const productCharateristic = concept.relationships.find((rel: any) => rel.typeId === '860781008');
         if (productCharateristic) {
             switch (productCharateristic.destinationId) {
                 case '255398004':
@@ -262,15 +262,16 @@ export const translate = (concept: any) => {
 
     if (semtag === '(medicinal product form)') {
         let ingredients = translateIngredients(concept);
-        const playsRole = concept.relationships.find((rel: any) => rel.typeId == 766939001);
-        if (playsRole && playsRole.destinationId == 318331000221102 ) { // Active immunity stimulant therapeutic role (role)
+        const playsRole = concept.relationships.find((rel: any) => rel.typeId === '766939001');
+         // Active immunity stimulant therapeutic role (role)
+        if (playsRole && playsRole.destinationId === '318331000221102') {
             term = 'vaccin som';
         } else {
             term = 'läkemedel som';
         }
 
-        // 766952006 | Count of base of active ingredient (attribute) |
-        const countIngredient = concept.relationships.find((rel: any) => rel.typeId == 766952006);
+        // 1142139005 | Count of base of active ingredient (attribute) |
+        const countIngredient = concept.relationships.find((rel: any) => rel.typeId === '1142139005');
         if (countIngredient) {
             term += ' endast innehåller';
         } else {
@@ -286,7 +287,7 @@ export const translate = (concept: any) => {
         }
 
         // 411116001 | Has manufactured dose form (attribute) |
-        const doseForm = concept.relationships.find((rel: any) => rel.typeId == 411116001);
+        const doseForm = concept.relationships.find((rel: any) => rel.typeId === '411116001');
         if (doseForm) {
             term += ', ' + doseForm.term;
             caseSignificance = aggregateCS(caseSignificance, doseForm.caseSignificance);
@@ -302,7 +303,7 @@ export const translate = (concept: any) => {
         caseSignificance = ingredients.caseSignificance;
 
         // 411116001 | Has manufactured dose form (attribute) |
-        const doseForm = concept.relationships.find((rel: any) => rel.typeId == 411116001);
+        const doseForm = concept.relationships.find((rel: any) => rel.typeId === '411116001');
         if (doseForm) {
             term += ', ' + doseForm.term;
             caseSignificance = aggregateCS(caseSignificance, doseForm.caseSignificance);
