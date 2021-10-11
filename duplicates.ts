@@ -1,6 +1,6 @@
 import { from, Observable, of } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
-import { catchError, concatWith, filter, map,
+import { catchError, concat, filter, map,
     mergeMap, reduce, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
@@ -35,8 +35,8 @@ const getPage = (s: any) => {
     }).pipe(
         catchError((error: any) => {
             console.log('error: ', error);
-            return of(error);
-          }),
+            process.exit(1);
+        }),
         map((r: any) => r.response),
     );
 };
@@ -50,7 +50,7 @@ const getConcepts = (s: any): Observable<any> => {
                 return result;
             } else {
                 return result.pipe(
-                    concatWith(getConcepts({...s, searchAfter: response.searchAfter})),
+                    concat(getConcepts({...search, searchAfter: response.searchAfter})),
                 );
             }
         }),

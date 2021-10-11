@@ -130,7 +130,7 @@ const main = () => {
                 }
 
                 const obs = getDescriptions(sctid).pipe(
-                    map((x: AjaxResponse<any>): Description[] => x.response.items ? x.response.items : []),
+                    map((x: AjaxResponse): Description[] => x.response.items ? x.response.items : []),
                     // map((items: Description[]) => items.filter((item) => item.lang === 'sv')),
                     tap((items: Description[]) => {
                         const existingTerm: Description = items.find((item: Description) => item.term === term);

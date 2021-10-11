@@ -185,7 +185,7 @@ from(mappingTable).pipe(
                             url: host + 'MAIN/concepts?active=true&ecl='
                                 + `${r.relationship.destinationId}${r.to.valueECLSuffix}`,
                         }).pipe(
-                            map((data: AjaxResponse<any>) => data.response.items[0]),
+                            map((data: AjaxResponse) => data.response.items[0]),
                             mergeMap((concept) => {
                                 const newRelationship = r.relationship;
                                 newRelationship.typeId = r.to.toAttributeId;
@@ -220,13 +220,13 @@ from(mappingTable).pipe(
         });
 
         if (concept.fsn.includes('level') || concept.fsn.includes('measurement')) { // quantity concentration
-            result += `ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+            result += `ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                 ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118594004>))\n`;
         }
 
         if (concept.fsn.includes('count')) { // number concentration
-            result += `ObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
-                ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))\n`; 
+            result += `ObjectSomeValuesFrom(<http://snomed.info/id/609096000>
+                ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/118550005>))\n`;
         }
 
         if (result !== '') {

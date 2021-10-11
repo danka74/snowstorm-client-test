@@ -88,8 +88,8 @@ getConcepts()
           + '%20AND%20408102007)&offset=0&limit=1',
       })
       .pipe(
-          filter((result: AjaxResponse<any>) => result.response.total > 0),
-          map((result: AjaxResponse<any>) => ({
+          filter((result: AjaxResponse) => result.response.total > 0),
+          map((result: AjaxResponse) => ({
             conceptId: code,
             kind: result.response.items[0],
           })),
