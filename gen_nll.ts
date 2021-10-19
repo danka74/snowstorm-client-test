@@ -70,6 +70,9 @@ const sheets = new Map<string, any>([
     }],
 ]);
 
+const host = process.argv[2];
+const branch = process.argv[3];
+
 const workbook = new Excel.Workbook();
 
 const result = new Map<string, string[][]>();
@@ -88,7 +91,7 @@ const main = () => {
                 'Content-Type': 'application/json',
             },
             method: 'GET',
-            url: 'http://localhost:8080/MAIN/SNOMEDCT-SE/members?active=true&offset=0&limit=500&referenceSet='
+            url: host + '/' + branch + '/members?active=true&offset=0&limit=500&referenceSet='
                 + refset[0],
         }).pipe(
             mergeMap((r: any) => from(r.response.items)),
@@ -103,7 +106,7 @@ const main = () => {
                         'Content-Type': 'application/json',
                     },
                     method: 'GET',
-                    url: 'http://localhost:8080/MAIN%2FSNOMEDCT-SE/descriptions?offset=0&limit=500&conceptId='
+                    url: host + '/' + branch + '/descriptions?offset=0&limit=500&conceptId='
                         + member.referencedComponentId,
                 }).pipe(
                     map((r: any) => ({
