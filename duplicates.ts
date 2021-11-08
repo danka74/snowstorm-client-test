@@ -18,19 +18,17 @@ const getPage = (s: any) => {
     s.limit = MAX_PAGE_SIZE;
     return ajax({
         async: true,
-        body: {
-            conceptIds: [
-                '404684003',
-              ],
-        },
+        body: s,
         createXHR: () => {
             return new XMLHttpRequest();
         },
         crossDomain: true,
         headers: {
             'Accept-Language': 'sv',
+            'Content-Type': 'application/json',
         },
         method: 'POST',
+        responseType: 'json',
         url: host + '/' + branch + '/concepts/search',
     }).pipe(
         catchError((error: any) => {

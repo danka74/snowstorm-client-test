@@ -111,8 +111,8 @@ getConcepts()
           })
           .pipe(
               map((result) => ({
-                  unit: result.response,
                   kind: cat.kind,
+                  unit: result.response,
               })),
           );
     }),

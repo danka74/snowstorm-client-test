@@ -3,19 +3,21 @@ import readline from 'readline';
 // import Observable from 'rxjs';
 // import { map, take, takeUntil } from 'rxjs/operators';
 
-const PRIMITIVE = 0;
-const INHERENT_LOCATION = 1;
-const CHARACTERIZES = 2;
-const SCALE_TYPE = 3;
-const DIRECT_SITE = 4;
-const PRECONDITION = 5;
-const RELATIVE_TO = 6;
-const TECHNIQUE = 7;
-const PROPERTY = 8;
-const COMPONENT = 9;
-const INHERES_IN = 11;
-const CONCEPTID = 12;
-const FSN = 13;
+const PRIMITIVE = 0; // A
+const INHERENT_LOCATION = 1; // B
+const CHARACTERIZES = 2; // C
+const SCALE_TYPE = 3; // D
+const DIRECT_SITE = 4; // E
+const PRECONDITION = 5; // F
+const RELATIVE_TO = 6; // G
+const TECHNIQUE = 7; // H
+const PROPERTY = 8; // I
+const COMPONENT = 9; // J
+const INHERES_IN = 11; // L
+const ISA = 12; // M
+// const ISA2 = 13;
+const CONCEPTID = 13; // N
+const FSN = 14; // O
 
 const trim = (str: string, ch: string) => {
     let start = 0;
@@ -30,8 +32,16 @@ const trim = (str: string, ch: string) => {
 };
 
 const stripTerm = (s: string) => {
-    if (s.indexOf('|')) {
+    if (s.indexOf('|') > 0) {
         return trim(s.split('|')[0], ' ');
+    } else {
+        return trim(s, ' ');
+    }
+};
+
+const stripTerm2 = (s: string) => {
+    if (s.indexOf('|') > 0) {
+        return trim(s.split('|')[1], ' ');
     } else {
         return trim(s, ' ');
     }
@@ -71,6 +81,8 @@ Ontology(<http://snomed.info/e2o-test>
         const inheresin = stripTerm(fields[INHERES_IN]);
         const relativeTo = stripTerm(fields[RELATIVE_TO]);
         const technique = stripTerm(fields[TECHNIQUE]);
+        const isa = stripTerm(fields[ISA]);
+        // const isa2 = stripTerm(fields[ISA2]);
 
         if (component !== '') {
 
@@ -84,53 +96,69 @@ Ontology(<http://snomed.info/e2o-test>
             }
             console.log('\tObjectIntersectionOf(<http://snomed.info/id/363787002>\n');
 
+            if (isa !== '') {
+                if (isa.includes('10000041') || isa === '364709006' || isa === '59582004') {
+                    console.log(`\t\t<http://snomed.info/id/${isa}>\n`);
+                } else {
+                    console.log(`\t\t<http://snomed.info/id/e2o_${isa}>\n`);
+                }
+            }
+
+            /* if (isa2 !== '') {
+                if (isa2.includes('10000041')) {
+                    console.log(`\t\t<http://snomed.info/id/${isa2}>\n`);
+                } else {
+                    console.log(`\t\t<http://snomed.info/id/e2o_${isa2}>\n`);
+                }
+            } */
+
             if (component !== '') {
                 console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
     \t\t\tObjectSomeValuesFrom(<http://snomed.info/id/246093002> <http://snomed.info/id/${component}>))`);
             }
 
             if (directSite !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                 ObjectSomeValuesFrom(<http://snomed.info/id/704327008> <http://snomed.info/id/${directSite}>))`);
             }
 
             if (property !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/370130000> <http://snomed.info/id/${property}>))`);
             }
 
             if (inheresin !== '' && relativeTo === '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/${inheresin}>))`);
             }
 
             if (relativeTo !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/704319004> <http://snomed.info/id/${relativeTo}>))`);
             }
 
             if (technique !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/246501002> <http://snomed.info/id/${technique}>))`);
             }
 
             if (inherentLocation !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/718497002> <http://snomed.info/id/${inherentLocation}>))`);
             }
 
             if (characterizes !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/704321009> <http://snomed.info/id/${characterizes}>))`);
             }
 
             if (scaleType !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/370132008> <http://snomed.info/id/${scaleType}>))`);
             }
 
             if (precondition !== '') {
-                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000> 
+                console.log(`\t\tObjectSomeValuesFrom(<http://snomed.info/id/609096000>
                     ObjectSomeValuesFrom(<http://snomed.info/id/704326004> <http://snomed.info/id/${precondition}>))`);
             }
     /*
