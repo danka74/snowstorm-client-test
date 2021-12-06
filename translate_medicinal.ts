@@ -76,6 +76,12 @@ const translateIngredients = (concept: any): any => {
                 caseSignificance = aggregateCS(boss.caseSignificance, caseSignificance);
             }
 
+            const ingredientQualitativeStrength = curRelationships.find((rel: any) => rel.typeId === '1149366004');
+            if (ingredientQualitativeStrength) {
+                term += ', ' + ingredientQualitativeStrength.term;
+                caseSignificance = aggregateCS(caseSignificance, ingredientQualitativeStrength.caseSignificance);
+            }
+
             const presentNumeratorVal = curRelationships.find((rel: any) => rel.typeId === '1142135004');
             const concNumeratorVal = curRelationships.find((rel: any) => rel.typeId === '1142138002');
             if (presentNumeratorVal) {
@@ -311,6 +317,12 @@ export const translate = (concept: any) => {
 
         synonym = 'läkemedel som endast innehåller exakt ' + term;
 
+    }
+
+    const targetPopulation = concept.relationships.find((rel: any) => rel.typeId === '1149367008');
+    if (targetPopulation) {
+        term += ', ' + targetPopulation.term;
+        caseSignificance = aggregateCS(caseSignificance, targetPopulation.caseSignificance);
     }
 
     return ({
