@@ -1,10 +1,7 @@
 import Excel from 'exceljs';
 import fetch from 'node-fetch';
-import { XMLHttpRequest } from 'xmlhttprequest';
 
-const EFFECTIVETIME: number = 20201130;
 const MODULEID: string = '45991000052106'; // SE module
-const PREFERRED: string = '900000000000548007';
 
 const sheets: Sheet[] = [
     { sheetName: 'Yrken, totallista', startColumn: 6 },
@@ -20,14 +17,14 @@ if (process.argv.length < 4) {
     process.exit(1);
 }
 
-const host = process.argv[2];
-const branch = process.argv[3];
+let host = process.argv[2];
+let branch = process.argv[3];
 const inputFile = process.argv[4];
 if (host.endsWith('/')) {
-    host.replace(/\/$/, '');
+    host = host.replace(/\/$/i, '');
 }
 if (branch.endsWith('/')) {
-    branch.replace(/\/$/, '');
+    branch = branch.replace(/\/$/i, '');
 }
 
 const main = () => {
@@ -53,7 +50,7 @@ const main = () => {
                     const AIDCode: string =
                         row.getCell(sheet.startColumn + 3).value ? row.getCell(sheet.startColumn + 3).value.toString() : '';
 
-                    const mapMember = {
+                    const AIDMapMember = {
                         active: true,
                         additionalFields: {
                             mapTarget: AIDCode,
@@ -63,8 +60,19 @@ const main = () => {
                         referencedComponentId: sctid,
                         refsetId: 1234567891,
                     };
+                    temp.push(AIDMapMember);
 
-                    temp.push(mapMember);
+                    const SOSNYKMapMember = {
+                        active: true,
+                        additionalFields: {
+                            mapTarget: SOSNYKCode,
+
+                        },
+                        moduleId: MODULEID,
+                        referencedComponentId: sctid,
+                        refsetId: 1234567892,
+                    };
+                    temp.push(SOSNYKMapMember);
                 }
             });
 
