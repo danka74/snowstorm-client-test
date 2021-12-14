@@ -15,13 +15,24 @@ interface Sheet {
     startColumn: number;
 }
 
-function sleep(ms: number) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+if (process.argv.length < 4) {
+    console.error('Usage: node yrke.js <host> <branch> <input>');
+    process.exit(1);
+}
+
+const host = process.argv[2];
+const branch = process.argv[3];
+const inputFile = process.argv[4];
+if (host.endsWith('/')) {
+    host.replace(/\/$/, '');
+}
+if (branch.endsWith('/')) {
+    branch.replace(/\/$/, '');
 }
 
 const main = () => {
     const workbook = new Excel.Workbook();
-    workbook.xlsx.readFile('Termlista_yrken_201210.xlsx').then(async () => {
+    workbook.xlsx.readFile(inputFile).then(async () => {
 
         sheets.forEach(async (sheet: Sheet) => {
             const s = workbook.getWorksheet(sheet.sheetName);
@@ -57,10 +68,12 @@ const main = () => {
                 }
             });
 
+            // old-style for loop is required for synchronuous fetch calls
+            // tslint:disable-next-line:prefer-for-of
             for (let i = 0; i < temp.length; i++) {
                 const map = temp[i];
                 const response = await fetch(
-                    'http://localhost:8080/MAIN/SNOMEDCT-SE/MAPTEST1/members',
+                    host + '/' + branch + '/members',
                     {
                         body: JSON.stringify(map),
                         headers: {
