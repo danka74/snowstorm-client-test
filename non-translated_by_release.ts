@@ -19,7 +19,7 @@ const getPage = (s: any) => {
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
+        url: host + '/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
@@ -52,8 +52,14 @@ const getSemanticTag = (fsn: string) => {
     }
 };
 
-const release = process.argv[2];
-const ecl = process.argv[3];
+if (process.argv.length !== 4) {
+    console.error('Usage: non-translated_by_release <host> <prev. release> <ecl>');
+    process.exit(1);
+}
+
+const host = process.argv[2].endsWith('/') ? process.argv[2].replace(/\/$/i, '') : process.argv[2];
+const release = process.argv[3];
+const ecl = process.argv[4];
 
 const search = {
     activeFilter: true,
@@ -79,7 +85,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/snowstorm/snomed-ct/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
+                url: host + '/MAIN/SNOMEDCT-SE/descriptions?conceptId=' + concept.id,
             }).pipe(map((r) => r.response));
             const en$ = ajax({
                 createXHR: () => {
