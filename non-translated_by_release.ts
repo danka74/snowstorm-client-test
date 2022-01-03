@@ -52,7 +52,7 @@ const getSemanticTag = (fsn: string) => {
     }
 };
 
-if (process.argv.length !== 4) {
+if (process.argv.length !== 5) {
     console.error('Usage: non-translated_by_release <host> <prev. release> <ecl>');
     process.exit(1);
 }
