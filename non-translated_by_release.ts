@@ -97,7 +97,7 @@ getConcepts(search)
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
-                url: 'http://localhost:8080/snowstorm/snomed-ct/MAIN/descriptions?conceptId=' + concept.id,
+                url: host + '/MAIN/descriptions?conceptId=' + concept.id,
             }).pipe(map((r) => r.response));
 
             return combineLatest([sv$, en$]).pipe(
