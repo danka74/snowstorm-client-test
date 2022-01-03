@@ -1,44 +1,46 @@
-import { combineLatest, concat, from, Observable } from 'rxjs';
+import { combineLatest, from, Observable, of } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
-import { filter, map,
-     mergeMap } from 'rxjs/operators';
+import { concat, filter, groupBy, map,
+    mergeMap, reduce, take, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
 const MAX_PAGE_SIZE = 10000;
 
-const getPage = (search: any) => {
-    search.limit = MAX_PAGE_SIZE;
+const getPage = (s: any) => {
+    s.limit = MAX_PAGE_SIZE;
     return ajax({
-        body: search,
+        body: s,
         createXHR: () => {
             return new XMLHttpRequest();
         },
         crossDomain: true,
         headers: {
-            'Accept-Language': 'en',
+            'Accept-Language': 'sv',
             'Content-Type': 'application/json',
         },
         method: 'POST',
-        url: 'http://localhost:8080/snowstorm/snomed-ct/MAIN/concepts/search',
+        url: 'http://localhost:8080/snowstorm/MAIN/concepts/search',
     }).pipe(
 //        tap(console.log),
         map((r) => r.response),
     );
 };
 
-const getConcepts = (search: any): Observable<any> => {
-    return getPage(search).pipe(
+const getConcepts = (s: any): Observable<any> => {
+    return getPage(s).pipe(
         // tap(console.log),
         mergeMap((response: any) => {
             const result: Observable<any> = from(response.items);
             if (response.items.length < response.limit) {
                 return result;
             } else {
-                return concat(result, getConcepts({...search, searchAfter: response.searchAfter}));
+                // return result;
+                return result.pipe(
+                    concat(getConcepts({...s, searchAfter: response.searchAfter})),
+                );
             }
         }),
     );
-
 };
 
 const getSemanticTag = (fsn: string) => {
@@ -63,7 +65,7 @@ console.log('Concept ID\tFully specified name\tPreferred term\tCase significance
 getConcepts(search)
     .pipe(
         filter((concept) => {
-            return concept.effectiveTime === release;
+            return concept.effectiveTime > release;
         }),
         // tap(console.log),
         mergeMap((concept) => {
@@ -116,7 +118,7 @@ getConcepts(search)
             const cs = x.pt.caseSignificance === 'CASE_INSENSITIVE' ?
                 'ci' :
                 (x.pt.caseSignificance === 'ENTIRE_TERM_CASE_SENSITIVE' ? 'CS' : 'cI');
-            console.log(`${x.conceptId}\t${fsn}\t${x.pt.term}\t${cs}\t${semtag}`)
+            console.log(`${x.conceptId}\t${fsn}\t${x.pt.term}\t${cs}\t${semtag}`);
         },
         // (error: any) => console.log ('Error: ' + JSON.stringify(error)),
         // () => console.log('Completed'),
