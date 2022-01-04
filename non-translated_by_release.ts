@@ -4,7 +4,7 @@ import { concat, filter, groupBy, map,
     mergeMap, reduce, take, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
-const MAX_PAGE_SIZE = 10000;
+const MAX_PAGE_SIZE = 5000;
 
 const getPage = (s: any) => {
     s.limit = MAX_PAGE_SIZE;
