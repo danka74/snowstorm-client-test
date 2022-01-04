@@ -58,7 +58,7 @@ const main = () => {
                         },
                         moduleId: MODULEID,
                         referencedComponentId: sctid,
-                        refsetId: 1234567891,
+                        refsetId: 153531000052108,
                     };
                     temp.push(AIDMapMember);
 
@@ -70,7 +70,7 @@ const main = () => {
                         },
                         moduleId: MODULEID,
                         referencedComponentId: sctid,
-                        refsetId: 1234567892,
+                        refsetId: 153541000052102,
                     };
                     temp.push(SOSNYKMapMember);
                 }
