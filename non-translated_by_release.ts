@@ -4,7 +4,7 @@ import { concat, filter, groupBy, map,
     mergeMap, reduce, take, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
 
-const MAX_PAGE_SIZE = 5000;
+const MAX_PAGE_SIZE = 9000;
 
 const getPage = (s: any) => {
     s.limit = MAX_PAGE_SIZE;
@@ -44,8 +44,10 @@ const getConcepts = (s: any): Observable<any> => {
 };
 
 const getSemanticTag = (fsn: string) => {
+    // match parenthesis at the end of the FSN string
     const semtag = fsn.match(/\(([^)]*)\)$/);
-    if (semtag !== null) {
+    // there can be only one
+    if (semtag !== null && Array.isArray(semtag) && semtag.length === 1) {
         return semtag[1];
     } else {
         return '';
@@ -53,7 +55,7 @@ const getSemanticTag = (fsn: string) => {
 };
 
 if (process.argv.length !== 5) {
-    console.error('Usage: non-translated_by_release <host> <prev. release> <ecl>');
+    console.error('Usage: non-translated_by_release <host> <prev. international release> <ecl>');
     process.exit(1);
 }
 
@@ -73,7 +75,6 @@ getConcepts(search)
         filter((concept) => {
             return concept.effectiveTime > release;
         }),
-        // tap(console.log),
         mergeMap((concept) => {
             const sv$ = ajax({
                 createXHR: () => {
@@ -81,7 +82,7 @@ getConcepts(search)
                 },
                 crossDomain: true,
                 headers: {
-                    'Accept-Language': 'sv',
+                    'Accept-Language': 'sv-X-46011000052107',
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
@@ -93,7 +94,7 @@ getConcepts(search)
                 },
                 crossDomain: true,
                 headers: {
-                    'Accept-Language': 'en',
+                    'Accept-Language': 'en-X-900000000000509007',
                     'Content-Type': 'application/json',
                 },
                 method: 'GET',
