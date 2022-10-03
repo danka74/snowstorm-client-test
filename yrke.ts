@@ -43,7 +43,7 @@ const main = () => {
 
                     const sctExpression: string =
                         row.getCell(sheet.startColumn).value ? row.getCell(sheet.startColumn).value.toString() : '';
-                    const sctid: string = sctExpression.substr(0, sctExpression.indexOf('|')).trim();
+                    const sctid: string = sctExpression.substring(0, sctExpression.indexOf('|')).trim();
 
                     const SOSNYKCode: string =
                         row.getCell(sheet.startColumn + 1).value ? row.getCell(sheet.startColumn + 1).value.toString() : '';
