@@ -51,7 +51,7 @@ const getConcepts = (search: any): Observable<any> => {
 const searchSpec = {
     activeFilter: true,
     definitionStatusFilter: '900000000000073002', // fully defined
-    ecl: '<763158003 | Medicinal product (product) |',
+    eclFilter: '<763158003 | Medicinal product (product) |',
 };
 
 console.log('Concept ID\tGB/US FSN Term (For reference only)\tPreferred Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tNotes');
