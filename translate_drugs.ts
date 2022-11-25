@@ -3,7 +3,7 @@ import { ajax } from 'rxjs/ajax';
 import { concat, filter, groupBy, map,
     mergeMap, reduce, take, tap } from 'rxjs/operators';
 import { XMLHttpRequest } from 'xmlhttprequest';
-import { combineIngredients, translate } from './translate_medicinal';
+import { translate } from './translate_medicinal';
 
 const MAX_PAGE_SIZE = 10000;
 
@@ -51,6 +51,7 @@ const getConcepts = (search: any): Observable<any> => {
 const searchSpec = {
     activeFilter: true,
     definitionStatusFilter: '900000000000073002', // fully defined
+    ecl: '<763158003 | Medicinal product (product) |',
 };
 
 console.log('Concept ID\tGB/US FSN Term (For reference only)\tPreferred Term (For reference only)\tTranslated Term\tLanguage Code\tCase significance\tType\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tLanguage reference set\tAcceptability\tNotes');
